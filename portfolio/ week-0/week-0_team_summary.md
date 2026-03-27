@@ -1,0 +1,1 @@
+meeskonna info ja koosseis
