@@ -1,0 +1,5 @@
+ --Vaata tabeli sisu. Too välja esimesed 10 rida, et näha veergude struktuuri:
+-- Millised veerud ja andmed tabelis on? 
+SELECT *
+FROM customers 
+LIMIT 10;

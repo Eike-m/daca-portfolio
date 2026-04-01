@@ -1,0 +1,7 @@
+--Leia duplikaatsed e-mailid. Kontrolli, kas sama e-mail esineb mitu korda:
+SELECT COUNT(*) AS kokku_emaile,          
+COUNT(DISTINCT email) AS unikaalseid_emaile   
+FROM customers;   
+
+--Vahe 3150-2640=510
+--Duplikaate on 510

@@ -1,0 +1,16 @@
+--Kokkuvõte:
+Mitu klienti on? 
+Kokku on 3150 klienti
+
+Millised linnad?
+Jõhvi, Paide, Narva, Viljandi, Tallinn, Rakvere, Haapsalu, Valga, Pärnu, Kuressaare, Võru, Tartu
+
+Mis oli üllatav? Puuduvad andmed?
+--Üllatav oli see, et kõik eesnimed olid olemas.
+--Samas puuduvaid e-maile oli 380
+--Duplikaatseid e-maile oli 510
+
+KVALITEEDIKONTROLL:
+☐ Vähemalt 3 SQL päringut töötavad ilma veata
+☐ Linnade jaotus on tuvastatud (DISTINCT kasutatud)
+☐ Kokkuvõte sisaldab konkreetseid numbreid

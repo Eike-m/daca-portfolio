@@ -1,0 +1,4 @@
+--1. Mitu klienti kokku on ?
+
+SELECT COUNT(*) AS customer_id
+FROM customers;

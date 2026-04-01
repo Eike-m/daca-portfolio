@@ -1,0 +1,9 @@
+--Loe kliendid linniti kokku
+SELECT city, COUNT(*) AS klientide_arv  
+FROM customers   
+GROUP BY city   
+ORDER BY klientide_arv DESC;
+
+--Mis linnadest tulevad kliendid
+SELECT DISTINCT LOWER (TRIM(city)) AS city
+FROM customers;

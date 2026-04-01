@@ -1,0 +1,4 @@
+--Uuri linnade jaotust. 
+--Millistest linnadest kliendid tulevad?
+SELECT DISTINCT city 
+FROM customers;  

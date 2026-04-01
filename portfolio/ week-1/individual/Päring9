@@ -1,0 +1,3 @@
+--Mitu klienti, kus e-mail on puudu?   
+SELECT COUNT(*) - COUNT(email) AS puuduvad_emailid   
+FROM customers;  

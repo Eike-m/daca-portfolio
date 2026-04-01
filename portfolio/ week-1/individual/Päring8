@@ -1,0 +1,4 @@
+--Kontrolli puuduvaid väärtusi:
+-- Mitu klienti, kus eesnimi on puudu
+SELECT COUNT(*) - COUNT(first_name) AS puuduvad_eesnimed    
+FROM customers;

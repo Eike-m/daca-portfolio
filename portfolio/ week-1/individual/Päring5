@@ -1,0 +1,6 @@
+--Kontrolli registreerimise kuupäevi. Millal esimesed ja viimased kliendid registreerusid?
+-- Vanim ja uusim registreerimine 
+SELECT 
+MIN(registration_date) AS vanim,           
+MAX(registration_date) AS uusim    
+FROM customers;

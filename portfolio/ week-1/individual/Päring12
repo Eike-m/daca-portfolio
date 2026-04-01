@@ -1,0 +1,5 @@
+--Leia uuemad kliendid (viimase 6 kuu registreerimised):
+SELECT *
+FROM customers   
+WHERE registration_date >= '2024-07-01'   
+ORDER BY registration_date DESC;
