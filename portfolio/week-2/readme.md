@@ -5,7 +5,7 @@ Uurisin müügiandmete tabelit SQL päringutega
 - Leidsin:
    - duplikaate oli 5116 rida, mis moodustavad 33,58% kogu tabeli andmemahust ja on põhjustatud 4013 korduvast sale_id-st ja need on vaja kustutada.
    -  NULL customer_id oli 1487, pärast duplikaatide eemaldamist jäi 988 unikaalset NULL-i, mis sai asendatud ID-ga 0
-- Tuleviku kuupäevi oli 9, need vigased ja vales formaadis kuupäevad on parandatud 08.04.2026 seisuga.
+   - Tuleviku kuupäevi oli 9, need vigased ja vales formaadis kuupäevad on parandatud 08.04.2026 seisuga.
 
 - Peamine leid: oli see, et 33,58% müügiandmetest olid duplikaadid.
 
