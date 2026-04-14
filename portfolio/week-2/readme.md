@@ -22,4 +22,4 @@ Uurisin müügiandmete tabelit SQL päringutega
 - ['week2_sales_cleaning report.md' ](<individual/week2_sales_cleaning report.md>) -- võrdlev raport enne ja pärast puhastust
 
 ## Meeskonna töö koondraportile
-- [Link meeskonna Data Landscape slaidile]
+- [https://github.com/rattaseppkevin-tech/urbanstyle-TOOTE-grupp/blob/main/week2_team_cleaning_report.pdf]
