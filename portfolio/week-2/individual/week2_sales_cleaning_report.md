@@ -1,3 +1,16 @@
+# „Sales“ tabeli puhastamisraport
+
+## Andmete kvaliteedi ülevaade
+
+| Kategooria           | Leitud probleeme | Kirjeldus |
+|---------------------|------------------|-----------|
+| Duplikaadid         | 5116             | Tuvastatud 5116 liigset rida, mis moodustavad 33,58% kogu tabeli andmemahust ja on põhjustatud 4013 korduvast sale_id-st ning vajavad kustutamist |
+| NULL customer_id    | 1487             | Puuduv kliendi viide |
+| NULL sale_date      | 0                | Puuduv kuupäev |
+| NULL total_price    | 0                | Puuduv summa |
+| Tuleviku kuupäevad  | 9                | Kuupäev > tänane |
+| **KOKKU probleeme** | **6612**         | Kokku leitud anomaaliate arv enne puhastamist `sales_test` tabelis |
+
 # „Sales“ tabeli puhastamise võrdlev raport: enne ja pärast
 
 ## Andmete kvaliteedi ülevaade
@@ -14,10 +27,10 @@
 
 ## Kokkuvõte
 
-Suurimaks üllatuseks oli see, et 33,58% müügiandmetest ehk 5116 rida olid duplikaadid.
+### Suurimaks üllatuseks oli see, et 33,58% müügiandmetest ehk 5116 rida olid duplikaadid.
 
-Soovitus Toomasele: esmajärjekorras tuleb eemaldada müügiandmete duplikaadid (5116 rida), kuna need moodustavad 33,58% andmetest ja moonutavad käivet märkimisväärselt.
+### Soovitus Toomasele: esmajärjekorras tuleb eemaldada müügiandmete duplikaadid (5116 rida), kuna need moodustavad 33,58% andmetest ja moonutavad käivet märkimisväärselt.
 
-Puuduvad andmed: Pärast duplikaatide eemaldamist jäi 1487-st puuduvast customer_id-st alles 988 unikaalset tehingut, millel puudub seos kliendiga. Need on asendatud väärtusega 0.
+### Puuduvad andmed: Pärast duplikaatide eemaldamist jäi 1487-st puuduvast customer_id-st alles 988 unikaalset tehingut, millel puudub seos kliendiga. Need on asendatud väärtusega 0.
 
 
