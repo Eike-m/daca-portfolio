@@ -1,0 +1,85 @@
+--Harjutus 3A:
+--Ülesanne: Kopeeri ja käivita — ühenda 3 tabelit, et näha klient + tellimus + toode:
+-- 3 tabeli JOIN: kes ostis mida?
+SELECT
+    c.first_name || ' ' || c.last_name AS klient,
+    c.city AS linn,
+    s.sale_date AS müügi_kuupäev,
+    p.product_name AS toode,
+    p.category AS kategooria,
+    s.quantity AS kogus,
+    s.unit_price AS ühikuhind,
+    s.total_price AS rea_summa
+FROM sales s
+INNER JOIN customers c ON s.customer_id = c.customer_id
+INNER JOIN products p ON s.product_id = p.product_id
+ORDER BY rea_summa DESC
+LIMIT 20;
+
+--Milline toode on kõige suurema rea summaga? Õhuline sünteetiline sporditossud
+--Millisest linnast on see klient? Valga
+--Millises kategoorias on enim TOP 20 tooteid? Jalanõud
+
+--Harjutus 3B:
+--Ülesanne: Anna tahab teada: "Millised tootekategooriad müüvad igas linnas kõige rohkem?" 
+--Kirjuta ise päring, mis ühendab 3+ tabelit ja grupeerib tulemused.
+--Vihjed:
+Ühenda sales + customers + products
+Grupeeri city ja category järgi
+Arvuta SUM(s.total_price) kogumüügi jaoks
+Sorteeri kahanevalt
+SELECT
+    p.category,
+    c.city,
+    sum(s.total_price) AS kogumüük
+FROM sales s
+INNER JOIN customers c ON s.customer_id = c.customer_id
+INNER JOIN products p ON s.product_id = p.product_id
+group by c.city, p.category
+ORDER BY kogumüük DESC
+
+--Milline linn + kategooria kombinatsioon on kõige kasumlikum? Tallinn ja jalanõud
+--Kas Tallinna ja Tartu klientide kategooriaeelistused erinevad? Samad kategooriad tunduvad
+--Mida Anna saaks selle info põhjal turunduses teha? Tallinnas suunata reklaam ühele kategooriale ja Tartus teisele kategooriale
+
+--Harjutus 3C: Rakendus — avatud ülesanne 
+--Ülesanne: Mõtle äriküsimusele, mis vajab 3+ tabeli ühendamist. Kirjuta päring ja analüüsi tulemust.
+--Ideed:
+--Millised kliendid ostavad kõige kallimaid tooteid? Kersti Lill, kogumüük 14303,29; Tiina Pärn 13393,98
+SELECT 
+    customers.first_name,
+    customers.last_name,
+    SUM(products.retail_price) AS kogumüük
+FROM customers
+INNER JOIN sales 
+    ON customers.customer_id = sales.customer_id
+INNER JOIN products 
+    ON sales.product_id = products.product_id
+GROUP BY customers.first_name, customers.last_name
+ORDER BY kogumüük DESC;
+--Millised kategooriad on populaarsed eri linnades? Haapsalu - meeste riided, Jõhvi - laste riided, Kuressaare naiste riided
+SELECT 
+    customers.city,
+    products.category,
+    COUNT(sales.sale_id) AS total_orders
+FROM customers
+INNER JOIN sales 
+    ON customers.customer_id = sales.customer_id
+INNER JOIN products 
+    ON sales.product_id = products.product_id
+GROUP BY customers.city, products.category
+ORDER BY customers.city, total_orders DESC;
+
+--Millised tellimused sisaldavad enim erinevaid tooteid?
+SELECT 
+    customers.first_name,
+    customers.last_name,
+    sales.sale_id,
+    COUNT(DISTINCT products.product_id) AS unique_products
+FROM customers
+INNER JOIN sales 
+    ON customers.customer_id = sales.customer_id
+INNER JOIN products 
+    ON sales.product_id = products.product_id
+GROUP BY customers.first_name, customers.last_name, sales.sale_id
+ORDER BY unique_products DESC;
