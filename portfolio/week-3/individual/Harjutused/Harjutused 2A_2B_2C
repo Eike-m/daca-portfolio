@@ -1,0 +1,82 @@
+--Harjutus 2A: Kopeeri ja käivita — leia kliendid, kes pole kunagi ostnud:
+-- Kadunud kliendid: LEFT JOIN + WHERE IS NULL
+SELECT
+    c.customer_id,
+    c.first_name || ' ' || c.last_name AS nimi,
+    c.email,
+    c.city,
+    c.registration_date
+FROM customers c
+LEFT JOIN sales s ON c.customer_id = s.customer_id
+WHERE s.sale_id IS NULL
+ORDER BY c.registration_date DESC;
+--Mitu "kadunud" klienti leidsid? 599
+
+--Millisest linnast on enim kadunud kliente? --Tallinn 231
+SELECT 
+    c.city AS linn, 
+    COUNT(c.customer_id) AS kadunud_klientide_arv
+FROM customers c
+LEFT JOIN sales s ON c.customer_id = s.customer_id
+WHERE s.sale_id IS NULL
+GROUP BY c.city
+ORDER BY kadunud_klientide_arv DESC;
+
+--Millal registreerus kõige vanem kadunud klient? --2020-01-02
+SELECT
+    c.customer_id,
+    c.first_name || ' ' || c.last_name AS nimi,
+    c.email,
+    c.city,
+    c.registration_date
+FROM customers c
+LEFT JOIN sales s ON c.customer_id = s.customer_id
+WHERE s.sale_id IS NULL
+ORDER BY c.registration_date asc;
+
+--Nüüd käivita INNER JOIN versioon samade tabelitega:
+-- Võrdluseks: INNER JOIN (ainult aktiivsed kliendid)
+SELECT COUNT(DISTINCT c.customer_id) AS aktiivseid_kliente
+FROM sales s
+INNER JOIN customers c ON s.customer_id = c.customer_id;
+--2551 aktiivseid kliente
+--kadunud + aktiivsed=599+2551=3150 -- jah, vastab kokku oli kliente 3150
+
+--Harjutus 2B: Ha — tooted ilma müügita 
+--Ülesanne: Anna küsib: "Millised tooted on meie kataloogis, aga neid pole kunagi müüdud?
+--Need võtavad laoruumi ja seovad raha!" Kirjuta ise päring, mis leiab müümata tooted.
+Vihjed:
+Vasak tabel: products (kõik tooted)
+Parem tabel: sales (müüdud tooted)
+Ühenda: ON p.product_id = s.product_id
+Filtreeri: WHERE s.sale_id IS NULL
+Näita: toote nimi, kategooria, hind
+Kirjuta oma päring siia:
+select
+    p.product_name,
+    p.category,
+    p.cost_price,
+    s.sale_id
+from products p --vasak tabel, kõik tooted (alias p)
+left join sales s ON p.product_id = s.product_id --parem tabel: müügid (alias s)
+where s.sale_id is null; --Filtreerime välja tooted, mida pole müügitabelis
+--Mitu müümata toodet leidsid? 12
+
+--Millises kategoorias on enim müümata tooteid? --Aksessuaaride kategooria, 5 toodet
+
+--Mis võiks olla põhjus, miks neid ei osteta? Pole trendikad ja kallid
+
+--Harjutus 2C: Rakendus — kadunud klientide analüüs 
+--Ülesanne: Anna tahab teada rohkem kadunud klientide kohta.
+--Kirjuta päring, mis grupeerib kadunud kliendid linnade kaupa ja näitab, mitu kadunud klienti on igas linnas.
+SELECT 
+    c.city AS linn, 
+    COUNT(c.customer_id) AS kadunud_klientide_arv
+FROM customers c
+LEFT JOIN sales s ON c.customer_id = s.customer_id
+WHERE s.sale_id IS NULL
+GROUP BY c.city
+ORDER BY kadunud_klientide_arv DESC;
+--Tallinn-231
+--Tartu-133
+--Pärnu-70
