@@ -1,0 +1,49 @@
+--Integreeriv harjutus — Anna kampaaniaplaan 
+Ülesanne: Koosta Anna jaoks mini-raport, kirjutades 3 päringut, mis vastavad tema peamistele küsimustele.
+--Päring 1: TOP 20 klienti koos tootekategooriatega
+Ühenda sales, customers ja products. Grupeeri kliendi ja kategooria kaupa. Näita: klient, linn, kategooria, kogumüük.
+-- Sinu päring (vihje: kasuta 4 tabelit):
+SELECT
+    c.first_name || ' ' || c.last_name AS klient,
+    c.city AS linn,
+    p.category AS kategooria,
+    SUM(s.total_price) AS kogumuuk
+FROM sales s
+INNER JOIN customers c ON s.customer_id = c.customer_id
+INNER JOIN products p ON s.product_id = p.product_id
+GROUP BY c.customer_id, c.first_name, c.last_name, c.city, p.category
+ORDER BY kogumuuk DESC
+LIMIT 20;
+
+
+--Päring 2: Kadunud kliendid linnade kaupa
+Kasuta LEFT JOIN mustrit, et leida kadunud kliendid, ja grupeeri linnade kaupa.
+-- Sinu päring (vihje: LEFT JOIN + WHERE IS NULL + GROUP BY):
+SELECT
+    c.city AS linn,
+    COUNT(*) AS kadunud_kliente
+FROM customers c
+LEFT JOIN sales s ON c.customer_id = s.customer_id
+WHERE s.sale_id IS NULL
+GROUP BY c.city
+ORDER BY kadunud_kliente DESC;
+
+--Päring 3: Müümata tooted kategooriate kaupa
+Leia tooted, mida pole kunagi müüdud, ja grupeeri kategooria kaupa.
+-- Sinu päring (vihje: products LEFT JOIN sales):
+SELECT
+    p.category AS kategooria,
+    COUNT(*) AS müümata_tooteid,
+    ROUND(AVG(p.retail_price), 2) AS keskmine_hind
+FROM products p
+LEFT JOIN sales s 
+    ON p.product_id = s.product_id
+WHERE s.sale_id IS NULL
+GROUP BY p.category
+ORDER BY müümata_tooteid DESC;
+
+
+--Küsimused tulemuste kohta:
+--Milline on Anna kampaania peamine sihtrühm (linn + kategooria)? Tartu- jalanõud
+--Mitu kadunud klienti on ja mida Anna saaks nende tagasivõitmiseks teha? Tallinn, 231 - teha reklaamkampaania neile, nt ostusoodustus -15%
+--Millised müümata tooted tuleks kataloogist eemaldada? aksesuaaride kategoorias on 5 müümata toodet
