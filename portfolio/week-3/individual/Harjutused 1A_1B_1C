@@ -1,0 +1,68 @@
+--Harjutus 1A
+-- INNER JOIN: kliendid koos nende müükidega
+-- INNER JOIN: kliendid koos nende müükidega
+SELECT
+    c.first_name,
+    c.last_name,
+    c.city,
+    s.sale_id,
+    s.sale_date,
+    s.total_price
+FROM sales s
+INNER JOIN customers c ON s.customer_id = c.customer_id
+ORDER BY s.total_price DESC
+LIMIT 20;
+
+
+--Mitu rida tulemus näitab? 20 rida
+--Milline klient on kõige suurema tellimusega? Madis Roots
+--Millisest linnast on enim kliente TOP 20-s? Tallinn - 10 
+--Proovi nüüd eemaldada LIMIT 20. Mitu rida kokku tuleb? 9130 rida 
+
+--Harjutus 1B
+--Kirjuta ise päring, mis ühendab sales ja products tabelid, et näha tootenimesid koos müüdud kogusega
+SELECT
+    p.product_name,
+    p.category,
+    s.quantity,
+    s.unit_price
+FROM sales s
+INNER JOIN products p ON s.product_id = p.product_id
+ORDER BY s.quantity DESC
+LIMIT 15;
+
+--selgitus:
+p.product_name → toote nimi tuleb products tabelist
+s.quantity → müüdud kogus tuleb sales tabelist
+INNER JOIN → ühendab tabelid product_id järgi
+ORDER BY s.quantity DESC → suurim kogus ees
+LIMIT 15 → ainult 15 rida
+
+--Milline toode on kõige rohkem müüdud? -Kõik tooted on müünud koguseliselt võrdselt
+--Kas kalleim toode on ka enim müüdud? Ei ole, 
+--Mida see ütleb UrbanStyle'i klientide eelistuste kohta? Eelistatakse erinevaid toote kategooriaid ja erinevas hinnaklassis tooteid
+
+
+--Harjutus 1C: Mõtle ühele küsimusele, millele INNER JOIN aitab vastata. Kirjuta päring ja vaata tulemust.
+--Ideed:
+--Millised kliendid tellisid viimase kuu jooksul?
+--Milliste toodete tellimustes on kõrgeim ühikuhind?
+--Millistest linnadest tulevad tellimused? --Tallinn 3601 tellimust, Tartu 1764 tellimust, Pärnu 1231 tellimust
+SELECT 
+    c.city AS linn, 
+    COUNT(s.sale_id) AS tellimuste_arv, 
+    SUM(s.total_price) AS kogukäive
+FROM sales s
+INNER JOIN customers c ON s.customer_id = c.customer_id
+GROUP BY c.city
+ORDER BY kogukäive DESC;
+
+Milliste toodete tellimustes on kõrgeim ühikuhind? - kõrgeim hind on klassikaline seemisnahkne jooksutoss, 512,37
+SELECT DISTINCT 
+    p.product_name AS toode, 
+    s.unit_price AS ühikuhind,
+    p.category AS kategooria
+FROM sales s
+INNER JOIN products p ON s.product_id = p.product_id
+ORDER BY s.unit_price DESC
+LIMIT 10;
