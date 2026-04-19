@@ -332,3 +332,4 @@ Online-kanal on tehingute arvult peaaegu sama suur kui Tallinna pood.
 Anna Mets peaks suunama eelarvet just online-kanali ja Pärnu piirkonna digireklaami, kuna Pärnu füüsiline pood on mahult kõige väiksem (10,5%)
 ja sealsed kliendid võiksid mugavamalt liikuda e-poodi.
 
+
