@@ -1,13 +1,13 @@
 # Nädal 3: SQL JOINs  
 ## UrbanStyle – Äritõe analüüs  
 
-**Meeskond:** Tooteanalüüs  
+**Meeskond:** Tooteanalüüsi osakond
 **Tegelane:** Toomas Kask  
 **Kuupäev:** 15.04.2026  
 
 ---
 
-## A. Müük + Kliendid  
+## A. Müük + Kliendid  (Krista)
 
 Analüüs näitab, et meie kõige väärtuslikumad kliendid pärinevad suures osas Pärnust.  
 TOP 10 kliendist ligi pooled on sealt ning enamus neist on teinud üle 70 ostu,  
@@ -24,7 +24,7 @@ kõige rohkem käivet, on Gold-tase kõige efektiivsem suhe müügi ja klientide
 
 ---
 
-## B. Kliendid ilma ostudeta  
+## B. Kliendid ilma ostudeta  (Egle)
 
 Andmebaasis on 513 klienti, kes on konto loonud, kuid pole teinud ühtegi ostu.  
 Enamus neist asub Tallinnas ja Tartus, mis on ka meie peamised turud.  
@@ -37,7 +37,7 @@ Soovitus on käivitada sihitud win-back kampaania, pakkudes esmaostule
 
 ---
 
-## C. Tooted + Inventuur  
+## C. Tooted + Inventuur  (Kevin)
 
 Analüüs tuvastas 12 toodet, mida pole kordagi müüdud. Täpsem vaatlus näitab,  
 et nende toodete laoseis on 0 – need eksisteerivad süsteemis, kuid pole reaalselt saadaval.  
@@ -51,7 +51,7 @@ Probleemid inventuuris:
 
 ---
 
-## D. Müügikanalid  
+## D. Müügikanalid  (Eike)
 
 Füüsilised poed moodustavad 66% kogumüügist (~1.9M €), samas kui online-kanal  
 annab 34% (~1.0M €).  
