@@ -94,7 +94,7 @@ ORDER BY klientide_arv DESC;
 --CTE-s: grupeeri category + product_name järgi, arvuta SUM(quantity)
 --Lisa ROW_NUMBER() OVER (PARTITION BY category ORDER BY SUM(quantity) DESC)
 --Põhipäringus: filtreeri WHERE koht <= 3
-WITH product_sales AS (
+WITH product_sales AS (                                             --kasutatud AI abi!
     SELECT
         p.category,
         p.product_name,
@@ -129,7 +129,7 @@ ORDER BY category, rn;
 --Integreeriv harjutus — CEO Raport 
 --Ülesanne: Kirjuta üks CTE-põhine päring, mis annab Kristile ülevaate TOP 5 linnast koos igakuise trendiga.
 --Struktuur:
-WITH linna_myyk AS (
+WITH linna_myyk AS (                    
     -- CTE 1: iga linna kogumüük
     SELECT
         c.city AS linn,
@@ -157,7 +157,7 @@ FROM linna_jarjestus
 WHERE koht <= 5
 ORDER BY koht;
 
---Kui see töötab, proovi lisada:
+--Kui see töötab, proovi lisada:                                    --kasutatud AI abi!
 Iga linna osakaal kogu käibest (protsentides)
 Viimase kuu käive vs ülejäänud kuude keskmine
 
