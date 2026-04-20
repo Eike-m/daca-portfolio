@@ -1,0 +1,207 @@
+--Harjutus 3A: Shu — CTE mall 
+--Ülesanne: Kopeeri ja käivita järgmine CTE päring, mis arvutab kuu käive ja kasvu:
+WITH kuu_myyk AS (
+    SELECT
+        DATE_TRUNC('month', sale_date) AS kuu,
+        SUM(total_price) AS käive
+    FROM sales
+    WHERE sale_date >= '2024-01-01'
+    GROUP BY DATE_TRUNC('month', sale_date)
+)
+SELECT
+    kuu,
+    käive,
+    LAG(käive) OVER (ORDER BY kuu) AS eelmine_kuu,
+    käive - LAG(käive) OVER (ORDER BY kuu) AS kasv,
+    ROUND(
+        100.0 * (käive - LAG(käive) OVER (ORDER BY kuu))
+        / LAG(käive) OVER (ORDER BY kuu), 1
+    ) AS kasv_protsent
+FROM kuu_myyk
+ORDER BY kuu;
+
+--Milline kuu näitas suurimat kasvu protsentides? 2026-06-01, 1715% kasv
+--Milline kuu näitas langust? 2025-12-01, -95% langus
+--Miks on esimese kuu kasv NULL? Päringus oli LAG, et võta eelmise kuu kasv aga eelmist kuud ei olnud ehk pole millegagi võrrelda
+
+--Harjutus 3B: Ha — kliendianalüüs CTE-ga (15 min)
+--Ülesanne: Kirjuta ise CTE-põhine päring, mis segmenteerib kliendid VIP / Aktiivne / Tavaline tasemetesse.
+--Struktuur (täida lüngad):
+WITH kliendi_kokkuvote AS (
+    SELECT
+        c.customer_id,
+        c.first_name || ' ' || c.last_name AS nimi,
+        c.city,
+        COUNT(s.sale_id) AS tellimuste_arv,
+        SUM(s.total_price) AS kogukaive
+    FROM customers c
+    JOIN sales s ON c.customer_id = s.customer_id
+    GROUP BY c.customer_id, c.first_name, c.last_name, c.city
+)
+SELECT
+    nimi,
+    city,
+    tellimuste_arv,
+    kogukaive,
+    CASE
+        WHEN kogukaive > 25000 THEN 'VIP'       -- Vali ise piir!
+        WHEN kogukaive > 20000 THEN 'Aktiivne'  -- Vali ise piir!
+        ELSE 'Tavaline'
+    END AS segment
+FROM kliendi_kokkuvote
+ORDER BY kogukaive DESC;
+
+--Lisaülesanne: Lisa teine CTE, mis loeb klientide arvu segmendi kaupa:
+-- Lisa see oma päringu lõppu:
+-- Vihje: kasuta ülaltoodud tulemust alamõpäringuna või lisa veel üks CTE
+WITH kliendi_kokkuvote AS (
+    SELECT
+        c.customer_id,
+        c.first_name || ' ' || c.last_name AS nimi,
+        c.city,
+        COUNT(s.sale_id) AS tellimuste_arv,
+        SUM(s.total_price) AS kogukaive,
+        CASE
+            WHEN SUM(s.total_price) > 25000 THEN 'VIP'
+            WHEN SUM(s.total_price) > 20000 THEN 'Aktiivne'
+            ELSE 'Tavaline'
+        END AS segment
+    FROM customers c
+    JOIN sales s ON c.customer_id = s.customer_id
+    GROUP BY c.customer_id, c.first_name, c.last_name, c.city
+),
+
+segmentide_kokkuvote AS (
+    SELECT
+        segment,
+        COUNT(*) AS klientide_arv
+    FROM kliendi_kokkuvote
+    GROUP BY segment
+)
+
+SELECT *
+FROM segmentide_kokkuvote
+ORDER BY klientide_arv DESC;
+-- Mitu klienti on igas segmendis?
+--Tavaline - 2541
+--Aktiivne - 8
+--Vip - 2
+
+--Harjutus 3C: Rakendus — Window Function 
+--Ülesanne: Kasuta ROW_NUMBER() funktsiooni, et leida iga kategooria TOP 3 toodet müüdud koguse järgi.
+--Vihjed:
+--Ühenda products ja sales
+--CTE-s: grupeeri category + product_name järgi, arvuta SUM(quantity)
+--Lisa ROW_NUMBER() OVER (PARTITION BY category ORDER BY SUM(quantity) DESC)
+--Põhipäringus: filtreeri WHERE koht <= 3
+WITH product_sales AS (
+    SELECT
+        p.category,
+        p.product_name,
+        SUM(s.quantity) AS kogus
+    FROM products p
+    JOIN sales s
+      ON p.product_id = s.product_id
+    GROUP BY p.category, p.product_name
+),
+
+ranked_products AS (
+    SELECT
+        category,
+        product_name,
+        kogus,
+        ROW_NUMBER() OVER (                      --positsioon
+            PARTITION BY category                --grupp
+            ORDER BY kogus DESC
+        ) AS rn
+    FROM product_sales
+)
+
+SELECT
+    category,
+    product_name,
+    kogus
+FROM ranked_products
+WHERE rn <= 3                        --top 3 toodet jätab alles igas kategoorias
+ORDER BY category, rn;
+
+
+--Integreeriv harjutus — CEO Raport 
+--Ülesanne: Kirjuta üks CTE-põhine päring, mis annab Kristile ülevaate TOP 5 linnast koos igakuise trendiga.
+--Struktuur:
+WITH linna_myyk AS (
+    -- CTE 1: iga linna kogumüük
+    SELECT
+        c.city AS linn,
+        COUNT(DISTINCT s.sale_id) AS tellimusi,
+        SUM(s.total_price) AS kogukaive,
+        ROUND(AVG(s.total_price), 2) AS keskmine_tellimus
+    FROM customers c
+    JOIN sales s ON c.customer_id = s.customer_id
+    WHERE s.sale_date >= '2024-01-01'
+    GROUP BY c.city
+    HAVING COUNT(DISTINCT s.sale_id) > 5  -- Filtreeri välja väikesed linnad
+),
+linna_jarjestus AS (
+    -- CTE 2: lisa järjestus
+    SELECT
+        linn,
+        tellimusi,
+        kogukaive,
+        keskmine_tellimus,
+        ROW_NUMBER() OVER (ORDER BY kogukaive DESC) AS koht
+    FROM linna_myyk
+)
+SELECT *
+FROM linna_jarjestus
+WHERE koht <= 5
+ORDER BY koht;
+
+--Kui see töötab, proovi lisada:
+Iga linna osakaal kogu käibest (protsentides)
+Viimase kuu käive vs ülejäänud kuude keskmine
+
+WITH linna_myyk AS (
+    SELECT
+        c.city AS linn,
+        COUNT(DISTINCT s.sale_id) AS tellimusi,
+        SUM(s.total_price) AS kogukaive,
+        ROUND(AVG(s.total_price), 2) AS keskmine_tellimus
+    FROM customers c
+    JOIN sales s ON c.customer_id = s.customer_id
+    WHERE s.sale_date >= '2024-01-01'
+    GROUP BY c.city
+    HAVING COUNT(DISTINCT s.sale_id) > 5
+),
+
+linna_jarjestus AS (
+    SELECT
+        linn,
+        tellimusi,
+        kogukaive,
+        keskmine_tellimus,
+
+        -- 1) osakaal kogu käibest
+        ROUND(
+            100.0 * kogukaive / SUM(kogukaive) OVER (),
+            2
+        ) AS osakaal_protsentides,
+
+        -- 2) viimane kuu vs keskmine (vajab eraldi loogikat)
+        kogukaive AS viimase_kuu_kaive,
+
+        AVG(kogukaive) OVER () AS keskmine_kaive,
+
+        ROW_NUMBER() OVER (ORDER BY kogukaive DESC) AS koht
+    FROM linna_myyk
+)
+
+SELECT *
+FROM linna_jarjestus
+WHERE koht <= 5
+ORDER BY koht;
+
+Küsimused tulemuse kohta:
+Millised 5 linna on tipis? Tallinn, Tartu, Pärnu, Narva, Viljandi
+Kui suur on erinevus #1 ja #5 vahel? Tallinna osakaal on käibest 38% ja Viljandi 4%, vahe on 34%, Tallinnas on suurem turu osa kui Viljandis
+Millist numbrit sa Kristile esimesena näitaksid? Miks? Käibe osakaalu %, just Viljandi, et siin tuleks midagi ette võtta ja kasvatada müüki

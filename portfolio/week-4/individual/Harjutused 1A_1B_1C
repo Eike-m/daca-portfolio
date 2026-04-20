@@ -1,0 +1,91 @@
+--Harjutus 1A
+--Ülesanne: Kopeeri järgmine päring Supabase SQL Editorisse ja käivita see.
+-- Müük kuude kaupa 2024. aastal
+
+SELECT
+    TO_CHAR(sale_date, 'YYYY-MM') AS kuu,
+    COUNT(*) AS tellimusi,
+    SUM(total_price) AS käive,
+    ROUND(AVG(total_price), 2) AS keskmine_tellimus
+FROM sales
+WHERE sale_date >= '2024-01-01'
+GROUP BY TO_CHAR(sale_date, 'YYYY-MM')
+ORDER BY kuu;
+--see päring ei toimi
+
+--toimib see NotebookLM abiga:
+-- 1. Ütle andmebaasile, et kuupäev on päeva-kuu-aasta järjestuses
+SET datestyle = 'ISO, DMY';
+-- 2. Teosta oma analüüs
+SELECT
+    TO_CHAR(sale_date::timestamp, 'YYYY-MM') AS kuu,
+    COUNT(*) AS tellimusi,
+    SUM(total_price) AS käive,
+    ROUND(AVG(total_price), 2) AS keskmine_tellimus
+FROM sales
+WHERE sale_date::timestamp >= '2024-01-01' 
+  AND sale_date::timestamp <= '2024-12-31'
+GROUP BY kuu
+ORDER BY kuu;
+--Oodatav tulemus: Tabel ~3-12 reaga, kus iga kuu kohta on tellimuste arv, kogukäive ja keskmine.
+--Küsimused tulemuse kohta:
+--Milline kuu oli kõige kasumlikum? 2024-12, 170 623,28
+--Milline kuu oli kõige madalam? 2024-01, 85 618,65
+--Kas märkad trendi (kasv/langus)? alates aasta algusest hakkab kasvama nii tellimuste kui ka käive
+
+
+-- -- 1. Muudame kõik kuupäevad tekstina õigesse järjekorda (YYYY-MM-DD) AI ABIL
+    UPDATE sales 
+    SET sale_date = SUBSTRING(sale_date, 7, 4) || '-' || SUBSTRING(sale_date, 4, 2) || '-' || SUBSTRING(sale_date, 1, 2)
+    WHERE sale_date LIKE '__/__/____';
+-- 2. Muudame tulba tüübi tekstist kuupäevaks AI ABIL
+    ALTER TABLE sales ALTER COLUMN sale_date TYPE DATE USING sale_date::DATE;
+
+--Harjutus 1B: Ha — rakenda uues kontekstis
+--Ülesanne: Kirjuta ise päring, mis näitab müüki linnade kaupa.
+--Vihjed:
+--Ühenda customers ja sales tabelid (JOIN ... ON customer_id)
+--Grupeeri city veeru järgi
+--Näita: linn, tellimuste arv, kogukäive, keskmine tellimus
+--Sorteeri kogukäive järgi kahanevalt
+--Kirjuta oma päring siia:
+-- Sinu päring:
+SELECT
+  c.city AS linn,
+  COUNT(*) AS tellimuste_arv,
+  SUM(s.total_price) AS kogukäive,
+  ROUND(AVG(s.total_price), 2) AS keskmine_tellimus
+FROM sales s
+JOIN customers c
+  ON s.customer_id = c.customer_id
+GROUP BY c.city
+ORDER BY kogukäive DESC;
+
+--Juhivad küsimused:
+--Millises linnas on kõige suurem kogukäive? Tallinn, 1006252.88
+--Kas linn, kus on enim tellimusi, on ka kõige suurema käibega? Jah, Tallinn
+--Mis võiks seda erinevust seletada? Tallinnas elabki kõige rohkem inimesi ja siis ilmselt ka rohkem tellimusi
+
+--Harjutus 1C: Rakendus — oma analüüs 
+--Ülesanne: Mõtle äriküsimusele, millele GROUP BY aitab vastata. Kirjuta päring ja analüüsi tulemust.
+--Ideed:
+--Müük nädalapäevade kaupa (millal ostetakse enim?) --Enim on ostetud pühapäeval, kogukäive 437716.54, 1444 tellimust
+SELECT
+  TO_CHAR(sale_date, 'FMDay') AS nadalapaev,      --FM eemaldab liigsed tühikud
+  COUNT(*) AS tellimuste_arv,                     --mitu rida/tellimust igas grupis
+  SUM(total_price) AS kogukaive,
+  ROUND(AVG(total_price), 2) AS keskmine_tellimus  --round ümardab 2 komakohani
+FROM sales
+GROUP BY
+  EXTRACT(ISODOW FROM sale_date),                  --jagab andmed gruppidesse, iga nädalapäev on eraldi grupp
+  TO_CHAR(sale_date, 'FMDay')
+ORDER BY EXTRACT(ISODOW FROM sale_date);
+--Toodete arv kategooriate kaupa   --meeste riided 82 tk, jalanõud 73
+SELECT
+  category,
+  COUNT(*) AS toodete_arv
+FROM products
+GROUP BY category
+ORDER BY toodete_arv DESC;
+
+--Tellimused staatuse järgi (status veerg)
