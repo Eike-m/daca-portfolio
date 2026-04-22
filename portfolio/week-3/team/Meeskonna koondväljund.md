@@ -74,3 +74,6 @@ Järeldus: online ja füüsilised poed ei konkureeri, vaid täiendavad teineteis
    - eemaldada müümata tooted  
    - täiendada laoseisu populaarsetel toodetel  
    - korrigeerida hinnastust  
+
+## ESITLUS
+https://github.com/rattaseppkevin-tech/urbanstyle-TOOTE-grupp/blob/main/week3_team_join_anal%C3%BC%C3%BCs.pdf
