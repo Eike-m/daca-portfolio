@@ -1,4 +1,4 @@
-# Nädal : SQL JOINs
+# Nädal 3: SQL JOINs
 
 ## ALAÜLESANDE KAART D — Müügikanalid + Kliendid (INNER JOIN + mitme tabeli JOIN) – Eike
 
