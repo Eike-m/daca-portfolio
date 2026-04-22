@@ -1,3 +1,5 @@
+# Nädal : SQL JOINs
+
 ## ALAÜLESANDE KAART D — Müügikanalid + Kliendid (INNER JOIN + mitme tabeli JOIN) – Eike
 
 Mina analüüsisin turunduskanaleid 3 tabeli JOIN-iga (sales + customers + products).  
