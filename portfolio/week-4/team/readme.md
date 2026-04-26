@@ -39,7 +39,4 @@ Suunata Instagrami eelarve tulusamatesse kanalitesse (Email, Facebook) ja kesken
 
 Müügiandmetes puudub `session_id`, mis tähendab, et müük ja veebilogid pole tehniliselt seotud ning praegune ROI analüüs põhineb oletuslikul atribuutsioonil.
 
-AI kasutamise väli README-s (alates Nädala 4):
-## AI kasutamine
-[1-2 lauset, kuidas AI aitas sel nädalal]
-Nt: "Kasutasin Claude'i CTE päringu debug'imiseks. AI leidis puuduva GROUP BY klausli."
+

@@ -55,3 +55,7 @@
    Märts ja detsember on suurima kasvupotentsiaaliga perioodid:  
    - märtsis kasvas sotsiaalmeedia müük üle 50%  
    - detsembris toimus Facebookis rekordiline 74% kasv  
+
+## AI kasutamine sel nädalal
+
+Kasutasin AI-d, et luua ja paremini mõista keerukamaid CTE päringuid. AI aitas mul jagada analüüsi loogilisteks sammudeks ja kirjutada puhtamaid ning loetavamaid SQL-lahendusi.
