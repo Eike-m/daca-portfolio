@@ -1,6 +1,6 @@
 # Nädal 4: SQL Aggregation
 
-# ALAÜLESANDE KAART — ROLL D: Turunduskampaaniate ROI (Eike)
+# ALAÜLESANDE KAART — ROLL D: Turunduskampaaniate ROI 
 
 ## 1. Turunduskanalite efektiivsus (ROI)
 - **Suurim tulutooja:** Google Organic – 9 559 558 € ehk 27% kogukäibest, tellimusi 5484  
