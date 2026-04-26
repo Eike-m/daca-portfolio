@@ -39,4 +39,9 @@ Suunata Instagrami eelarve tulusamatesse kanalitesse (Email, Facebook) ja kesken
 
 Müügiandmetes puudub `session_id`, mis tähendab, et müük ja veebilogid pole tehniliselt seotud ning praegune ROI analüüs põhineb oletuslikul atribuutsioonil.
 
+---
+
+## ESITLUS
+
+https://github.com/rattaseppkevin-tech/urbanstyle-TOOTE-grupp/blob/main/week4_SQL_agregatsioon.pdf
 
