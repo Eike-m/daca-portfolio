@@ -1,0 +1,67 @@
+--Concrete Practice: Filtrite planeerimine
+--Harjutus 3A: Shu — filtrite loogika malli järgi 
+Ülesanne: Täida järgmine tabel — planeeri UrbanStyle'i investori dashboard'i filtrid.
+| Filter      | Tüüp             | Vaikeväärtus       | Valikud                                           | Miks vajalik                                                                 |
+|-------------|------------------|--------------------|--------------------------------------------------|------------------------------------------------------------------------------|
+| Periood     | Kuupäevavahemik  | Viimased 12 kuud   | Viimased 3/6/12 kuud, YTD, koguaeg               | Saab näha trendi ajas ja võrrelda praegust seisu eelneva aastaga             |
+| Linn        | Rippmenüü        | Kõik linnad        | Tallinn, Tartu, Pärnu, Online                    | Iga linn on erinev äri ja saab võrrelda ka online pood vs füüsiline pood     |
+| Kategooria  | Rippmenüü        | Kõik kategooriad   | Jalanõud, meeste/naiste riided, aksesuaarid      | Saab näha kategooriate lõikes tasuvust ja ka laoseise                        |
+ 
+ 
+Küsimused:
+Miks on "viimased 12 kuud" parem vaikeväärtus kui "kogu aeg"? Kuna see näitab aktuaalsele seisule ja väldib aegunud andmetest tulenevat "müra"
+Kas "Online" peaks olema eraldi valik linnafiltris? Miks? Jah, peab olema, kuna see on suuruselt teine koht kogumahust, kust ostetakse
+
+--Harjutus 3C: Rakendus — dual-track planeerimine 
+Ülesanne: Vali oma rada (Track A: Power BI, Track B: Plotly + Streamlit) ja planeeri, kuidas sa oma dashboard'i filtrid realiseerid.
+Track A (Power BI) kasutajad:
+Millise visual'i kasutad filtrite jaoks? (Slicer) - Slicer visuaali
+Kus ekraanil sa filtrid paigutad? - dashboardi alumises osas
+Kas cross-filtering on automaatne? - Jah, Power BI-s on see automaatne
+
+
+--Concrete Practice: Integreeriv harjutus — terviklik dashboard'i kavand 
+--Ülesanne: Kavanda paberil terviklik UrbanStyle'i investori dashboard. See on su kõige olulisem harjutus sellel nädalal — paneme kokku kõik kolm osa.
+--Samm 1: Äriküsimused 
+Kirjuta Kristi 4 küsimust ja märgi igaühe kõrvale diagrammitüüp:
+1. "Kas me kasvame?" → KPI ja joondiagramm
+2. "Mis tooted müüvad?" → Tulpdiagramm
+3. "Kust tulevad kliendid?" → Sektordiagramm
+4. "Kas marketing töötab?" → KPI, joondiagramm
+Milline küsimus on KÕIGE olulisem investori jaoks? - Kas me kasvame?
+
+--Samm 2: KPI kaardid 
+Vali 3-4 KPI-d, mis peavad olema dashboard'i ülaosas:
+| KPI | Number  | Muutus   | Miks just see?                                                                 |
+|-----|---------|----------|--------------------------------------------------------------------------------|
+| 1.  | €305 K  | ▲ +15%   | Põhinumber UrbanStyle jaoks, näitab kas me kasvame                             |
+| 2.  | 2500    | ▲ +8%    | Näitab, et meil on kasvav kliendibaas ja aktiivseid ostjaid                    |
+| 3.  | €32     | ▲ +3%    | Näitab, kui palju tulu toob üks keskmine tehing                                |
+| 4.  | +15%    | Vs Q3/YoY| Kõige olulisem näitaja investori jaoks, näitab kas ettevõte on tõusuteel        |
+
+*YoY – Year-over-Year - võrdlus eelmise aastaga
+
+--Samm 4: Filtrite plaan 
+| Filter      | Vaikeväärtus                         | Mõju dashboard'ile                          |
+|-------------|--------------------------------------|---------------------------------------------|
+| Periood     | 12 kuud                              | Näitab aktuaalset trendi                    |
+| Linn        | Tallinn, Tartu, Pärnu, Online        | Näitab piirkondlikku eripära                |
+| Kategooria  | Top 5 kategooriat                    | Aitab süveneda TOP toodete edusse           |
+
+--Samm 5: Cross-filtering test 
+Vali üks element oma dashboard'ilt ja kirjelda, mis juhtub, kui investor sellel klikib:
+Element: Tallinn
+Klikk → Mis muutub?
+KPI-d: Näitab ainult Tallinna müügitulu ja klientide arvu
+Diagramm 1: kuvab ainult Tallinna poe müügitrendi
+Diagramm 2: toob esile ainult Tallinna poe TOP tooted
+
+--Samm 6: 30-sekundi test 
+Kujuta ette, et investor näeb su dashboard'i 30 sekundit. Kirjuta:
+Mis on esimene asi, mida ta märkab? Kõige olulisem KPI number ja positiivne kasvunumber üleval vasakul nurgas
+Mis on peamine sõnum, mis jääb meelde? UrbanStyle on kasvav ettevõte, millel on tugev online pood ja lojaalne kliendibaas
+Kas ta teab, mis tööriistaga dashboard on tehtud? (Peaks ta seda teadma?) Ei pea
+Millist numbrit ta oma kolleegile edasi ütleks? Ettevõte kasvab 15% aastas ja nende online pood on peaaegu sama suur nagu Tallinna pood
+
+
+
