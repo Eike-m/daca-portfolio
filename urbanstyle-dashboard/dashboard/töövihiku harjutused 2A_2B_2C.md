@@ -3,7 +3,6 @@
 ## Harjutus 2A: Shu — analüüsi malli järgi  
 **Ülesanne:** Vaata alltoodud dashboard'i paigutust ja vasta küsimustele.
 
-# UrbanStyle Investor Dashboard — Q4 2024
 # UrbanStyle Investor Dashboard — Q4 2024 (joonis)
 
 ```text
