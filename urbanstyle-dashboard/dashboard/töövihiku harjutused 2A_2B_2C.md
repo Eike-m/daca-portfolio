@@ -33,19 +33,20 @@
 │ [ Periood ▼ ] [ Linn ▼ ] [ Kategooria ▼ ]          │
 └─────────────────────────────────────────────────────┘
 
-### Vastused
+
+## Küsimused ja vastused
 
 **Milline element on kõige olulisem (esimesena nähtav)?**  
 €305K käive  
 
 **Miks on joondiagramm suurim element?**  
-Näitab trendi ajas — kas äri kasvab või mitte  
+Näitab trendi ajas — kas me kasvame või mitte  
 
 **Miks on sektordiagrammil ainult 4 kategooriat?**  
-Välja on toodud peamised (TOP) linnad, et hoida visuaal selge  
+Välja on toodud TOP linnad, et hoida visuaal lihtne ja arusaadav  
 
 **Kus on filtrid ja miks just seal?**  
-All — need on abistavad, mitte esmane info  
+All — need ei ole kõige olulisemad ja ei tohiks varjutada põhiinfot  
 
 **Kas see dashboard vastab Kristi 4 küsimusele? Millisele küsimusele vastab iga element?**  
 - **Kas me kasvame?** → Joondiagramm ja +15% kasv  
@@ -55,9 +56,9 @@ All — need on abistavad, mitte esmane info
 
 ---
 
-## Harjutus 2C: Rakendus — Data-ink ratio audit  
+## Harjutus 2C: Data-Ink Ratio audit  
 
-**Ülesanne:** All on kirjeldatud "halb" dashboard. Leia kõik chart junk elemendid ja kirjelda, milline näeks see välja pärast puhastamist.
+**Ülesanne:** Leia chart junk elemendid ja kirjelda puhastatud versiooni.
 
 ### Halva dashboard'i kirjeldus:
 - 3D tulpdiagramm gradienttäitega  
@@ -74,11 +75,11 @@ All — need on abistavad, mitte esmane info
 - Gradienttäide  
 - Varjud  
 - Mustriline taust  
-- Liigne legend  
-- Liiga palju ruudustikujooni  
+- Dubleeriv legend  
+- Liigne ruudustik  
 - Liigne täpsus numbrites  
-- Liigne teksti stiil (kaldkiri + allajoon)  
+- Liigne teksti stiil  
 - Ebavajalik autoriinfo  
 
-### Puhastatud versioon (kirjeldus):
-Eemaldasin 3D efektid, varjud ja mustrilise tausta, et visuaal oleks lihtne ja selge. Vä
+### Puhastatud versioon:
+Eemaldasin 3D efektid, varjud ja tausta, et visuaal oleks puhas ja selge. Vähendasin ruudustiku hulka ning eemaldasin dubleeriva legendi. Numbrid esitasin lihtsamalt, ilma liigsete komakohtadeta. Tulemus on selge ja kergesti loetav dashboard, kus fookus on andmetel.
