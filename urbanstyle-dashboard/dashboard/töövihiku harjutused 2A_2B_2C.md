@@ -3,27 +3,36 @@
 ## Harjutus 2A: Shu — analüüsi malli järgi  
 **Ülesanne:** Vaata alltoodud dashboard'i paigutust ja vasta küsimustele.
 
-─────────────────────────────────────────────────────┐
-│ UrbanStyle Investor Dashboard — Q4 2024 │
-├──────────┬──────────┬──────────┬────────────────────┤
-│ €305K │ 2 500 │ €32 │ +15% kasv │
-│ Käive │ Kliendid │ Kesk.tell│ vs Q3 │
-├──────────┴──────────┴──────────┴────────────────────┤
-│ │
-│ Müügitulu trend (joondiagramm, Jan-Dec) │
-│ Y: EUR, X: Kuud │
-│ │
-├──────────────────────────┬──────────────────────────┤
-│ TOP 5 toodet │ Müük linnade lõikes │
-│ (horisontaalne tulp) │ (sektordiagramm) │
-│ │ Tallinn 42% │
-│ Denim Jacket ████ 45K │ Online 28% │
-│ Sneakers ███ 35K │ Tartu 18% │
-│ Hoodie ██ 28K │ Pärnu 12% │
-├──────────────────────────┴──────────────────────────┤
-│ [ Periood ▼ ] [ Linn ▼ ] [ Kategooria ▼ ] │
-└─────────────────────────────────────────────────────┘
+# UrbanStyle Investor Dashboard — Q4 2024
+# UrbanStyle Investor Dashboard — Q4 2024 (joonis)
 
+```text
+┌─────────────────────────────────────────────────────┐
+│ UrbanStyle Investor Dashboard — Q4 2024              │
+├──────────┬──────────┬──────────┬────────────────────┤
+│ €305K    │ 2 500    │ €32      │ +15% kasv          │
+│ Käive    │ Kliendid │ Kesk.tell│ vs Q3              │
+├──────────┴──────────┴──────────┴────────────────────┤
+│                                                     │
+│        Müügitulu trend (joondiagramm)               │
+│                                                     │
+│   €                                                 │
+│   │        ╭───╮                                    │
+│   │      ╭─╯   ╰─╮                                  │
+│   │   ╭─╯        ╰──╮                               │
+│   │ ╭╯              ╰──╮                            │
+│   └───────────────────────────→ Kuud                │
+│                                                     │
+├──────────────────────────┬──────────────────────────┤
+│ TOP 5 toodet             │ Müük linnade lõikes      │
+│                          │                          │
+│ Denim Jacket ████ 45K    │ Tallinn  ██████ 42%      │
+│ Sneakers      ███  35K   │ Online   ████   28%      │
+│ Hoodie        ██   28K   │ Tartu    ███    18%      │
+│                          │ Pärnu    ██     12%      │
+├──────────────────────────┴──────────────────────────┤
+│ [ Periood ▼ ] [ Linn ▼ ] [ Kategooria ▼ ]          │
+└─────────────────────────────────────────────────────┘
 
 ### Vastused
 
