@@ -33,6 +33,7 @@
 │ [ Periood ▼ ] [ Linn ▼ ] [ Kategooria ▼ ]          │
 └─────────────────────────────────────────────────────┘
 
+# Dashboard analüüs ja Data-Ink Ratio audit
 
 ## Küsimused ja vastused
 
@@ -49,6 +50,7 @@ Välja on toodud TOP linnad, et hoida visuaal lihtne ja arusaadav
 All — need ei ole kõige olulisemad ja ei tohiks varjutada põhiinfot  
 
 **Kas see dashboard vastab Kristi 4 küsimusele? Millisele küsimusele vastab iga element?**  
+
 - **Kas me kasvame?** → Joondiagramm ja +15% kasv  
 - **Mis tooted müüvad?** → Tulpdiagramm  
 - **Kust tulevad kliendid?** → Sektordiagramm  
@@ -58,9 +60,8 @@ All — need ei ole kõige olulisemad ja ei tohiks varjutada põhiinfot
 
 ## Harjutus 2C: Data-Ink Ratio audit  
 
-**Ülesanne:** Leia chart junk elemendid ja kirjelda puhastatud versiooni.
+### Halva dashboard'i kirjeldus
 
-### Halva dashboard'i kirjeldus:
 - 3D tulpdiagramm gradienttäitega  
 - Iga tulba taga vari (drop shadow)  
 - Heleroosa mustriga taust  
@@ -70,7 +71,8 @@ All — need ei ole kõige olulisemad ja ei tohiks varjutada põhiinfot
 - Pealkiri kaldkirjas ja allajoonitud  
 - 3 rida väikekirjas autoriinfot  
 
-### Chart junk elemendid:
+### Chart junk elemendid
+
 - 3D efekt  
 - Gradienttäide  
 - Varjud  
@@ -81,5 +83,9 @@ All — need ei ole kõige olulisemad ja ei tohiks varjutada põhiinfot
 - Liigne teksti stiil  
 - Ebavajalik autoriinfo  
 
-### Puhastatud versioon:
-Eemaldasin 3D efektid, varjud ja tausta, et visuaal oleks puhas ja selge. Vähendasin ruudustiku hulka ning eemaldasin dubleeriva legendi. Numbrid esitasin lihtsamalt, ilma liigsete komakohtadeta. Tulemus on selge ja kergesti loetav dashboard, kus fookus on andmetel.
+### Puhastatud versioon
+
+Eemaldasin 3D efektid, varjud ja tausta, et visuaal oleks puhas ja selge.  
+Vähendasin ruudustiku hulka ning eemaldasin dubleeriva legendi.  
+Numbrid esitasin lihtsamalt, ilma liigsete komakohtadeta.  
+Tulemus on selge ja kergesti loetav dashboard, kus fookus on andmetel.
