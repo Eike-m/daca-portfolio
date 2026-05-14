@@ -135,6 +135,22 @@ Selles osas loodi Plotly abil mitu diagrammi:
 3. TOP 10 VIP klienti
 4. Kaalutud RFM segmentide jaotus
 
+### Kliendisegmentide jaotus
+
+![Segmentide jaotus](segmentide_jaotus.png)
+
+### Hajuvusdiagramm
+
+![Scatter plot](scatter_plot.png)
+
+### TOP 10 VIP klienti
+
+![TOP 10 VIP](top10_vip.png)
+
+### Kaalutud RFM segmenteerimine
+
+![Weighted RFM](weighted_rfm.png)
+
 Miks see vajalik on:
 - muuta andmed visuaalselt arusaadavaks,
 - aidata tuvastada olulisi mustreid,
