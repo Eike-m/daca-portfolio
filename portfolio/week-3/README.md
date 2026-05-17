@@ -1,6 +1,6 @@
 # Nädal 3: SQL JOINs
 
-## ALAÜLESANDE KAART D — Müügikanalid + Kliendid (INNER JOIN + mitme tabeli JOIN) – Eike
+## ALAÜLESANDE KAART D — Müügikanalid + Kliendid (INNER JOIN + mitme tabeli JOIN)
 
 Mina analüüsisin turunduskanaleid 3 tabeli JOIN-iga (sales + customers + products).  
 Tuvastasin, et pärast 5116 duplikaatse rea eemaldamist on UrbanStyle’i "äritõde" järgmine:
@@ -16,7 +16,7 @@ Tuvastasin, et pärast 5116 duplikaatse rea eemaldamist on UrbanStyle’i "ärit
   Poodides domineerib *naiste riided* (1362 ostu, top toode: “Praktiline džersii seelik”).
 
 - **VIP-klient:**  
-  Suurim klient on Kevin Org (ID 2997), kes on teinud 78 ostu kogusummas 23 467,13 €.  
+  Kõrgeima väärtusega klient oli Kevin Org (ID 2997), kes on teinud 78 ostu kogusummas 23 467,13 €.  
   Tema kalleim ost oli “Õhulised goretex tennised” (1750,95 €) online-poest.
 
 ---
@@ -49,3 +49,13 @@ Suurim üllatus oli online-kanali tugevus, mis on tehingute arvult peaaegu samav
 
 UrbanStyle’i kasvumootor peitub online-kanali ja Tallinna esinduskaupluse sünergias.  
 Need kaks kanalit ei konkureeri, vaid täiendavad teineteist. Tallinn annab tugeva kliendibaasi ja brändituntuse, online-kanal võimaldab teenindada kliente üle Eesti ja 24/7.
+
+## AI kasutamine
+
+Kasutasin AI abi SQL JOIN päringute kontrollimiseks, tulemuste tõlgendamiseks ning äriliste järelduste sõnastamiseks.
+
+## Failid
+
+- `week3_müügikanalid_klientid_joins.sql` — SQL JOIN analüüs
+- `screenshots/` — tulemuste visualiseerimised
+- `team/week3_team_joins_summary.md` — meeskonna kokkuvõte

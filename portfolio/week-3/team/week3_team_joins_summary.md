@@ -1,4 +1,5 @@
 # Nädal 3: SQL JOINs  
+
 ## UrbanStyle – Äritõe analüüs  
 
 **Meeskond:** Tooteanalüüsi osakond
