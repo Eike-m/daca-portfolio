@@ -1,223 +1,34 @@
 # Nädal 7: Python Pandas — RFM kliendisegmenteerimine
 
+## Projekti eesmärk
+
+Meie meeskond viis läbi UrbanStyle kliendiandmete RFM analüüsi Python pandas abil. Projekti eesmärk oli laadida ja puhastada kliendi- ning müügiandmed, arvutada Recency, Frequency ja Monetary mõõdikud ning leida kõige väärtuslikumad kliendisegmendid ja churn-riskis kliendid.
+
 ## Minu roll
 
-### Roll D — Visualization (Visualiseerimine ja leiud)
+**Roll D — Visualization (Visualiseerimine ja äritõlgendus)**
 
-Minu ülesanne oli luua Plotly abil kliendisegmente visualiseerivad diagrammid ning koostada UrbanStyle’i tootehaldurile Marko Saarele ärilised järeldused ja soovitused.
+Minu ülesanne oli luua Plotly abil visualiseeringud RFM analüüsi tulemuste esitamiseks ning koostada äritõlgendus ja soovitused Markole. Lõin 3 diagrammi:
+- kliendisegmentide jaotuse
 
-Loodud visualiseerimised:
-- kliendisegmentide jaotus,
-- hajuvusdiagramm (Recency vs Monetary),
-- TOP 10 VIP klienti kogukulutuse järgi,
-- kaalutud RFM segmentide jaotus.
+![Kliendisegmentide jaotus](team/customer-segments.png)
 
-Lisaks koostasin:
-- äritõlgenduse Markole,
-- VIP programmi soovitused,
-- win-back kampaania soovitused,
-- nurture programmi ideed.
+- hajuvusdiagrammi klientide ostukäitumise visualiseerimiseks
 
----
+![VIP klientide analüüs](team/vip-customer-analysis.png)
+
+- TOP 10 VIP kliendi kogukulutuse diagrammi
+
+![TOP 10 VIP kliendid](team/top-10-vip-customers.png)
 
 ## Peamised leiud
 
-- VIP Champions kliendid moodustasid kõige väärtuslikuma kliendisegmendi ning nende kogukulutus jäi enamasti vahemikku 20 000 € – 30 000 €.
-
-- At Risk segment sisaldas üle 500 kliendi, mis näitas vajadust kiirete win-back kampaaniate järele.
-
-- Kaalutud RFM mudel näitas, et kliendi rahaline väärtus mõjutab segmenteerimist oluliselt rohkem kui ainult ostusagedus või viimase ostu aeg.
-
-- TOP 10 VIP klientide analüüs näitas, et suurimate klientide individuaalne kogukulutus ulatus ligi 28 000 euroni.
-
----
+- **519 VIP Champions klienti (20.4%)** moodustavad UrbanStyle’i kõige väärtuslikuma kliendisegmendi ning nende kogukulutus on oluliselt kõrgem kui teistel klientidel.
+- TOP 10 VIP kliendi kogukulutus jäi vahemikku umbes **20 000–28 000 eurot**, mis näitab tugevat käibe koondumist väikese kliendigrupi kätte.
+- **381 At Risk klienti (15.0%)** vajavad kiiret tähelepanu, sest nende ostuaktiivsus on langenud ning osa väärtuslikest klientidest võib olla churn-riskis.
+- Scatter-diagramm näitas, et VIP kliendid paiknevad madala recency ja kõrge monetary piirkonnas, mis viitab tugevale lojaalsusele ja kõrgele äriväärtusele.
+- Segmentide jaotus näitab, et erinevad kliendigrupid vajavad erinevaid turundus- ja kommunikatsioonistrateegiaid.
 
 ## AI kasutamine
 
-Kasutasin AI abi:
-- Plotly diagrammide kujunduse täiustamiseks,
-- annotatsioonide ja telgede paigutuse optimeerimiseks,
-- pandas ja Plotly süntaksi kontrollimiseks,
-- markdown sektsioonide ja äritõlgenduste sõnastamiseks.
-
-AI aitas parandada visualiseerimiste professionaalset kvaliteeti ning kiirendas tehniliste probleemide lahendamist.
-
-# GT - UrbanStyle RFM kliendisegmenteerimine
-
-## Projekti eesmärk
-
-Selle projekti eesmärk oli analüüsida UrbanStyle’i kliendiandmeid Python pandas abil ning jagada kliendid RFM (Recency, Frequency, Monetary) meetodi põhjal erinevatesse segmentidesse.
-
-Analüüsi eesmärk oli aidata UrbanStyle’i tootehalduril Marko Saarel mõista:
-- kes on ettevõtte kõige väärtuslikumad kliendid,
-- millised kliendid on ostmise lõpetamise riskis,
-- kuidas luua personaalsemaid turunduskampaaniaid.
-
----
-
-# Notebook’i struktuur
-
-## 1. Sissejuhatus
-
-Selles markdown-lahtris kirjeldatakse projekti eesmärki, Marko väljakutset ning RFM analüüsi ärilist eesmärki.
-
-Miks see vajalik on:
-- annab notebook’ile konteksti,
-- selgitab analüüsi eesmärki,
-- muudab töö arusaadavaks teistele lugejatele.
-
----
-
-## 2. Data Loading — Andmete laadimine ja liitmine
-
-Selles sektsioonis laaditi:
-- müügiandmed (`sales.csv`)
-- kliendiandmed (`customers.csv`)
-
-ning ühendati need üheks terviklikuks DataFrame’iks.
-
-Kasutatud funktsioonid:
-- `pd.read_csv()`
-- `pd.merge()`
-
-Miks see vajalik on:
-- ühendada kliendi- ja müügiinfo,
-- luua alus edasiseks analüüsiks,
-- kontrollida andmete kvaliteeti (`shape`, `dtypes`, `head()`).
-
----
-
-## 3. Data Cleaning — Andmete puhastamine
-
-Selles etapis puhastati andmed enne analüüsi.
-
-Teostatud tegevused:
-- duplikaatide eemaldamine,
-- NULL väärtuste kontroll,
-- kuupäevade teisendamine datetime formaati,
-- vigaste ja negatiivsete väärtuste eemaldamine.
-
-Miks see vajalik on:
-- tagada korrektne ja usaldusväärne analüüs,
-- vältida vigaseid ärijäreldusi,
-- parandada andmete kvaliteeti.
-
----
-
-## 4. RFM Analysis — Kliendisegmenteerimine
-
-Selles sektsioonis arvutati iga kliendi kohta:
-- Recency — päevad viimasest ostust,
-- Frequency — ostude arv,
-- Monetary — kogukulutus.
-
-Kasutatud funktsioonid:
-- `groupby()`
-- `agg()`
-- `pd.qcut()`
-
-Klientidele määrati:
-- RFM skoorid,
-- kliendisegmendid.
-
-Miks see vajalik on:
-- tuvastada kõige väärtuslikumad kliendid,
-- leida riskikliendid,
-- toetada turundusotsuseid.
-
----
-
-## 5. Visualization — Visualiseerimine
-
-Selles osas loodi Plotly abil mitu diagrammi:
-1. Kliendisegmentide jaotus
-2. Hajuvusdiagramm (Recency vs Monetary)
-3. TOP 10 VIP klienti
-4. Kaalutud RFM segmentide jaotus
-
-## Kliendisegmentide jaotus
-
-![Segmentide jaotus](team/segmentide_jaotus.png)
-
-## Hajuvusdiagramm
-
-![Scatter plot](team/scatter_plot.png)
-
-## TOP 10 VIP klienti
-
-![TOP 10 VIP](team/top10_vip.png)
-
-## Kaalutud RFM segmenteerimine
-
-![Weighted RFM](team/weighted_rfm.png)
-
-Miks see vajalik on:
-- muuta andmed visuaalselt arusaadavaks,
-- aidata tuvastada olulisi mustreid,
-- toetada juhtimisotsuseid.
-
----
-
-## 6. Edasijõudnute tase — Kaalutud RFM
-
-Selles etapis loodi:
-- kaalutud RFM skoor,
-- detailsem segmenteerimine,
-- CSV eksport turundusmeeskonna jaoks.
-
-Monetary skoor sai 2x kaalu, sest kliendi rahaline väärtus on ettevõtte jaoks kõige olulisem mõõdik.
-
-Loodi järgmised segmendid:
-- VIP Champions
-- Loyal Customers
-- Regular Customers
-- New Customers
-- At Risk
-- Lost
-
-Kõik segmendid eksporditi faili:
-`rfm_segments.csv`
-
----
-
-## 7. Äritõlgendus ja soovitused
-
-Selles sektsioonis koostati:
-- peamised ärilised järeldused,
-- soovitused Markole,
-- VIP programmi ideed,
-- win-back kampaaniad,
-- nurture programmi soovitused.
-
-Miks see vajalik on:
-- siduda andmeanalüüs reaalse äriväärtusega,
-- toetada ettevõtte turundusstrateegiat,
-- aidata kasvatada kliendilojaalsust ja käivet.
-
----
-
-## 8. Meeskonna refleksioon
-
-Viimases markdown-lahtris analüüsis meeskond:
-- mis oli suurim üllatus,
-- milline on peamine soovitus Markole,
-- milliseid lisaandmeid oleks tulevikus vaja.
-
-Miks see vajalik on:
-- hinnata analüüsi kvaliteeti,
-- mõelda järgmiste analüüside parendustele,
-- arendada analüütilist mõtlemist.
-
----
-
-## AI kasutamine
-
-AI-d kasutati:
-- pandas süntaksi kontrollimiseks,
-- Plotly visualiseerimiste täiustamiseks,
-- annotatsioonide ja kujunduse optimeerimiseks,
-- markdown sektsioonide sõnastamiseks,
-- README koostamiseks.
-
-AI aitas kiirendada tehnilist tööprotsessi ning parandada visualiseerimiste professionaalset kvaliteeti.
-
+Kasutasin AI abi Plotly visualiseerimiste täiustamiseks ja kujunduse parandamiseks. AI aitas selgitada Plotly süntaksit, hajuvusdiagrammi kujundamist ning kuidas rakendada Knaflic’u põhimõtteid clutter’i vähendamiseks ja graafikute loetavuse parandamiseks.

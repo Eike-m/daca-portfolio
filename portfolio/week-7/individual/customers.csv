@@ -1,13 +1,13 @@
-customer_id,first_name,last_name,email,phone,city,registration_date,loyalty_tier,birth_year
+﻿customer_id,first_name,last_name,email,phone,city,registration_date,loyalty_tier,birth_year
 2001,Eha,Aas,eha.aas@telia.ee,+372 8713 1455,Tallinn,2024-02-27,,1973
 2002,Aivar,Kõiv,aivar.koiv@outlook.com,+372 8943 8684,Haapsalu,2025-01-09,bronze,1988
 2003,Maris,Rebane,maris.rebane@telia.ee,+372 5918 5726,Tartu,2021-02-03,,1999
-2004,Jaak,Talvik,jaak.talvik@mail.ee,+372 8554 4232,Tallinn,2023-11-12,silver,1974
+2004,Jaak,Talvik,jaak.talvik@mail.ee,+372 8554 4232, Tallinn,2023-11-12,silver,1974
 2005,Raivo,Koppel,raivo.koppel@yahoo.com,+372 5298 4365,Tallinn,2023-05-22,bronze,2004
 2006,Aili,Must,,+372 5444 0491,Pärnu,2022-01-04,,1986
 2007,Ragnar,Männik,ragnar.mannik@gmail.com,+372 5554 6619,Pärnu,2024-11-30,silver,1977
 2008,Külli,Paas,kulli.paas@mail.ee,+372 8543 4045,Tartu,2020-06-15,gold,1966
-2009,Madis,Mitt,madis.mitt@yahoo.com,+372 5917 7491,Narva,2021-02-03,silver,1968
+2009,Madis,Mitt,madis.mitt@yahoo.com,+372 5917 7491,Narva ,2021-02-03,silver,1968
 2010,Indrek,Lill,indrek.lill@mail.ee,+372 8736 0957,Tartu,2023-10-09,,1979
 2011,Tiina,Rebane,tiina.rebane@yahoo.com,+372 8186 5628,Narva,2025-02-04,bronze,1994
 2012,Merle,Kukk,merle.kukk@outlook.com,+372 5770 1141,Võru,2022-12-27,silver,1981
@@ -25,16 +25,16 @@ customer_id,first_name,last_name,email,phone,city,registration_date,loyalty_tier
 2024,Rain,Lõhmus,rain.lohmus@outlook.com,+372 5210 1774,Valga,2024-05-09,bronze,1987
 2025,Väino,Lepik,vaino.lepik@gmail.com,+372 5449 1787,Tallinn,2022-06-30,,1982
 2026,Kati,Mitt,kati.mitt@gmail.com,+372 5373 7888,Tallinn,2021-12-29,,1969
-2027,Heli,Laas,heli.laas@mail.ee,+372 8546 6353,Tallinn,2020-09-28,gold,1995
+2027,Heli,Laas,heli.laas@mail.ee,+372 8546 6353, Tallinn,2020-09-28,gold,1995
 2028,Tiina,Saar,tiina.saar@telia.ee,+372 5846 0072,Tallinn,2023-02-26,gold,1984
-2029,Meelis,Lill,meelis.lill@gmail.com,+372 5991 9314,Kuressaare,2020-05-04,,1989
+2029,Meelis,Lill,meelis.lill@gmail.com,+372 5991 9314,kuressaare,2020-05-04,,1989
 2030,Rein,Lill,rein.lill@hot.ee,+372 8524 5422,Tartu,2021-12-05,silver,1982
 2031,Ants,Kangur,ants.kangur@mail.ee,+372 5627 0543,Narva,2022-11-19,gold,1981
 2032,Tiit,Toom,tiit.toom@gmail.com,+372 5130 0048,Tallinn,2024-10-29,bronze,1961
 2033,Rein,Teder,rein.teder@hot.ee,+372 8377 2899,Tallinn,2020-07-07,,1990
 2034,Pille,Lepik,pille.lepik@hot.ee,+372 8976 0123,Tallinn,2021-06-08,,1987
-2035,Mihkel,Pärn,mihkel.parn@gmail.com,+372 5487 7733,Viljandi,2023-04-25,silver,1976
-2036,Sigrid,Põld,sigrid.pold@gmail.com,+372 5695 9740,Tartu,2022-01-04,gold,1967
+2035,Mihkel,Pärn,mihkel.parn@gmail.com,+372 5487 7733, Viljandi,2023-04-25,silver,1976
+2036,Sigrid,Põld,sigrid.pold@gmail.com,+372 5695 9740,TARTU,2022-01-04,gold,1967
 2037,Lea,Veski,lea.veski@telia.ee,+372 8413 7523,Tartu,2022-04-07,,1971
 2038,Jüri,Kask,juri.kask@telia.ee,+372 5123 3391,Narva,2020-09-18,gold,1992
 2039,Urmas,Rebane,,+372 5744 9953,Haapsalu,2024-12-14,bronze,1975
@@ -72,7 +72,7 @@ customer_id,first_name,last_name,email,phone,city,registration_date,loyalty_tier
 2071,Tarmo,Põld,tarmo.pold@outlook.com,+372 5329 9544,Tartu,2023-06-12,,1983
 2072,Heino,Tammik,,+372 5809 7655,Tallinn,2022-04-01,silver,1997
 2073,Madis,Roots,madis.roots@mail.ee,+372 5235 7953,Valga,2020-02-08,bronze,2005
-2074,Kalev,Raud,kalev.raud@hot.ee,+372 8244 8155,Tartu,2021-02-18,gold,2004
+2074,Kalev,Raud,kalev.raud@hot.ee,+372 8244 8155, Tartu,2021-02-18,gold,2004
 2075,Piret,Lõoke,piret.looke@outlook.com,+372 5989 9847,Kuressaare,2020-12-31,,1992
 2076,Terje,Nurk,terje.nurk@hot.ee,+372 5576 1836,Kuressaare,2023-08-21,silver,1988
 2077,Siim,Must,siim.must@outlook.com,+372 5869 4963,Tallinn,2021-03-03,silver,1998
@@ -82,7 +82,7 @@ customer_id,first_name,last_name,email,phone,city,registration_date,loyalty_tier
 2081,Kaido,Lass,kaido.lass@telia.ee,+372 5499 7023,Tartu,2021-03-28,,2005
 2082,Kristi,Rebane,kristi.rebane@hot.ee,+372 8518 5264,Võru,2023-08-08,bronze,1990
 2083,Heino,Kuusk,heino.kuusk@mail.ee,+372 5269 1935,Valga,2024-02-14,bronze,2004
-2084,Grete,Must,grete.must@yahoo.com,+372 5927 5478,Tallinn,2021-04-17,gold,1973
+2084,Grete,Must,grete.must@yahoo.com,+372 5927 5478,Tallinn ,2021-04-17,gold,1973
 2085,Henri,Lill,henri.lill@gmail.com,+372 5564 0190,Tartu,2022-01-04,gold,1985
 2086,Kati,Kangur,kati.kangur@yahoo.com,+372 8912 3774,Tallinn,2024-12-21,bronze,1977
 2087,Taavi,Sepp,taavi.sepp@telia.ee,+372 5208 8747,Tallinn,2021-12-05,gold,1975
@@ -90,7 +90,7 @@ customer_id,first_name,last_name,email,phone,city,registration_date,loyalty_tier
 2089,Lea,Pärn,lea.parn@gmail.com,+372 5414 9061,Tartu,2024-06-25,,1996
 2090,Taavi,Koppel,taavi.koppel@yahoo.com,+372 5773 9970,Tartu,2021-03-23,gold,1973
 2091,Rasmus,Mägi,rasmus.magi@mail.ee,+372 5737 0245,Pärnu,2024-06-14,bronze,1961
-2092,Ene,Pihl,ene.pihl@telia.ee,+372 8700 6461,Tartu,2024-01-04,bronze,1976
+2092,Ene,Pihl,ene.pihl@telia.ee,+372 8700 6461,Tartu ,2024-01-04,bronze,1976
 2093,Merike,Luik,merike.luik@gmail.com,+372 5879 2212,Tartu,2023-01-25,,1960
 2094,Pille,Must,pille.must@telia.ee,+372 5305 7043,Tallinn,2024-12-17,,1999
 2095,Madis,Lill,madis.lill@telia.ee,+372 5401 9865,Kuressaare,2020-02-19,gold,1994
@@ -128,7 +128,7 @@ customer_id,first_name,last_name,email,phone,city,registration_date,loyalty_tier
 2127,Karin,Männik,karin.mannik@gmail.com,+372 5171 3304,Tallinn,2021-10-16,silver,1970
 2128,Kristi,Kuusk,kristi.kuusk@gmail.com,+372 5709 8624,Tartu,2021-01-05,gold,1964
 2129,Anu,Oja,anu.oja@mail.ee,+372 8571 8445,Tallinn,2021-02-20,,2004
-2130,Marko,Kaalep,marko.kaalep@mail.ee,+372 8889 4959,Tallinn,2022-06-01,bronze,2005
+2130,Marko,Kaalep,marko.kaalep@mail.ee,+372 8889 4959, Tallinn,2022-06-01,bronze,2005
 2131,Elis,Põld,elis.pold@hot.ee,+372 8422 8573,Tallinn,2024-11-22,,1977
 2132,Sigrid,Paas,sigrid.paas@gmail.com,+372 5715 5610,Paide,2021-03-30,silver,1969
 2133,Margus,Roots,margus.roots@mail.ee,+372 8729 3324,Tallinn,2023-12-09,bronze,1996
@@ -147,13 +147,13 @@ customer_id,first_name,last_name,email,phone,city,registration_date,loyalty_tier
 2146,Eha,Luik,eha.luik@telia.ee,+372 5119 7750,Haapsalu,2024-09-07,bronze,1990
 2147,Anna,Sepp,anna.sepp@outlook.com,+372 8152 2970,Tallinn,2024-07-08,silver,1988
 2148,Madis,Lass,madis.lass@telia.ee,+372 5998 8801,Rakvere,2024-11-11,bronze,1991
-2149,Ago,Rand,ago.rand@yahoo.com,+372 5680 4493,Pärnu,2021-07-30,gold,1985
+2149,Ago,Rand,ago.rand@yahoo.com,+372 5680 4493,Pärnu ,2021-07-30,gold,1985
 2150,Külli,Talvik,kulli.talvik@telia.ee,+372 5118 9029,Paide,2024-11-25,,1970
-2151,Tõnu,Valk,,+372 5171 2151,Pärnu,2024-01-27,,1983
+2151,Tõnu,Valk,,+372 5171 2151,PÄRNU,2024-01-27,,1983
 2152,Margus,Kukk,margus.kukk@hot.ee,+372 5391 1046,Pärnu,2024-11-20,bronze,1998
 2153,Maie,Roots,maie.roots@hot.ee,+372 5391 8633,Pärnu,2022-11-23,,1999
 2154,Annika,Saar,annika.saar@telia.ee,+372 8171 9699,Viljandi,2021-08-05,gold,1964
-2155,Siim,Männik,siim.mannik@hot.ee,+372 5653 2400,Tartu,2024-08-30,silver,1978
+2155,Siim,Männik,siim.mannik@hot.ee,+372 5653 2400, Tartu,2024-08-30,silver,1978
 2156,Rasmus,Rosin,rasmus.rosin@hot.ee,+372 5590 2916,Tallinn,2020-09-29,,1971
 2157,Raivo,Salu,raivo.salu2@yahoo.com,+372 5980 8899,Tartu,2023-08-06,,1996
 2158,Rein,Kull,rein.kull@telia.ee,+372 5629 8741,Haapsalu,2023-12-13,,1963
@@ -173,11 +173,11 @@ customer_id,first_name,last_name,email,phone,city,registration_date,loyalty_tier
 2172,Eha,Kivi,eha.kivi@hot.ee,+372 8826 2105,Tallinn,2020-04-08,silver,1985
 2173,Heli,Mets,heli.mets@yahoo.com,+372 5248 9061,Tartu,2024-11-02,,1998
 2174,Piret,Kask,piret.kask@telia.ee,+372 8529 5792,Jõhvi,2023-01-11,bronze,1984
-2175,Olev,Kull,olev.kull@hot.ee,+372 8266 5120,Valga,2021-09-01,,1990
+2175,Olev,Kull,olev.kull@hot.ee,+372 8266 5120,valga,2021-09-01,,1990
 2176,Sandra,Pihl,sandra.pihl@mail.ee,+372 5789 0040,Haapsalu,2020-07-12,gold,2004
 2177,Reet,Liiv,reet.liiv@telia.ee,+372 5225 5120,Pärnu,2023-06-08,silver,2003
 2178,Karin,Oja,karin.oja@mail.ee,+372 5343 5328,Tallinn,2023-01-28,silver,2005
-2179,Piret,Must,piret.must@yahoo.com,+372 5909 1794,Tartu,2020-07-14,gold,1998
+2179,Piret,Must,piret.must@yahoo.com,+372 5909 1794,Tartu ,2020-07-14,gold,1998
 2180,Sirje,Kangur,sirje.kangur@outlook.com,+372 5858 4720,Rakvere,2023-02-11,bronze,2000
 2181,Erkki,Lass,erkki.lass@gmail.com,+372 5109 6404,Tartu,2021-06-29,gold,1978
 2182,Jaak,Kallas,jaak.kallas@hot.ee,+372 5499 6869,Tallinn,2024-04-14,bronze,1986
@@ -199,11 +199,11 @@ customer_id,first_name,last_name,email,phone,city,registration_date,loyalty_tier
 2198,Ülle,Põld,ulle.pold@mail.ee,+372 5118 1864,Tallinn,2021-08-22,,1972
 2199,Riina,Luik,riina.luik@mail.ee,+372 5839 8084,Pärnu,2023-08-17,silver,1970
 2200,Urmas,Laas,urmas.laas@outlook.com,+372 5693 3170,Tartu,2022-10-22,,1985
-2201,Kevin,Pihl,kevin.pihl@gmail.com,+372 5129 1969,Tartu,2020-02-29,gold,1970
+2201,Kevin,Pihl,kevin.pihl@gmail.com,+372 5129 1969,Tartu ,2020-02-29,gold,1970
 2202,Indrek,Org,indrek.org@yahoo.com,+372 5678 1013,Tallinn,2021-02-22,,1991
 2203,Ago,Kukk,,+372 5668 0293,Pärnu,2020-08-09,silver,1976
 2204,Ene,Org,ene.org@outlook.com,+372 5754 0430,Tartu,2024-03-08,bronze,1994
-2205,Liina,Kivi,,+372 5586 7275,Tallinn,2021-08-04,gold,1979
+2205,Liina,Kivi,,+372 5586 7275,TALLINN,2021-08-04,gold,1979
 2206,Ago,Lõoke,,+372 5135 5389,Viljandi,2020-01-20,,1961
 2207,Kalev,Mägi,kalev.magi@yahoo.com,+372 8895 2450,Viljandi,2021-07-03,gold,2003
 2208,Rasmus,Rand,rasmus.rand@mail.ee,+372 5580 6096,Tallinn,2021-10-20,silver,1970
@@ -222,7 +222,7 @@ customer_id,first_name,last_name,email,phone,city,registration_date,loyalty_tier
 2221,Riina,Lill,riina.lill@mail.ee,+372 5499 5996,Pärnu,2021-10-02,,2000
 2222,Marko,Nõmm,marko.nomm@telia.ee,+372 5675 4687,Tallinn,2021-03-02,,1977
 2223,Meelis,Kivi,,+372 5842 0762,Tartu,2022-06-11,,1973
-2224,Raivo,Kuusk,raivo.kuusk@hot.ee,+372 5345 7078,Pärnu,2025-01-01,bronze,1966
+2224,Raivo,Kuusk,raivo.kuusk@hot.ee,+372 5345 7078,pärnu,2025-01-01,bronze,1966
 2225,Meelis,Tamm,meelis.tamm@yahoo.com,+372 8166 7146,Tallinn,2023-07-10,gold,1966
 2226,Olev,Arro,olev.arro@hot.ee,+372 8372 5804,Jõhvi,2022-10-22,silver,1968
 2227,Mihkel,Rosin,mihkel.rosin@yahoo.com,+372 5230 7791,Narva,2022-05-14,silver,1963
@@ -238,19 +238,19 @@ customer_id,first_name,last_name,email,phone,city,registration_date,loyalty_tier
 2237,Madis,Kangur,madis.kangur@mail.ee,+372 5895 1338,Narva,2024-02-01,bronze,2003
 2238,Tõnu,Kull,tonu.kull@gmail.com,+372 5568 0772,Rakvere,2021-09-01,gold,1996
 2239,Sander,Ilves,sander.ilves@gmail.com,+372 8409 0099,Tallinn,2022-11-20,,2004
-2240,Urmas,Lass,urmas.lass@outlook.com,+372 5838 5175,Tallinn,2020-05-09,,1983
+2240,Urmas,Lass,urmas.lass@outlook.com,+372 5838 5175,tallinn,2020-05-09,,1983
 2241,Lea,Mets,lea.mets@telia.ee,+372 8540 8965,Pärnu,2020-02-08,,1974
 2242,Ene,Kull,ene.kull@hot.ee,+372 5175 0547,Tartu,2022-11-27,,1973
-2243,Anna,Veski,anna.veski@yahoo.com,+372 5631 7331,Pärnu,2020-09-16,gold,1971
+2243,Anna,Veski,anna.veski@yahoo.com,+372 5631 7331, Pärnu,2020-09-16,gold,1971
 2244,Aivar,Ilves,aivar.ilves@gmail.com,+372 8651 7331,Rakvere,2021-06-08,gold,1982
 2245,Kevin,Liiv,kevin.liiv@yahoo.com,+372 5865 2530,Tallinn,2023-08-04,,1966
 2246,Kadri,Nurk,kadri.nurk@gmail.com,+372 5307 3375,Paide,2023-04-05,silver,2004
 2247,Külli,Pihl,kulli.pihl@hot.ee,+372 5108 9802,Jõhvi,2020-01-22,silver,1976
-2248,Kristiina,Lill,kristiina.lill@mail.ee,+372 5309 5636,Tallinn,2021-03-10,,1984
+2248,Kristiina,Lill,kristiina.lill@mail.ee,+372 5309 5636, Tallinn,2021-03-10,,1984
 2249,Ago,Koppel,ago.koppel@yahoo.com,+372 5606 9047,Tallinn,2024-09-13,gold,1969
 2250,Heino,Kivi,heino.kivi@telia.ee,+372 8618 3955,Kuressaare,2023-05-11,,1981
-2251,Rein,Orav,rein.orav@gmail.com,+372 5968 9149,Tallinn,2022-05-14,gold,2004
-2252,Reet,Laas,reet.laas@outlook.com,+372 8268 7935,Tallinn,2020-01-11,,1965
+2251,Rein,Orav,rein.orav@gmail.com,+372 5968 9149,Tallinn ,2022-05-14,gold,2004
+2252,Reet,Laas,reet.laas@outlook.com,+372 8268 7935,Tallinn ,2020-01-11,,1965
 2253,Kati,Luik,kati.luik@telia.ee,+372 8507 3805,Tallinn,2022-02-18,silver,1976
 2254,Kristjan,Roots,kristjan.roots@telia.ee,+372 5779 0221,Tallinn,2023-06-12,,1982
 2255,Nele,Rebane,nele.rebane@yahoo.com,+372 5149 6896,Tallinn,2021-10-27,,1983
@@ -299,7 +299,7 @@ customer_id,first_name,last_name,email,phone,city,registration_date,loyalty_tier
 2298,Heino,Lõhmus,heino.lohmus@hot.ee,+372 8144 4487,Tallinn,2021-09-14,silver,2005
 2299,Indrek,Kuusk,,+372 5252 1264,Pärnu,2023-01-31,silver,1992
 2300,Piret,Raud,piret.raud@telia.ee,+372 5754 9870,Tallinn,2022-10-13,,1979
-2301,Siim,Nõmm,siim.nomm@mail.ee,+372 5278 9497,Tartu,2022-05-05,bronze,1987
+2301,Siim,Nõmm,siim.nomm@mail.ee,+372 5278 9497,tartu,2022-05-05,bronze,1987
 2302,Urmas,Tammik,urmas.tammik@mail.ee,+372 5762 4966,Tartu,2023-08-23,silver,1963
 2303,Annika,Saar,annika.saar@gmail.com,+372 5799 0312,Pärnu,2022-11-18,,1994
 2304,Tiit,Rosin,tiit.rosin@mail.ee,+372 5270 3518,Tallinn,2021-02-27,bronze,1988
@@ -326,7 +326,7 @@ customer_id,first_name,last_name,email,phone,city,registration_date,loyalty_tier
 2325,Elis,Valk,elis.valk@mail.ee,+372 5860 3063,Tartu,2023-03-17,,2003
 2326,Tarmo,Luik,tarmo.luik@gmail.com,+372 8276 4560,Tallinn,2020-04-01,,1979
 2327,Arvo,Arro,arvo.arro@yahoo.com,+372 5243 0225,Tallinn,2023-10-03,bronze,1975
-2328,Anu,Kuusk,anu.kuusk@mail.ee,+372 5950 1837,Paide,2024-09-13,silver,1987
+2328,Anu,Kuusk,anu.kuusk@mail.ee,+372 5950 1837, Paide,2024-09-13,silver,1987
 2329,Indrek,Puusepp,indrek.puusepp@hot.ee,+372 5941 4544,Rakvere,2023-02-08,,1991
 2330,Nele,Pihl,nele.pihl@telia.ee,+372 5335 4903,Pärnu,2021-11-26,gold,1995
 2331,Katrin,Kivi,katrin.kivi@mail.ee,+372 5323 3709,Tallinn,2020-05-08,,1986
@@ -336,13 +336,13 @@ customer_id,first_name,last_name,email,phone,city,registration_date,loyalty_tier
 2335,Kersti,Laas,kersti.laas@outlook.com,+372 5110 8018,Tartu,2023-04-14,silver,1964
 2336,Lea,Orav,lea.orav@telia.ee,+372 5162 1010,Rakvere,2021-04-21,,1973
 2337,Enn,Põld,enn.pold@yahoo.com,+372 5454 9646,Tartu,2024-01-14,,1984
-2338,Kevin,Pärn,kevin.parn@telia.ee,+372 5670 5581,Tallinn,2022-09-19,silver,1971
+2338,Kevin,Pärn,kevin.parn@telia.ee,+372 5670 5581,Tallinn ,2022-09-19,silver,1971
 2339,Margus,Lass,margus.lass@outlook.com,+372 5567 1285,Kuressaare,2020-12-10,bronze,1970
-2340,Meelis,Rebane,meelis.rebane@hot.ee,+372 5452 0065,Tallinn,2020-05-07,,1987
+2340,Meelis,Rebane,meelis.rebane@hot.ee,+372 5452 0065,Tallinn ,2020-05-07,,1987
 2341,Jüri,Männik,juri.mannik@gmail.com,+372 5924 2850,Tallinn,2024-08-10,silver,1996
-2342,Andres,Saar,andres.saar@hot.ee,+372 5949 0184,Pärnu,2023-08-22,,1989
+2342,Andres,Saar,andres.saar@hot.ee,+372 5949 0184,pärnu,2023-08-22,,1989
 2343,Tarmo,Nõmm,tarmo.nomm@outlook.com,+372 5581 8430,Jõhvi,2020-09-21,gold,1986
-2344,Liis,Lõoke,liis.looke@gmail.com,+372 5191 6326,Tartu,2020-01-29,gold,1998
+2344,Liis,Lõoke,liis.looke@gmail.com,+372 5191 6326,TARTU,2020-01-29,gold,1998
 2345,Mart,Mitt,mart.mitt@hot.ee,+372 5998 9459,Tartu,2024-11-20,bronze,1998
 2346,Külli,Kuusik,kulli.kuusik@telia.ee,+372 5938 2192,Tallinn,2022-04-06,,1988
 2347,Lea,Aas,,+372 5495 0765,Pärnu,2020-05-05,bronze,1962
@@ -350,18 +350,18 @@ customer_id,first_name,last_name,email,phone,city,registration_date,loyalty_tier
 2349,Ene,Rebane,ene.rebane@gmail.com,+372 5418 4096,Jõhvi,2021-06-28,silver,1985
 2350,Madis,Sild,madis.sild@mail.ee,+372 5662 7770,Haapsalu,2021-06-28,,1982
 2351,Lauri,Nõmm,lauri.nomm@telia.ee,+372 5719 6649,Tartu,2021-08-30,gold,1971
-2352,Reet,Lepp,reet.lepp2@outlook.com,+372 5172 8034,Tallinn,2025-01-30,bronze,2003
+2352,Reet,Lepp,reet.lepp2@outlook.com,+372 5172 8034,tallinn,2025-01-30,bronze,2003
 2353,Elis,Põld,,+372 8547 7381,Tallinn,2020-09-23,,1971
-2354,Rain,Männik,rain.mannik@gmail.com,+372 5113 1098,Tallinn,2023-12-04,bronze,1984
+2354,Rain,Männik,rain.mannik@gmail.com,+372 5113 1098,tallinn,2023-12-04,bronze,1984
 2355,Indrek,Mets,indrek.mets@mail.ee,+372 5542 0622,Pärnu,2022-02-12,,1991
 2356,Meelis,Kaalep,meelis.kaalep@outlook.com,+372 5514 8816,Tallinn,2020-11-14,,1962
 2357,Rein,Valk,,+372 5674 7709,Kuressaare,2021-05-21,gold,1989
 2358,Elis,Liiv,elis.liiv@hot.ee,+372 5250 9531,Narva,2024-01-27,,1980
 2359,Rein,Rand,rein.rand@yahoo.com,+372 5161 5547,Tallinn,2021-12-25,,2003
 2360,Katrin,Luik,katrin.luik@hot.ee,+372 5953 7997,Tallinn,2022-12-30,bronze,1995
-2361,Maris,Pihl,,+372 8143 7686,Pärnu,2024-11-24,,1979
+2361,Maris,Pihl,,+372 8143 7686,PÄRNU,2024-11-24,,1979
 2362,Laura,Paas,laura.paas@mail.ee,+372 5345 2759,Tartu,2020-01-22,,1982
-2363,Tõnu,Tamm,tonu.tamm@hot.ee,+372 5843 2525,Tallinn,2021-12-20,gold,1962
+2363,Tõnu,Tamm,tonu.tamm@hot.ee,+372 5843 2525, Tallinn,2021-12-20,gold,1962
 2364,Kevin,Arro,kevin.arro@yahoo.com,+372 5242 1670,Tartu,2022-06-07,,2005
 2365,Väino,Mägi,vaino.magi@gmail.com,+372 5483 8447,Tallinn,2021-11-12,silver,1983
 2366,Liis,Kuusik,liis.kuusik@outlook.com,+372 5316 6467,Tallinn,2023-07-24,bronze,2001
@@ -393,7 +393,7 @@ customer_id,first_name,last_name,email,phone,city,registration_date,loyalty_tier
 2392,Kristiina,Talvik,kristiina.talvik@mail.ee,+372 8596 8690,Kuressaare,2023-05-30,silver,2005
 2393,Mihkel,Saar,mihkel.saar@telia.ee,+372 5499 7415,Tallinn,2023-12-21,bronze,1960
 2394,Marika,Koppel,marika.koppel@yahoo.com,+372 5343 1187,Tallinn,2022-12-05,,1971
-2395,Ülle,Nõmm,,+372 5668 0804,Tallinn,2021-01-20,bronze,1975
+2395,Ülle,Nõmm,,+372 5668 0804,TALLINN,2021-01-20,bronze,1975
 2396,Heino,Aas,heino.aas@mail.ee,+372 8896 7501,Narva,2022-02-18,gold,1999
 2397,Kalev,Puusepp,kalev.puusepp@outlook.com,+372 5367 9011,Rakvere,2020-11-08,,1984
 2398,Kadri,Värk,,+372 5114 4517,Tallinn,2022-08-17,silver,1989
@@ -415,7 +415,7 @@ customer_id,first_name,last_name,email,phone,city,registration_date,loyalty_tier
 2414,Riina,Veski,riina.veski@outlook.com,+372 5958 8115,Tartu,2022-07-29,silver,1963
 2415,Kadri,Sild,kadri.sild@hot.ee,+372 5139 7828,Tallinn,2025-02-15,,1968
 2416,Sander,Rosin,sander.rosin@telia.ee,+372 5458 7389,Tartu,2020-12-28,gold,1994
-2417,Kristjan,Lepp,kristjan.lepp@gmail.com,+372 5769 8481,Tartu,2020-06-27,,1993
+2417,Kristjan,Lepp,kristjan.lepp@gmail.com,+372 5769 8481,Tartu ,2020-06-27,,1993
 2418,Marit,Toom,marit.toom@outlook.com,+372 5877 2844,Tallinn,2022-04-22,,1962
 2419,Merle,Lass,merle.lass@gmail.com,+372 5851 5365,Viljandi,2022-03-12,,2001
 2420,Ene,Kangur,ene.kangur@mail.ee,+372 8303 7380,Tallinn,2020-11-04,,1971
@@ -423,7 +423,7 @@ customer_id,first_name,last_name,email,phone,city,registration_date,loyalty_tier
 2422,Arvo,Paas,arvo.paas@gmail.com,+372 8640 6047,Tartu,2023-02-24,silver,1968
 2423,Kristjan,Sild,kristjan.sild@mail.ee,+372 5252 1798,Jõhvi,2021-12-07,,1986
 2424,Anna,Arro,anna.arro@telia.ee,+372 5619 6424,Tartu,2023-05-07,silver,1979
-2425,Sirje,Ilves,sirje.ilves@gmail.com,+372 5143 5253,Pärnu,2021-12-07,silver,1960
+2425,Sirje,Ilves,sirje.ilves@gmail.com,+372 5143 5253,PÄRNU,2021-12-07,silver,1960
 2426,Merike,Sepp,,+372 8559 6012,Pärnu,2025-01-22,bronze,1977
 2427,Katrin,Lill,katrin.lill@gmail.com,+372 5725 1909,Viljandi,2023-08-12,bronze,1971
 2428,Grete,Arro,,+372 5304 7113,Tallinn,2024-01-18,bronze,2002
@@ -433,7 +433,7 @@ customer_id,first_name,last_name,email,phone,city,registration_date,loyalty_tier
 2432,Marko,Arro,marko.arro@mail.ee,+372 5422 2905,Tallinn,2022-10-05,silver,2003
 2433,Tarmo,Tammik,tarmo.tammik@hot.ee,+372 5683 2862,Tallinn,2020-10-17,gold,2000
 2434,Enn,Orav,enn.orav@outlook.com,+372 5552 9676,Tallinn,2023-05-19,silver,1972
-2435,Riina,Rosin,riina.rosin@gmail.com,+372 5770 6844,Tallinn,2023-08-19,,2001
+2435,Riina,Rosin,riina.rosin@gmail.com,+372 5770 6844,Tallinn ,2023-08-19,,2001
 2436,Grete,Kukk,grete.kukk2@hot.ee,+372 5638 5099,Tartu,2023-04-11,silver,1981
 2437,Kersti,Sepp,kersti.sepp@telia.ee,+372 8410 3020,Tallinn,2024-11-04,silver,1981
 2438,Indrek,Tamm,indrek.tamm@mail.ee,+372 5991 3908,Kuressaare,2024-04-30,,1988
@@ -452,7 +452,7 @@ customer_id,first_name,last_name,email,phone,city,registration_date,loyalty_tier
 2451,Lea,Oja,lea.oja@hot.ee,+372 5211 4638,Tallinn,2020-04-05,,1996
 2452,Enn,Kuusik,enn.kuusik@mail.ee,+372 5418 7932,Narva,2024-10-09,bronze,1974
 2453,Ants,Vaher,ants.vaher@outlook.com,+372 5824 2463,Pärnu,2025-02-12,bronze,1995
-2454,Margus,Kallas,margus.kallas2@telia.ee,+372 5146 5915,Pärnu,2023-10-23,bronze,1969
+2454,Margus,Kallas,margus.kallas2@telia.ee,+372 5146 5915,pärnu,2023-10-23,bronze,1969
 2455,Tõnu,Paas,tonu.paas@mail.ee,+372 5976 6565,Tallinn,2024-02-05,,1983
 2456,Liis,Must,liis.must@outlook.com,+372 5364 9898,Tallinn,2023-04-18,gold,1975
 2457,Merle,Toom,,+372 8294 5767,Viljandi,2020-01-24,silver,1973
@@ -477,18 +477,18 @@ customer_id,first_name,last_name,email,phone,city,registration_date,loyalty_tier
 2476,Lea,Rand,,+372 5137 5478,Pärnu,2021-01-21,bronze,1977
 2477,Ülle,Org,ulle.org@yahoo.com,+372 5784 2359,Tartu,2021-05-27,,1977
 2478,Kaido,Puusepp,kaido.puusepp@telia.ee,+372 5351 7353,Tallinn,2024-06-12,,1995
-2479,Laura,Ilves,laura.ilves@gmail.com,+372 5321 0919,Tartu,2020-07-23,gold,1961
+2479,Laura,Ilves,laura.ilves@gmail.com,+372 5321 0919, Tartu,2020-07-23,gold,1961
 2480,Katrin,Lass,katrin.lass@telia.ee,+372 5835 6128,Tartu,2024-12-14,silver,1964
 2481,Annika,Mets,,+372 5571 9839,Tartu,2022-02-14,,2003
 2482,Rein,Järv,,+372 5465 7371,Tallinn,2022-04-17,,1992
-2483,Kadri,Mitt,kadri.mitt@yahoo.com,+372 5364 1306,Jõhvi,2024-02-11,bronze,2001
-2484,Kersti,Liiv,kersti.liiv@gmail.com,+372 5919 2020,Tartu,2020-01-12,,1963
+2483,Kadri,Mitt,kadri.mitt@yahoo.com,+372 5364 1306, Jõhvi,2024-02-11,bronze,2001
+2484,Kersti,Liiv,kersti.liiv@gmail.com,+372 5919 2020, Tartu,2020-01-12,,1963
 2485,Erkki,Roots,erkki.roots@gmail.com,+372 5822 1263,Viljandi,2023-02-22,gold,1988
 2486,Sirje,Kukk,sirje.kukk@mail.ee,+372 8309 1171,Pärnu,2022-03-24,,1988
 2487,Rein,Must,rein.must@yahoo.com,+372 5898 8058,Narva,2022-03-24,,1978
 2488,Rasmus,Teder,rasmus.teder@mail.ee,+372 5520 0048,Valga,2024-02-22,bronze,1989
-2489,Liis,Salu,liis.salu@mail.ee,+372 5205 9979,Viljandi,2021-01-08,,1975
-2490,Arvo,Pärn,arvo.parn@yahoo.com,+372 5948 9233,Tallinn,2023-06-10,,1975
+2489,Liis,Salu,liis.salu@mail.ee,+372 5205 9979,viljandi,2021-01-08,,1975
+2490,Arvo,Pärn,arvo.parn@yahoo.com,+372 5948 9233,tallinn,2023-06-10,,1975
 2491,Elis,Toom,elis.toom@yahoo.com,+372 5459 7957,Pärnu,2023-08-06,bronze,1964
 2492,Reet,Männik,reet.mannik@hot.ee,+372 5693 2254,Valga,2023-08-25,bronze,2003
 2493,Kaido,Hurt,,+372 8305 0568,Viljandi,2022-02-06,silver,2000
@@ -505,7 +505,7 @@ customer_id,first_name,last_name,email,phone,city,registration_date,loyalty_tier
 2504,Madis,Lass,madis.lass@yahoo.com,+372 5893 4916,Narva,2021-06-20,,1961
 2505,Reet,Rosin,reet.rosin@telia.ee,+372 5107 6612,Tartu,2024-12-19,,1966
 2506,Margus,Toom,margus.toom@yahoo.com,+372 5323 6432,Pärnu,2024-05-21,,1990
-2507,Kersti,Lepik,kersti.lepik@mail.ee,+372 8487 8488,Tallinn,2024-10-26,,1998
+2507,Kersti,Lepik,kersti.lepik@mail.ee,+372 8487 8488,tallinn,2024-10-26,,1998
 2508,Aivar,Liiv,aivar.liiv@gmail.com,+372 5998 8756,Tallinn,2024-12-31,,1979
 2509,Marit,Koppel,marit.koppel@telia.ee,+372 5369 3259,Valga,2022-12-21,,1985
 2510,Anna,Kõiv,anna.koiv@hot.ee,+372 8445 7455,Narva,2020-09-21,,2001
@@ -532,7 +532,7 @@ customer_id,first_name,last_name,email,phone,city,registration_date,loyalty_tier
 2531,Ene,Arro,ene.arro@telia.ee,+372 5961 6726,Tallinn,2024-12-27,bronze,1984
 2532,Anna,Talvik,anna.talvik@gmail.com,+372 5882 9710,Haapsalu,2023-07-20,silver,1964
 2533,Aili,Orav,aili.orav@gmail.com,+372 5719 1101,Tartu,2020-02-11,gold,1986
-2534,Sander,Sild,sander.sild@outlook.com,+372 8241 5166,Tallinn,2022-12-29,gold,1975
+2534,Sander,Sild,sander.sild@outlook.com,+372 8241 5166, Tallinn,2022-12-29,gold,1975
 2535,Eha,Hurt,eha.hurt@hot.ee,+372 5880 1271,Tallinn,2021-05-29,,1998
 2536,Aivar,Lõoke,aivar.looke@telia.ee,+372 5444 6610,Tallinn,2020-11-20,,1996
 2537,Grete,Oja,grete.oja@gmail.com,+372 8205 9459,Tallinn,2023-04-09,silver,1975
@@ -574,10 +574,10 @@ customer_id,first_name,last_name,email,phone,city,registration_date,loyalty_tier
 2573,Peeter,Nurk,peeter.nurk@hot.ee,+372 8116 5700,Tallinn,2020-10-29,,1985
 2574,Aivar,Nurk,aivar.nurk@outlook.com,+372 5987 9960,Jõhvi,2021-08-01,gold,1981
 2575,Mihkel,Lõhmus,mihkel.lohmus@gmail.com,+372 5278 8944,Tartu,2023-06-16,bronze,1976
-2576,Meelis,Org,meelis.org@yahoo.com,+372 5549 2521,Tallinn,2022-07-11,,1977
+2576,Meelis,Org,meelis.org@yahoo.com,+372 5549 2521,TALLINN,2022-07-11,,1977
 2577,Heino,Laas,heino.laas@telia.ee,+372 8332 6248,Haapsalu,2022-08-24,,1979
 2578,Ene,Vaher,ene.vaher@mail.ee,+372 5573 8662,Tallinn,2021-05-19,bronze,1964
-2579,Taavi,Pihl,taavi.pihl@yahoo.com,+372 5560 0754,Võru,2023-06-19,silver,1963
+2579,Taavi,Pihl,taavi.pihl@yahoo.com,+372 5560 0754, Võru,2023-06-19,silver,1963
 2580,Laura,Mitt,laura.mitt@outlook.com,+372 5365 4627,Pärnu,2020-10-30,,1965
 2581,Merike,Must,,+372 5623 5397,Tallinn,2023-12-25,,1971
 2582,Kristjan,Lass,kristjan.lass@gmail.com,+372 5977 5157,Tallinn,2024-12-03,bronze,1972
@@ -647,13 +647,13 @@ customer_id,first_name,last_name,email,phone,city,registration_date,loyalty_tier
 2646,Urmas,Pihl,,+372 5713 9284,Tallinn,2023-05-04,,1972
 2647,Nele,Aas,,+372 8634 9212,Võru,2024-12-10,bronze,1987
 2648,Aivar,Koppel,aivar.koppel@telia.ee,+372 5463 2397,Tallinn,2024-09-28,,1999
-2649,Anu,Värk,anu.vark@mail.ee,+372 8389 0830,Tallinn,2022-06-05,,1984
-2650,Madis,Liiv,madis.liiv@gmail.com,+372 5886 7288,Jõhvi,2022-05-26,silver,1990
-2651,Elis,Põld,elis.pold@gmail.com,+372 8496 5166,Tallinn,2024-09-08,bronze,1968
+2649,Anu,Värk,anu.vark@mail.ee,+372 8389 0830, Tallinn,2022-06-05,,1984
+2650,Madis,Liiv,madis.liiv@gmail.com,+372 5886 7288,jõhvi,2022-05-26,silver,1990
+2651,Elis,Põld,elis.pold@gmail.com,+372 8496 5166, Tallinn,2024-09-08,bronze,1968
 2652,Heino,Mitt,heino.mitt@hot.ee,+372 5681 0937,Tallinn,2022-03-07,silver,2002
 2653,Elis,Kukk,elis.kukk@telia.ee,+372 5300 7003,Pärnu,2021-06-20,bronze,1985
 2654,Rasmus,Luik,rasmus.luik@outlook.com,+372 5347 3995,Pärnu,2021-04-14,silver,2000
-2655,Tiit,Arro,,+372 5535 1986,Tallinn,2021-11-11,,1986
+2655,Tiit,Arro,,+372 5535 1986,tallinn,2021-11-11,,1986
 2656,Kristjan,Kivi,kristjan.kivi@hot.ee,+372 5198 3680,Pärnu,2025-02-16,bronze,1961
 2657,Hille,Rosin,,+372 5610 4035,Pärnu,2024-01-05,bronze,1990
 2658,Enn,Salu,enn.salu@hot.ee,+372 5625 9447,Narva,2023-05-14,silver,1995
@@ -667,14 +667,14 @@ customer_id,first_name,last_name,email,phone,city,registration_date,loyalty_tier
 2666,Taavi,Tammik,taavi.tammik@hot.ee,+372 8841 9358,Tallinn,2023-10-03,bronze,2002
 2667,Külli,Lõhmus,kulli.lohmus@yahoo.com,+372 8196 3117,Tallinn,2021-02-22,silver,1967
 2668,Rasmus,Männik,rasmus.mannik@gmail.com,+372 8646 0642,Tallinn,2020-03-09,,1978
-2669,Väino,Luik,vaino.luik@hot.ee,+372 8364 2042,Tartu,2024-12-11,bronze,1961
-2670,Jaak,Vaher,jaak.vaher@hot.ee,+372 5848 2085,Rakvere,2022-07-14,silver,1966
+2669,Väino,Luik,vaino.luik@hot.ee,+372 8364 2042,TARTU,2024-12-11,bronze,1961
+2670,Jaak,Vaher,jaak.vaher@hot.ee,+372 5848 2085,RAKVERE,2022-07-14,silver,1966
 2671,Liina,Mitt,liina.mitt@hot.ee,+372 5233 2981,Tallinn,2023-07-19,bronze,1984
 2672,Margus,Kull,margus.kull@telia.ee,+372 5564 3759,Tallinn,2020-05-28,,1991
 2673,Laura,Kallas,laura.kallas@telia.ee,+372 5219 8203,Tartu,2023-03-28,silver,1998
 2674,Mihkel,Teder,mihkel.teder@telia.ee,+372 8590 2117,Viljandi,2023-08-28,,2000
 2675,Karin,Org,karin.org@gmail.com,+372 5138 0934,Tallinn,2023-05-27,silver,2005
-2676,Sander,Roots,sander.roots@hot.ee,+372 8500 7387,Paide,2023-09-03,bronze,1993
+2676,Sander,Roots,sander.roots@hot.ee,+372 8500 7387,paide,2023-09-03,bronze,1993
 2677,Ants,Valk,ants.valk@mail.ee,+372 5955 1117,Pärnu,2022-03-29,silver,1981
 2678,Heli,Hurt,,+372 5718 7270,Tallinn,2021-02-15,silver,1991
 2679,Kristiina,Lass,kristiina.lass@yahoo.com,+372 5320 2034,Pärnu,2024-05-11,,1962
@@ -685,9 +685,9 @@ customer_id,first_name,last_name,email,phone,city,registration_date,loyalty_tier
 2684,Andres,Sild,andres.sild@mail.ee,+372 8105 7913,Pärnu,2021-12-12,,1973
 2685,Heli,Männik,heli.mannik@telia.ee,+372 5740 8363,Tallinn,2024-03-02,bronze,1999
 2686,Merike,Männik,merike.mannik@gmail.com,+372 8879 1229,Tallinn,2023-01-12,,1966
-2687,Meelis,Mets,meelis.mets@outlook.com,+372 8234 8346,Tartu,2020-06-04,,1968
+2687,Meelis,Mets,meelis.mets@outlook.com,+372 8234 8346,Tartu ,2020-06-04,,1968
 2688,Marit,Paju,marit.paju@gmail.com,+372 5668 3741,Tallinn,2023-11-07,,1989
-2689,Kristjan,Pärn,kristjan.parn@gmail.com,+372 8453 0509,Pärnu,2022-01-08,,1961
+2689,Kristjan,Pärn,kristjan.parn@gmail.com,+372 8453 0509, Pärnu,2022-01-08,,1961
 2690,Siim,Toom,,+372 5641 9713,Haapsalu,2020-12-30,,1978
 2691,Olev,Valk,olev.valk@gmail.com,+372 8155 5843,Tallinn,2020-12-03,gold,1978
 2692,Ragnar,Pärn,ragnar.parn@mail.ee,+372 5301 6449,Tallinn,2023-08-17,,1977
@@ -716,7 +716,7 @@ customer_id,first_name,last_name,email,phone,city,registration_date,loyalty_tier
 2715,Erkki,Veski,,+372 5414 6223,Võru,2020-08-21,gold,1998
 2716,Grete,Kallas,grete.kallas@telia.ee,+372 5657 9150,Tallinn,2023-08-09,silver,1994
 2717,Marika,Männik,marika.mannik@yahoo.com,+372 5282 5935,Tartu,2021-09-26,gold,1975
-2718,Kevin,Nurk,kevin.nurk@gmail.com,+372 5955 1268,Narva,2024-11-20,,1994
+2718,Kevin,Nurk,kevin.nurk@gmail.com,+372 5955 1268,Narva ,2024-11-20,,1994
 2719,Taavi,Vaher,taavi.vaher@outlook.com,+372 5790 0972,Tallinn,2023-05-16,silver,1998
 2720,Peeter,Lass,peeter.lass@mail.ee,+372 8161 5065,Tallinn,2021-01-04,,1977
 2721,Väino,Mitt,vaino.mitt@hot.ee,+372 5592 5993,Pärnu,2022-08-21,bronze,1982
@@ -740,7 +740,7 @@ customer_id,first_name,last_name,email,phone,city,registration_date,loyalty_tier
 2739,Sigrid,Kõiv,sigrid.koiv@gmail.com,+372 5215 7925,Pärnu,2021-10-14,,1966
 2740,Tiina,Kallas,tiina.kallas@telia.ee,+372 5343 2849,Paide,2021-07-08,,1980
 2741,Sandra,Lõhmus,sandra.lohmus@telia.ee,+372 5947 4888,Tallinn,2020-01-10,,1964
-2742,Henri,Mets,henri.mets@telia.ee,+372 5551 8251,Tallinn,2021-04-02,,1988
+2742,Henri,Mets,henri.mets@telia.ee,+372 5551 8251,TALLINN,2021-04-02,,1988
 2743,Ragnar,Luik,ragnar.luik@gmail.com,+372 8220 1689,Tallinn,2020-05-11,,1976
 2744,Piret,Kull,piret.kull@telia.ee,+372 8997 3443,Rakvere,2021-10-06,gold,1970
 2745,Ene,Liiv,ene.liiv@mail.ee,+372 8118 4542,Tallinn,2021-04-30,,1988
@@ -756,21 +756,21 @@ customer_id,first_name,last_name,email,phone,city,registration_date,loyalty_tier
 2755,Merike,Nõmm,merike.nomm@yahoo.com,+372 8548 9356,Jõhvi,2020-08-19,,1977
 2756,Tiit,Värk,,+372 5668 0392,Tartu,2023-04-05,,1986
 2757,Erkki,Mets,erkki.mets@yahoo.com,+372 5532 8363,Võru,2021-05-21,,1969
-2758,Kristi,Oja,kristi.oja@gmail.com,+372 5151 0614,Tartu,2022-01-21,gold,1974
+2758,Kristi,Oja,kristi.oja@gmail.com,+372 5151 0614,TARTU,2022-01-21,gold,1974
 2759,Erkki,Saar,erkki.saar@gmail.com,+372 5645 6647,Pärnu,2022-05-30,,1981
 2760,Ene,Pärn,ene.parn@outlook.com,+372 5151 7511,Tallinn,2021-09-30,gold,1992
-2761,Külli,Org,kulli.org@telia.ee,+372 5849 7343,Pärnu,2021-08-19,bronze,1966
+2761,Külli,Org,kulli.org@telia.ee,+372 5849 7343,PÄRNU,2021-08-19,bronze,1966
 2762,Liina,Kõiv,liina.koiv@gmail.com,+372 8196 9678,Viljandi,2023-02-04,silver,1962
 2763,Margus,Lõoke,margus.looke@telia.ee,+372 5729 9829,Jõhvi,2023-05-26,silver,1999
 2764,Maris,Männik,,+372 5858 6997,Tartu,2022-07-11,bronze,1976
 2765,Kersti,Veski,kersti.veski@gmail.com,+372 5736 4079,Tallinn,2022-01-10,,1991
 2766,Tarmo,Luik,tarmo.luik@yahoo.com,+372 5253 3410,Haapsalu,2023-06-02,silver,1982
-2767,Kaido,Mitt,kaido.mitt@mail.ee,+372 8839 8340,Rakvere,2020-08-30,silver,1977
+2767,Kaido,Mitt,kaido.mitt@mail.ee,+372 8839 8340, Rakvere,2020-08-30,silver,1977
 2768,Aivar,Toom,aivar.toom@mail.ee,+372 8632 2770,Haapsalu,2021-11-03,,2003
 2769,Kaido,Toom,kaido.toom@hot.ee,+372 5344 5284,Tallinn,2024-06-13,,1961
 2770,Toomas,Lõhmus,toomas.lohmus@telia.ee,+372 8374 0707,Kuressaare,2022-03-24,gold,1973
 2771,Andres,Sepp,andres.sepp@yahoo.com,+372 5488 8793,Tallinn,2023-02-22,bronze,2005
-2772,Jüri,Vaher,juri.vaher@gmail.com,+372 5596 2062,Tartu,2021-01-21,gold,1979
+2772,Jüri,Vaher,juri.vaher@gmail.com,+372 5596 2062,Tartu ,2021-01-21,gold,1979
 2773,Enn,Lõhmus,enn.lohmus@yahoo.com,+372 5302 6918,Tallinn,2023-05-24,,1983
 2774,Külli,Rebane,,+372 5521 8646,Tallinn,2020-07-10,,1967
 2775,Ants,Paju,ants.paju@mail.ee,+372 5752 1975,Pärnu,2024-04-24,,1978
@@ -780,7 +780,7 @@ customer_id,first_name,last_name,email,phone,city,registration_date,loyalty_tier
 2779,Lea,Teder,lea.teder@mail.ee,+372 5504 5242,Pärnu,2020-09-11,gold,2000
 2780,Kati,Tamm,kati.tamm@yahoo.com,+372 8234 6529,Tallinn,2021-06-10,,1999
 2781,Henri,Roots,henri.roots@gmail.com,+372 8180 6548,Tallinn,2022-11-12,,1978
-2782,Hille,Mägi,hille.magi@gmail.com,+372 8408 0739,Tallinn,2024-03-11,,1988
+2782,Hille,Mägi,hille.magi@gmail.com,+372 8408 0739,tallinn,2024-03-11,,1988
 2783,Ragnar,Roots,ragnar.roots@yahoo.com,+372 5570 3486,Narva,2025-02-02,,1979
 2784,Mart,Pihl,,+372 5536 5657,Tallinn,2022-10-30,gold,1989
 2785,Grete,Tamm,grete.tamm@telia.ee,+372 5724 6487,Tallinn,2023-04-25,,1984
@@ -792,14 +792,14 @@ customer_id,first_name,last_name,email,phone,city,registration_date,loyalty_tier
 2791,Ene,Saar,ene.saar@telia.ee,+372 8235 5797,Narva,2023-03-20,bronze,1973
 2792,Merike,Mägi,merike.magi@hot.ee,+372 5885 8437,Paide,2021-11-01,,2005
 2793,Hille,Nõmm,hille.nomm@outlook.com,+372 5910 3345,Tallinn,2021-07-28,gold,1992
-2794,Ago,Lõoke,,+372 5309 5631,Pärnu,2020-02-23,gold,1972
+2794,Ago,Lõoke,,+372 5309 5631,pärnu,2020-02-23,gold,1972
 2795,Urmas,Valk,urmas.valk@outlook.com,+372 5998 9730,Tallinn,2023-04-17,bronze,1990
 2796,Kersti,Rosin,,+372 5945 0033,Pärnu,2024-07-28,,1971
 2797,Siim,Paas,siim.paas@yahoo.com,+372 8103 1901,Tallinn,2022-11-23,bronze,1998
 2798,Sandra,Puusepp,sandra.puusepp@hot.ee,+372 8906 2153,Paide,2025-02-09,bronze,2005
 2799,Aili,Sepp,aili.sepp@yahoo.com,+372 5362 6613,Tallinn,2020-08-03,bronze,1989
 2800,Nele,Toom,nele.toom@yahoo.com,+372 8676 1566,Tartu,2025-02-27,bronze,1981
-2801,Ants,Rebane,ants.rebane@gmail.com,+372 5980 8211,Pärnu,2024-08-13,,1979
+2801,Ants,Rebane,ants.rebane@gmail.com,+372 5980 8211,PÄRNU,2024-08-13,,1979
 2802,Kevin,Lõhmus,kevin.lohmus@mail.ee,+372 8914 5956,Tallinn,2021-02-27,gold,1973
 2803,Erkki,Kallas,erkki.kallas@telia.ee,+372 8518 5065,Tallinn,2022-08-05,silver,1971
 2804,Tõnu,Nurk,tonu.nurk@hot.ee,+372 5182 7590,Tallinn,2023-09-28,,1981
@@ -811,7 +811,7 @@ customer_id,first_name,last_name,email,phone,city,registration_date,loyalty_tier
 2810,Meelis,Kuusik,meelis.kuusik@yahoo.com,+372 5413 1382,Pärnu,2024-09-15,bronze,1969
 2811,Tiina,Lepik,tiina.lepik@gmail.com,+372 5264 7878,Tallinn,2024-09-25,bronze,1962
 2812,Marika,Raid,marika.raid@outlook.com,+372 5280 6574,Tallinn,2020-07-13,gold,1966
-2813,Liis,Raid,liis.raid@gmail.com,+372 5325 5547,Tallinn,2024-03-21,silver,1992
+2813,Liis,Raid,liis.raid@gmail.com,+372 5325 5547,Tallinn ,2024-03-21,silver,1992
 2814,Arvo,Lepp,arvo.lepp@yahoo.com,+372 8740 9512,Tallinn,2025-01-11,bronze,1962
 2815,Toomas,Toom,toomas.toom@gmail.com,+372 8466 2702,Tartu,2024-01-24,bronze,1976
 2816,Mart,Värk,mart.vark@telia.ee,+372 8804 0625,Tallinn,2023-11-17,,1985
@@ -825,7 +825,7 @@ customer_id,first_name,last_name,email,phone,city,registration_date,loyalty_tier
 2824,Indrek,Sepp,indrek.sepp@gmail.com,+372 8987 3990,Tallinn,2023-11-02,silver,1985
 2825,Aili,Raud,aili.raud@mail.ee,+372 5529 8471,Tallinn,2020-04-18,,1981
 2826,Ants,Lõoke,ants.looke@mail.ee,+372 8863 6907,Tartu,2022-04-08,,2001
-2827,Tõnu,Lepp,tonu.lepp@telia.ee,+372 5323 6740,Tartu,2022-03-11,gold,1990
+2827,Tõnu,Lepp,tonu.lepp@telia.ee,+372 5323 6740,TARTU,2022-03-11,gold,1990
 2828,Elis,Liiv,elis.liiv@gmail.com,+372 5946 8520,Narva,2020-04-01,,1983
 2829,Nele,Orav,nele.orav@outlook.com,+372 5916 8433,Tartu,2024-10-10,,1970
 2830,Rain,Männik,rain.mannik@hot.ee,+372 5611 9726,Tallinn,2025-02-19,bronze,1999
@@ -882,7 +882,7 @@ customer_id,first_name,last_name,email,phone,city,registration_date,loyalty_tier
 2881,Maie,Veski,maie.veski@telia.ee,+372 8616 0838,Tartu,2022-07-16,gold,1985
 2882,Piret,Lass,piret.lass@yahoo.com,+372 8939 0839,Tallinn,2020-03-18,bronze,2004
 2883,Toomas,Mets,toomas.mets@gmail.com,+372 5914 0463,Viljandi,2023-05-20,silver,1964
-2884,Marko,Raud,,+372 5132 4451,Tallinn,2020-12-14,,2000
+2884,Marko,Raud,,+372 5132 4451, Tallinn,2020-12-14,,2000
 2885,Kaido,Arro,kaido.arro@mail.ee,+372 5945 4811,Viljandi,2023-06-10,silver,1972
 2886,Arvo,Vaher,arvo.vaher@telia.ee,+372 5249 7623,Võru,2023-09-09,,1986
 2887,Jaak,Rosin,jaak.rosin@mail.ee,+372 8210 9170,Tartu,2020-02-20,silver,2004
@@ -892,7 +892,7 @@ customer_id,first_name,last_name,email,phone,city,registration_date,loyalty_tier
 2891,Taavi,Oja,taavi.oja@telia.ee,+372 5872 8047,Tartu,2022-04-02,,1968
 2892,Marit,Värk,marit.vark@gmail.com,+372 5755 2066,Paide,2021-09-05,silver,2003
 2893,Madis,Lass,madis.lass2@telia.ee,+372 5420 5356,Tartu,2021-07-04,,1976
-2894,Ragnar,Orav,ragnar.orav@yahoo.com,+372 5972 1436,Tallinn,2023-05-23,,2003
+2894,Ragnar,Orav,ragnar.orav@yahoo.com,+372 5972 1436,Tallinn ,2023-05-23,,2003
 2895,Pille,Lõoke,pille.looke@outlook.com,+372 8967 2009,Tallinn,2022-07-23,,1996
 2896,Tarmo,Vaher,tarmo.vaher@outlook.com,+372 5565 0779,Pärnu,2025-01-27,bronze,2004
 2897,Sigrid,Arro,sigrid.arro@gmail.com,+372 8302 3181,Jõhvi,2023-12-07,bronze,1973
@@ -902,7 +902,7 @@ customer_id,first_name,last_name,email,phone,city,registration_date,loyalty_tier
 2901,Meelis,Laas,,+372 5728 7208,Tallinn,2023-05-15,silver,1967
 2902,Hille,Kallas,hille.kallas@mail.ee,+372 5674 6876,Tallinn,2024-03-14,silver,1989
 2903,Merle,Toom,,+372 5639 4043,Tartu,2025-01-13,silver,1998
-2904,Lea,Lõhmus,lea.lohmus@hot.ee,+372 5700 6848,Tartu,2024-10-09,bronze,1972
+2904,Lea,Lõhmus,lea.lohmus@hot.ee,+372 5700 6848,TARTU,2024-10-09,bronze,1972
 2905,Sandra,Raud,sandra.raud@outlook.com,+372 5141 1657,Tartu,2020-04-02,silver,1979
 2906,Ragnar,Lepik,ragnar.lepik@hot.ee,+372 8734 1222,Tartu,2021-09-20,silver,1990
 2907,Annika,Kõiv,annika.koiv@outlook.com,+372 5280 1357,Narva,2024-04-01,,1993
@@ -926,11 +926,11 @@ customer_id,first_name,last_name,email,phone,city,registration_date,loyalty_tier
 2925,Maie,Roots,maie.roots@yahoo.com,+372 5603 0243,Tartu,2025-02-25,,1964
 2926,Maie,Lõhmus,maie.lohmus@outlook.com,+372 5103 6773,Viljandi,2021-12-30,,1963
 2927,Rasmus,Männik,rasmus.mannik2@gmail.com,+372 5941 5773,Tallinn,2022-09-23,silver,1961
-2928,Jüri,Vaher,juri.vaher@yahoo.com,+372 8639 7848,Kuressaare,2020-02-01,,1963
+2928,Jüri,Vaher,juri.vaher@yahoo.com,+372 8639 7848,Kuressaare ,2020-02-01,,1963
 2929,Kadri,Pihl,kadri.pihl@gmail.com,+372 5368 1550,Tallinn,2021-11-30,gold,1961
 2930,Priit,Kull,priit.kull@gmail.com,+372 5685 3319,Tallinn,2022-10-29,,1997
 2931,Meelis,Kask,meelis.kask@mail.ee,+372 5781 1648,Tartu,2023-06-16,bronze,1999
-2932,Karin,Kaalep,,+372 8606 0944,Tallinn,2023-07-13,bronze,1967
+2932,Karin,Kaalep,,+372 8606 0944, Tallinn,2023-07-13,bronze,1967
 2933,Indrek,Lepik,indrek.lepik@outlook.com,+372 8856 3215,Narva,2020-03-12,gold,1986
 2934,Arvo,Roots,arvo.roots@gmail.com,+372 5746 0416,Tartu,2024-02-07,,2000
 2935,Margus,Vaher,margus.vaher2@mail.ee,+372 5569 5936,Narva,2020-02-19,gold,1998
@@ -938,7 +938,7 @@ customer_id,first_name,last_name,email,phone,city,registration_date,loyalty_tier
 2937,Kersti,Puusepp,kersti.puusepp@gmail.com,+372 5177 9376,Tallinn,2021-02-15,,1997
 2938,Liina,Kukk,liina.kukk@gmail.com,+372 5692 8404,Rakvere,2022-04-03,bronze,1986
 2939,Anna,Rosin,anna.rosin@mail.ee,+372 5961 7699,Kuressaare,2020-09-25,silver,1975
-2940,Rain,Rebane,rain.rebane@hot.ee,+372 5206 1830,Pärnu,2023-10-20,bronze,1963
+2940,Rain,Rebane,rain.rebane@hot.ee,+372 5206 1830,pärnu,2023-10-20,bronze,1963
 2941,Hille,Lepik,hille.lepik@mail.ee,+372 8556 8556,Pärnu,2020-12-04,,1969
 2942,Laura,Oja,laura.oja@hot.ee,+372 8306 6545,Haapsalu,2021-11-08,,1970
 2943,Marit,Tammik,marit.tammik@outlook.com,+372 8396 5298,Jõhvi,2023-03-20,gold,1983
@@ -948,7 +948,7 @@ customer_id,first_name,last_name,email,phone,city,registration_date,loyalty_tier
 2947,Mart,Aas,mart.aas@mail.ee,+372 8112 0375,Tallinn,2024-08-20,,1995
 2948,Priit,Teder,,+372 8192 8267,Narva,2022-09-07,gold,1973
 2949,Sandra,Lõoke,sandra.looke@gmail.com,+372 5601 5673,Tartu,2020-12-26,,2001
-2950,Aili,Mets,aili.mets@telia.ee,+372 8904 7724,Tallinn,2023-09-10,,2000
+2950,Aili,Mets,aili.mets@telia.ee,+372 8904 7724,tallinn,2023-09-10,,2000
 2951,Lea,Mets,,+372 5143 2163,Rakvere,2022-06-07,,2000
 2952,Sandra,Sild,sandra.sild@yahoo.com,+372 5398 0586,Valga,2022-05-31,silver,1990
 2953,Liis,Kivi,liis.kivi@yahoo.com,+372 8375 7084,Tallinn,2024-08-05,silver,1989
@@ -967,14 +967,14 @@ customer_id,first_name,last_name,email,phone,city,registration_date,loyalty_tier
 2966,Anu,Liiv,anu.liiv@mail.ee,+372 5699 1777,Tallinn,2022-04-14,silver,1976
 2967,Henri,Vaher,henri.vaher@mail.ee,+372 5933 8696,Pärnu,2024-11-09,,1979
 2968,Tarmo,Toom,tarmo.toom@telia.ee,+372 5689 6080,Rakvere,2022-12-13,silver,1977
-2969,Liina,Kõiv,liina.koiv@outlook.com,+372 5527 7301,Tartu,2023-03-14,silver,1961
+2969,Liina,Kõiv,liina.koiv@outlook.com,+372 5527 7301,TARTU,2023-03-14,silver,1961
 2970,Kadri,Lõoke,kadri.looke@outlook.com,+372 5712 5358,Pärnu,2024-06-08,bronze,1978
 2971,Tarmo,Kallas,tarmo.kallas@telia.ee,+372 5242 8558,Viljandi,2024-02-16,silver,1973
 2972,Pille,Rand,pille.rand@outlook.com,+372 5862 9106,Tartu,2023-02-19,,1994
 2973,Karin,Paas,karin.paas@telia.ee,+372 5582 1523,Valga,2020-03-27,bronze,1970
 2974,Liis,Järv,,+372 5536 6393,Tallinn,2024-02-16,,1991
 2975,Mihkel,Kallas,mihkel.kallas2@outlook.com,+372 5992 3589,Haapsalu,2023-05-22,,1966
-2976,Arvo,Lepik,arvo.lepik@telia.ee,+372 5708 4826,Viljandi,2020-04-05,,1993
+2976,Arvo,Lepik,arvo.lepik@telia.ee,+372 5708 4826,Viljandi ,2020-04-05,,1993
 2977,Rasmus,Rebane,rasmus.rebane@mail.ee,+372 5611 6225,Tallinn,2022-03-14,,1970
 2978,Anu,Sild,anu.sild2@yahoo.com,+372 5561 3176,Rakvere,2021-03-02,gold,1960
 2979,Kevin,Aas,kevin.aas@gmail.com,+372 5817 3687,Valga,2024-01-26,bronze,1990
@@ -988,12 +988,12 @@ customer_id,first_name,last_name,email,phone,city,registration_date,loyalty_tier
 2987,Ene,Paju,ene.paju@hot.ee,+372 5224 3882,Valga,2021-10-25,bronze,1975
 2988,Priit,Veski,,+372 5793 8191,Tartu,2020-01-03,silver,1994
 2989,Tiit,Järv,,+372 5540 5010,Pärnu,2022-05-27,,1967
-2990,Henri,Pärn,henri.parn@hot.ee,+372 8405 5888,Tallinn,2020-09-18,,1998
+2990,Henri,Pärn,henri.parn@hot.ee,+372 8405 5888, Tallinn,2020-09-18,,1998
 2991,Ene,Liiv,,+372 5480 1362,Valga,2020-01-07,silver,2000
 2992,Aivar,Must,aivar.must@yahoo.com,+372 5440 3378,Tartu,2024-10-20,bronze,1964
 2993,Kevin,Kull,kevin.kull@gmail.com,+372 5957 0521,Tartu,2023-04-03,silver,1984
 2994,Merle,Salu,merle.salu@gmail.com,+372 5308 0552,Tallinn,2020-08-19,bronze,1973
-2995,Mart,Kuusk,mart.kuusk@gmail.com,+372 5940 9730,Tallinn,2024-01-03,,1960
+2995,Mart,Kuusk,mart.kuusk@gmail.com,+372 5940 9730,TALLINN,2024-01-03,,1960
 2996,Rain,Nurk,rain.nurk@mail.ee,+372 5942 5248,Tallinn,2022-12-24,gold,1965
 2997,Kevin,Org,kevin.org@yahoo.com,+372 5387 4847,Tallinn,2021-08-09,gold,1990
 2998,Raivo,Orav,raivo.orav@outlook.com,+372 5564 1540,Tallinn,2024-05-19,,1961
@@ -1005,7 +1005,7 @@ customer_id,first_name,last_name,email,phone,city,registration_date,loyalty_tier
 3004,Peeter,Puusepp,peeter.puusepp@gmail.com,+372 8705 1535,Tartu,2020-05-07,,1965
 3005,Anna,Kull,anna.kull@telia.ee,+372 5724 7906,Tallinn,2022-03-24,silver,2002
 3006,Katrin,Arro,katrin.arro@outlook.com,+372 8237 6560,Tartu,2024-04-08,,1979
-3007,Riina,Mägi,riina.magi@hot.ee,+372 8246 8235,Tallinn,2022-10-07,silver,1961
+3007,Riina,Mägi,riina.magi@hot.ee,+372 8246 8235, Tallinn,2022-10-07,silver,1961
 3008,Lea,Lill,lea.lill@outlook.com,+372 5337 6012,Tartu,2023-02-08,,2002
 3009,Katrin,Kull,,+372 8997 2439,Tallinn,2022-02-03,silver,1973
 3010,Sigrid,Tamm,sigrid.tamm@gmail.com,+372 8248 6422,Tallinn,2022-03-25,gold,1965
@@ -1018,19 +1018,19 @@ customer_id,first_name,last_name,email,phone,city,registration_date,loyalty_tier
 3017,Triin,Veski,triin.veski@mail.ee,+372 5992 0473,Pärnu,2021-09-22,,1994
 3018,Kersti,Kuusk,kersti.kuusk@mail.ee,+372 5524 4960,Kuressaare,2022-10-10,,1967
 3019,Erkki,Järv,erkki.jarv@gmail.com,+372 5397 9158,Tartu,2021-06-10,,1964
-3020,Maris,Kuusik,maris.kuusik2@telia.ee,+372 5927 0468,Tartu,2021-03-22,,1978
-3021,Tarmo,Saar,tarmo.saar@outlook.com,+372 8911 9096,Paide,2024-08-11,,1973
+3020,Maris,Kuusik,maris.kuusik2@telia.ee,+372 5927 0468,TARTU,2021-03-22,,1978
+3021,Tarmo,Saar,tarmo.saar@outlook.com,+372 8911 9096,PAIDE,2024-08-11,,1973
 3022,Jaak,Ilves,jaak.ilves@telia.ee,+372 5884 4611,Tallinn,2023-06-01,,2005
-3023,Pille,Aas,pille.aas@yahoo.com,+372 5678 8416,Haapsalu,2022-02-17,,1976
+3023,Pille,Aas,pille.aas@yahoo.com,+372 5678 8416,HAAPSALU,2022-02-17,,1976
 3024,Rein,Tammik,rein.tammik@mail.ee,+372 5378 2313,Pärnu,2024-03-19,gold,1989
-3025,Aili,Paas,aili.paas@mail.ee,+372 5442 4549,Pärnu,2021-04-19,,1966
+3025,Aili,Paas,aili.paas@mail.ee,+372 5442 4549,pärnu,2021-04-19,,1966
 3026,Kersti,Kaalep,kersti.kaalep@outlook.com,+372 8450 0112,Valga,2022-10-15,,2001
 3027,Sander,Mägi,sander.magi@outlook.com,+372 8716 7964,Paide,2024-11-20,,1999
 3028,Sander,Vaher,sander.vaher@yahoo.com,+372 5437 5152,Tallinn,2022-06-05,,1975
 3029,Hille,Põld,,+372 8493 3671,Tallinn,2024-11-03,,2002
 3030,Pille,Tammik,pille.tammik@gmail.com,+372 8988 0424,Tallinn,2020-08-09,,1981
 3031,Ragnar,Kask,ragnar.kask@hot.ee,+372 8550 2113,Haapsalu,2021-08-23,silver,1962
-3032,Urmas,Tammik,urmas.tammik@gmail.com,+372 5919 0212,Kuressaare,2022-11-05,,1981
+3032,Urmas,Tammik,urmas.tammik@gmail.com,+372 5919 0212, Kuressaare,2022-11-05,,1981
 3033,Anna,Järv,anna.jarv@outlook.com,+372 5186 2936,Tartu,2022-04-08,silver,1985
 3034,Sigrid,Puusepp,sigrid.puusepp@mail.ee,+372 5217 5680,Tallinn,2021-03-15,,2005
 3035,Grete,Tamm,,+372 5777 7914,Haapsalu,2022-07-23,,1979
@@ -1062,7 +1062,7 @@ customer_id,first_name,last_name,email,phone,city,registration_date,loyalty_tier
 3061,Ülle,Paju,ulle.paju@hot.ee,+372 5889 9597,Rakvere,2024-07-27,bronze,1966
 3062,Ragnar,Kuusik,ragnar.kuusik@gmail.com,+372 5856 7027,Tartu,2021-07-25,,1966
 3063,Ants,Salu,ants.salu@gmail.com,+372 5642 0438,Paide,2021-03-09,,1970
-3064,Urmas,Värk,,+372 5231 7903,Tartu,2023-08-04,silver,1977
+3064,Urmas,Värk,,+372 5231 7903,tartu,2023-08-04,silver,1977
 3065,Andres,Rebane,andres.rebane@mail.ee,+372 5835 5907,Haapsalu,2024-07-22,bronze,2003
 3066,Tiit,Põld,tiit.pold@hot.ee,+372 5349 6670,Tallinn,2024-05-13,bronze,1992
 3067,Heino,Puusepp,heino.puusepp@hot.ee,+372 5413 0937,Tartu,2021-11-15,gold,1968
@@ -1095,7 +1095,7 @@ customer_id,first_name,last_name,email,phone,city,registration_date,loyalty_tier
 3094,Reet,Lõhmus,reet.lohmus@hot.ee,+372 5109 2731,Tallinn,2020-12-07,,1982
 3095,Terje,Nurk,,+372 5187 8300,Tartu,2024-04-01,,1971
 3096,Karin,Rand,karin.rand@outlook.com,+372 5388 8768,Valga,2021-10-07,gold,1988
-3097,Reet,Lõoke,reet.looke@mail.ee,+372 5105 6577,Pärnu,2025-02-15,bronze,2004
+3097,Reet,Lõoke,reet.looke@mail.ee,+372 5105 6577, Pärnu,2025-02-15,bronze,2004
 3098,Ragnar,Tamm,ragnar.tamm@telia.ee,+372 5657 8321,Jõhvi,2023-05-11,gold,1971
 3099,Jüri,Kõiv,juri.koiv@telia.ee,+372 5580 5551,Tartu,2020-12-15,silver,1985
 3100,Kaido,Mitt,kaido.mitt@hot.ee,+372 8467 6649,Tallinn,2021-12-05,,2003
@@ -1115,7 +1115,7 @@ customer_id,first_name,last_name,email,phone,city,registration_date,loyalty_tier
 3114,Maris,Orav,maris.orav@outlook.com,+372 8654 0890,Narva,2021-03-23,,1968
 3115,Ülle,Org,ulle.org@gmail.com,+372 5488 0729,Tartu,2020-08-03,silver,2005
 3116,Tõnu,Paju,tonu.paju@mail.ee,+372 5128 1943,Tallinn,2024-02-22,bronze,1969
-3117,Olev,Rosin,olev.rosin@mail.ee,+372 5306 2502,Tallinn,2024-10-26,,1990
+3117,Olev,Rosin,olev.rosin@mail.ee,+372 5306 2502, Tallinn,2024-10-26,,1990
 3118,Siim,Toom,siim.toom@hot.ee,+372 5122 6665,Narva,2021-12-25,silver,2003
 3119,Kristjan,Ilves,kristjan.ilves@yahoo.com,+372 5908 7261,Viljandi,2021-05-12,,2004
 3120,Külli,Kallas,kulli.kallas@mail.ee,+372 5282 2361,Pärnu,2025-01-18,,1994
@@ -1126,7 +1126,7 @@ customer_id,first_name,last_name,email,phone,city,registration_date,loyalty_tier
 3125,Piret,Saar,piret.saar@gmail.com,+372 8136 2106,Tallinn,2022-11-07,bronze,1980
 3126,Ülle,Raud,ulle.raud@yahoo.com,+372 8985 7949,Tallinn,2020-05-28,,2004
 3127,Piret,Oja,,+372 5259 8987,Tallinn,2021-12-28,bronze,2004
-3128,Kristjan,Paas,kristjan.paas@outlook.com,+372 5325 2056,Pärnu,2022-12-06,,1960
+3128,Kristjan,Paas,kristjan.paas@outlook.com,+372 5325 2056, Pärnu,2022-12-06,,1960
 3129,Kalev,Teder,kalev.teder@gmail.com,+372 5908 0315,Narva,2023-07-24,,1973
 3130,Rasmus,Kull,rasmus.kull@hot.ee,+372 8428 0363,Tartu,2022-05-27,bronze,1996
 3131,Maris,Nurk,maris.nurk@yahoo.com,+372 5837 9378,Tartu,2021-09-26,,1969
@@ -1138,7 +1138,7 @@ customer_id,first_name,last_name,email,phone,city,registration_date,loyalty_tier
 3137,Aivar,Järv,aivar.jarv@gmail.com,+372 5546 3850,Tallinn,2021-10-21,,1966
 3138,Meelis,Tamm,,+372 5671 8663,Pärnu,2021-09-30,silver,2000
 3139,Reet,Rebane,reet.rebane@yahoo.com,+372 5563 1162,Viljandi,2024-09-09,silver,1965
-3140,Urmas,Männik,urmas.mannik@telia.ee,+372 5345 5975,Tallinn,2021-04-02,gold,1990
+3140,Urmas,Männik,urmas.mannik@telia.ee,+372 5345 5975,Tallinn ,2021-04-02,gold,1990
 3141,Peeter,Lass,peeter.lass@hot.ee,+372 8476 8253,Tallinn,2025-01-03,silver,1997
 3142,Mihkel,Raid,mihkel.raid@telia.ee,+372 5141 2219,Haapsalu,2022-09-06,silver,1980
 3143,Sirje,Aas,sirje.aas@outlook.com,+372 5756 9490,Pärnu,2020-12-18,gold,2003
@@ -1148,7 +1148,7 @@ customer_id,first_name,last_name,email,phone,city,registration_date,loyalty_tier
 3147,Lea,Mets,,+372 5887 5911,Tartu,2023-04-11,silver,1985
 3148,Merle,Mitt,,+372 8467 1572,Tallinn,2024-03-10,,1973
 3149,Rasmus,Luik,rasmus.luik@mail.ee,+372 5600 4211,Tallinn,2025-01-11,,1984
-3150,Aili,Vaher,,+372 5521 4417,Viljandi,2020-11-01,gold,1973
+3150,Aili,Vaher,,+372 5521 4417,viljandi,2020-11-01,gold,1973
 3151,Tiina,Must,tiina.must@hot.ee,+372 5670 4773,Rakvere,2020-03-04,,1980
 3152,Toomas,Saar,toomas.saar@telia.ee,+372 8755 1766,Tartu,2022-12-23,bronze,2000
 3153,Madis,Männik,madis.mannik@yahoo.com,+372 5344 4599,Viljandi,2022-03-22,silver,1980
@@ -1163,7 +1163,7 @@ customer_id,first_name,last_name,email,phone,city,registration_date,loyalty_tier
 3162,Lauri,Saar,lauri.saar@mail.ee,+372 5868 2331,Tartu,2024-07-21,bronze,2000
 3163,Maie,Mitt,maie.mitt@telia.ee,+372 8200 2899,Tallinn,2022-07-28,,1966
 3164,Kati,Org,kati.org@yahoo.com,+372 8532 8052,Rakvere,2022-06-01,,1979
-3165,Rasmus,Arro,rasmus.arro@outlook.com,+372 5410 6555,Tallinn,2022-04-29,gold,2000
+3165,Rasmus,Arro,rasmus.arro@outlook.com,+372 5410 6555, Tallinn,2022-04-29,gold,2000
 3166,Terje,Lill,,+372 8635 8234,Narva,2021-06-14,,2003
 3167,Ago,Kõiv,ago.koiv@gmail.com,+372 8379 6960,Tallinn,2023-08-19,bronze,1988
 3168,Merike,Lass,merike.lass@yahoo.com,+372 5127 3202,Pärnu,2024-03-15,bronze,1973
@@ -1171,7 +1171,7 @@ customer_id,first_name,last_name,email,phone,city,registration_date,loyalty_tier
 3170,Eha,Puusepp,eha.puusepp@mail.ee,+372 5978 7357,Tallinn,2022-10-01,,1975
 3171,Triin,Valk,triin.valk@gmail.com,+372 5655 9359,Rakvere,2024-06-04,silver,1961
 3172,Karin,Paas,karin.paas@mail.ee,+372 5822 3490,Tallinn,2020-06-23,bronze,1992
-3173,Erkki,Mets,erkki.mets@gmail.com,+372 5469 6266,Tartu,2024-07-10,,1963
+3173,Erkki,Mets,erkki.mets@gmail.com,+372 5469 6266,tartu,2024-07-10,,1963
 3174,Riina,Lepp,riina.lepp2@outlook.com,+372 8719 5845,Tartu,2024-04-24,bronze,1971
 3175,Marika,Kõiv,marika.koiv@gmail.com,+372 5813 5378,Tallinn,2021-08-03,,1969
 3176,Taavi,Järv,,+372 8519 4578,Tartu,2024-03-21,,1973
@@ -1183,7 +1183,7 @@ customer_id,first_name,last_name,email,phone,city,registration_date,loyalty_tier
 3182,Marko,Lass,marko.lass@mail.ee,+372 5638 9696,Tallinn,2020-02-06,gold,1994
 3183,Meelis,Kaalep,meelis.kaalep@yahoo.com,+372 5757 3933,Tallinn,2022-03-09,bronze,2003
 3184,Kati,Sepp,kati.sepp@hot.ee,+372 5607 2449,Tartu,2023-04-04,gold,1994
-3185,Kati,Rebane,kati.rebane@gmail.com,+372 8109 4042,Rakvere,2022-10-07,bronze,1972
+3185,Kati,Rebane,kati.rebane@gmail.com,+372 8109 4042,rakvere,2022-10-07,bronze,1972
 3186,Urmas,Värk,urmas.vark2@outlook.com,+372 8580 7145,Narva,2020-09-09,bronze,1981
 3187,Ago,Roots,ago.roots@gmail.com,+372 8758 0216,Tartu,2021-09-28,silver,1989
 3188,Maris,Veski,maris.veski@mail.ee,+372 5704 6859,Tallinn,2023-10-22,silver,1967
@@ -1224,7 +1224,7 @@ customer_id,first_name,last_name,email,phone,city,registration_date,loyalty_tier
 3223,Nele,Teder,nele.teder@gmail.com,+372 5461 9167,Pärnu,2021-12-25,gold,1998
 3224,Hille,Paas,hille.paas@mail.ee,+372 5111 8582,Tartu,2022-03-06,silver,1993
 3225,Maris,Raid,maris.raid@outlook.com,+372 5160 6503,Tartu,2021-03-31,,1980
-3226,Grete,Koppel,grete.koppel@gmail.com,+372 5388 3099,Tallinn,2024-08-03,bronze,1986
+3226,Grete,Koppel,grete.koppel@gmail.com,+372 5388 3099,Tallinn ,2024-08-03,bronze,1986
 3227,Rein,Roots,rein.roots@yahoo.com,+372 8822 1407,Viljandi,2022-01-23,,1997
 3228,Liis,Kask,liis.kask@telia.ee,+372 8112 4169,Tallinn,2020-07-18,gold,1964
 3229,Merike,Sild,,+372 5559 5858,Tallinn,2022-01-05,gold,1963
@@ -1253,7 +1253,7 @@ customer_id,first_name,last_name,email,phone,city,registration_date,loyalty_tier
 3252,Enn,Lõhmus,enn.lohmus@gmail.com,+372 5881 4162,Tartu,2020-02-03,bronze,1998
 3253,Kadri,Koppel,kadri.koppel@telia.ee,+372 5319 5776,Tallinn,2023-10-16,silver,2001
 3254,Eha,Järv,eha.jarv@mail.ee,+372 5504 2902,Tallinn,2024-07-14,,1978
-3255,Triin,Veski,triin.veski@hot.ee,+372 5216 8975,Tartu,2023-02-14,bronze,1971
+3255,Triin,Veski,triin.veski@hot.ee,+372 5216 8975,TARTU,2023-02-14,bronze,1971
 3256,Hille,Toom,hille.toom@outlook.com,+372 5860 5331,Tallinn,2024-09-16,silver,1988
 3257,Aivar,Kivi,aivar.kivi@hot.ee,+372 5970 0912,Narva,2023-07-22,,1984
 3258,Peeter,Lepp,peeter.lepp@hot.ee,+372 8661 1407,Tallinn,2020-05-01,gold,2004
@@ -1298,7 +1298,7 @@ customer_id,first_name,last_name,email,phone,city,registration_date,loyalty_tier
 3297,Elis,Lõhmus,elis.lohmus@gmail.com,+372 5307 6751,Tartu,2021-09-28,,1974
 3298,Maris,Mägi,maris.magi@yahoo.com,+372 5722 7637,Tallinn,2021-07-02,,1992
 3299,Lauri,Ilves,lauri.ilves@hot.ee,+372 8114 5572,Kuressaare,2023-10-01,,1998
-3300,Arvo,Kuusik,arvo.kuusik@yahoo.com,+372 5165 5439,Narva,2021-05-07,,1977
+3300,Arvo,Kuusik,arvo.kuusik@yahoo.com,+372 5165 5439,narva,2021-05-07,,1977
 3301,Heli,Rosin,heli.rosin@yahoo.com,+372 5204 0520,Tallinn,2024-04-10,,1981
 3302,Siim,Toom,siim.toom2@hot.ee,+372 8188 1970,Võru,2021-06-11,,2003
 3303,Ants,Nurk,ants.nurk@mail.ee,+372 5228 1525,Rakvere,2024-08-01,bronze,1997
@@ -1306,14 +1306,14 @@ customer_id,first_name,last_name,email,phone,city,registration_date,loyalty_tier
 3305,Urmas,Raid,urmas.raid@mail.ee,+372 5789 1085,Narva,2021-10-11,gold,2002
 3306,Rein,Teder,rein.teder@yahoo.com,+372 5307 2856,Tallinn,2021-08-30,,1986
 3307,Erkki,Kuusk,erkki.kuusk@telia.ee,+372 8696 7510,Tartu,2025-02-26,bronze,1962
-3308,Tarmo,Kaalep,tarmo.kaalep@mail.ee,+372 5598 1967,Tallinn,2020-10-01,,1963
+3308,Tarmo,Kaalep,tarmo.kaalep@mail.ee,+372 5598 1967,Tallinn ,2020-10-01,,1963
 3309,Merike,Org,merike.org@telia.ee,+372 5274 6044,Kuressaare,2021-11-06,gold,1987
 3310,Annika,Luik,annika.luik@hot.ee,+372 5170 4970,Tallinn,2024-03-31,bronze,1974
 3311,Väino,Rebane,vaino.rebane@hot.ee,+372 5645 9479,Tartu,2022-09-01,bronze,1999
 3312,Triin,Lill,triin.lill@yahoo.com,+372 5481 4953,Tallinn,2020-09-11,,1972
 3313,Pille,Talvik,pille.talvik@outlook.com,+372 8100 2705,Tallinn,2024-07-18,,1983
-3314,Tõnu,Kallas,tonu.kallas@outlook.com,+372 8678 5143,Tallinn,2024-04-03,,1992
-3315,Kaido,Tammik,kaido.tammik@yahoo.com,+372 8941 5666,Haapsalu,2023-10-25,,1976
+3314,Tõnu,Kallas,tonu.kallas@outlook.com,+372 8678 5143,TALLINN,2024-04-03,,1992
+3315,Kaido,Tammik,kaido.tammik@yahoo.com,+372 8941 5666, Haapsalu,2023-10-25,,1976
 3316,Maie,Laas,maie.laas@outlook.com,+372 8826 7372,Tartu,2020-05-11,gold,1976
 3317,Tiit,Mets,tiit.mets@hot.ee,+372 5573 7059,Tallinn,2023-11-12,bronze,1998
 3318,Lauri,Järv,lauri.jarv@mail.ee,+372 5559 2311,Narva,2024-12-24,bronze,1963
@@ -1335,7 +1335,7 @@ customer_id,first_name,last_name,email,phone,city,registration_date,loyalty_tier
 3334,Reet,Oja,reet.oja@mail.ee,+372 5594 0672,Rakvere,2024-01-23,bronze,2002
 3335,Anna,Põld,anna.pold@yahoo.com,+372 5382 5305,Tartu,2022-02-05,,1976
 3336,Andres,Paas,andres.paas@yahoo.com,+372 8705 3403,Tallinn,2023-08-31,gold,1987
-3337,Laura,Lõoke,laura.looke@outlook.com,+372 5730 0077,Tallinn,2024-06-13,bronze,1997
+3337,Laura,Lõoke,laura.looke@outlook.com,+372 5730 0077,tallinn,2024-06-13,bronze,1997
 3338,Karin,Mitt,karin.mitt@gmail.com,+372 5293 8973,Jõhvi,2020-09-07,silver,1970
 3339,Karin,Veski,karin.veski@mail.ee,+372 8754 7514,Tallinn,2022-01-23,bronze,1985
 3340,Lea,Kaalep,lea.kaalep@mail.ee,+372 5360 2719,Tallinn,2025-01-23,bronze,1987
@@ -1345,11 +1345,11 @@ customer_id,first_name,last_name,email,phone,city,registration_date,loyalty_tier
 3344,Sirje,Lõhmus,,+372 5561 3215,Tallinn,2024-04-27,bronze,1967
 3345,Arvo,Raid,arvo.raid@mail.ee,+372 5336 1948,Rakvere,2021-04-08,gold,1975
 3346,Indrek,Raid,,+372 5947 9693,Tartu,2024-05-16,silver,1986
-3347,Olev,Kask,olev.kask@mail.ee,+372 5320 3562,Tallinn,2024-12-25,silver,1977
+3347,Olev,Kask,olev.kask@mail.ee,+372 5320 3562, Tallinn,2024-12-25,silver,1977
 3348,Enn,Mets,enn.mets@telia.ee,+372 8750 5767,Kuressaare,2023-12-04,gold,1995
-3349,Marko,Oja,marko.oja@gmail.com,+372 5564 7593,Tartu,2022-07-13,silver,2002
+3349,Marko,Oja,marko.oja@gmail.com,+372 5564 7593,TARTU,2022-07-13,silver,2002
 3350,Priit,Rand,priit.rand@telia.ee,+372 8645 9666,Pärnu,2022-11-22,silver,1992
-3351,Eha,Kask,eha.kask@outlook.com,+372 5585 5507,Viljandi,2021-12-15,silver,1976
+3351,Eha,Kask,eha.kask@outlook.com,+372 5585 5507,VILJANDI,2021-12-15,silver,1976
 3352,Annika,Kukk,annika.kukk@mail.ee,+372 8798 3783,Tallinn,2020-08-28,gold,1997
 3353,Sigrid,Rosin,sigrid.rosin@hot.ee,+372 5381 9112,Tartu,2024-08-07,,1966
 3354,Lea,Kull,lea.kull@yahoo.com,+372 5180 3521,Haapsalu,2023-07-12,silver,1960
@@ -1363,7 +1363,7 @@ customer_id,first_name,last_name,email,phone,city,registration_date,loyalty_tier
 3362,Hille,Mitt,hille.mitt@hot.ee,+372 5530 4329,Paide,2022-03-30,bronze,1997
 3363,Ene,Oja,ene.oja@telia.ee,+372 5419 9373,Tallinn,2024-02-02,bronze,1972
 3364,Toomas,Nõmm,toomas.nomm@mail.ee,+372 5968 6543,Võru,2020-03-27,bronze,1976
-3365,Olev,Teder,olev.teder@gmail.com,+372 5832 9690,Tallinn,2021-03-03,silver,2001
+3365,Olev,Teder,olev.teder@gmail.com,+372 5832 9690,Tallinn ,2021-03-03,silver,2001
 3366,Nele,Männik,,+372 5451 1266,Tallinn,2020-03-12,silver,2004
 3367,Tarmo,Paju,tarmo.paju@mail.ee,+372 5705 7651,Pärnu,2023-04-23,,1974
 3368,Kristiina,Tammik,,+372 5150 4836,Rakvere,2021-09-23,,1977
@@ -1380,7 +1380,7 @@ customer_id,first_name,last_name,email,phone,city,registration_date,loyalty_tier
 3379,Kevin,Rand,kevin.rand@yahoo.com,+372 5723 8491,Tallinn,2023-09-12,,1987
 3380,Kaido,Must,kaido.must@mail.ee,+372 8148 5831,Viljandi,2021-02-27,bronze,1985
 3381,Maris,Rand,,+372 5948 2708,Tartu,2024-11-25,,1982
-3382,Ene,Sepp,ene.sepp@hot.ee,+372 8113 5613,Tallinn,2021-08-07,gold,1989
+3382,Ene,Sepp,ene.sepp@hot.ee,+372 8113 5613,tallinn,2021-08-07,gold,1989
 3383,Tarmo,Paas,tarmo.paas@yahoo.com,+372 8562 3061,Tallinn,2024-06-19,bronze,2000
 3384,Indrek,Raid,indrek.raid@gmail.com,+372 5646 8321,Pärnu,2022-06-27,silver,1969
 3385,Ene,Arro,ene.arro@mail.ee,+372 8239 9691,Tartu,2023-04-16,bronze,1987
@@ -1414,7 +1414,7 @@ customer_id,first_name,last_name,email,phone,city,registration_date,loyalty_tier
 3413,Kalev,Must,,+372 5469 9393,Tartu,2024-07-23,silver,1977
 3414,Peeter,Kangur,,+372 5999 4631,Pärnu,2023-07-08,silver,1990
 3415,Ülle,Kuusk,ulle.kuusk@telia.ee,+372 8233 1349,Narva,2022-07-31,silver,1981
-3416,Ragnar,Järv,ragnar.jarv@mail.ee,+372 8271 3613,Haapsalu,2020-12-12,,2004
+3416,Ragnar,Järv,ragnar.jarv@mail.ee,+372 8271 3613,haapsalu,2020-12-12,,2004
 3417,Kalev,Järv,kalev.jarv@hot.ee,+372 5572 1447,Tartu,2020-08-15,gold,2004
 3418,Liina,Lass,liina.lass@mail.ee,+372 5502 6393,Tallinn,2021-08-08,,1983
 3419,Sirje,Teder,sirje.teder@telia.ee,+372 5963 7090,Tallinn,2020-01-19,,1965
@@ -1427,7 +1427,7 @@ customer_id,first_name,last_name,email,phone,city,registration_date,loyalty_tier
 3426,Peeter,Kask,peeter.kask@telia.ee,+372 5384 6813,Tartu,2024-10-02,gold,1980
 3427,Indrek,Kull,indrek.kull@gmail.com,+372 8640 3693,Tallinn,2024-12-22,bronze,1964
 3428,Aili,Org,aili.org@telia.ee,+372 5885 6911,Tallinn,2024-01-02,,1968
-3429,Kalev,Pärn,kalev.parn2@mail.ee,+372 8451 8688,Haapsalu,2022-10-16,,1993
+3429,Kalev,Pärn,kalev.parn2@mail.ee,+372 8451 8688,haapsalu,2022-10-16,,1993
 3430,Toomas,Veski,toomas.veski@gmail.com,+372 5825 4491,Tartu,2022-12-01,bronze,2000
 3431,Margus,Orav,margus.orav@telia.ee,+372 5926 8626,Tallinn,2022-12-09,gold,2004
 3432,Ülle,Nurk,ulle.nurk@outlook.com,+372 8747 9428,Tartu,2020-02-10,silver,2004
@@ -1439,10 +1439,10 @@ customer_id,first_name,last_name,email,phone,city,registration_date,loyalty_tier
 3438,Lea,Ilves,lea.ilves@mail.ee,+372 5279 4518,Tallinn,2022-12-04,silver,1971
 3439,Kati,Sild,kati.sild@hot.ee,+372 5534 7710,Tallinn,2022-08-15,bronze,1971
 3440,Anna,Kallas,anna.kallas@outlook.com,+372 8582 0221,Tallinn,2020-02-23,,1990
-3441,Terje,Järv,terje.jarv@mail.ee,+372 5119 3677,Tallinn,2024-10-01,,1993
+3441,Terje,Järv,terje.jarv@mail.ee,+372 5119 3677,Tallinn ,2024-10-01,,1993
 3442,Meelis,Ilves,,+372 8453 0732,Tartu,2023-07-22,,1995
 3443,Arvo,Nurk,arvo.nurk@mail.ee,+372 8927 9915,Tartu,2022-06-26,silver,1992
-3444,Maris,Kuusik,maris.kuusik@yahoo.com,+372 5329 4488,Rakvere,2021-09-25,silver,1976
+3444,Maris,Kuusik,maris.kuusik@yahoo.com,+372 5329 4488,Rakvere ,2021-09-25,silver,1976
 3445,Maie,Järv,maie.jarv@gmail.com,+372 8307 6075,Tallinn,2024-01-21,silver,2005
 3446,Meelis,Sild,meelis.sild@yahoo.com,+372 5727 9416,Kuressaare,2020-03-04,silver,1978
 3447,Kristjan,Lepik,kristjan.lepik@outlook.com,+372 5605 9855,Tartu,2023-05-15,silver,1988
@@ -1463,7 +1463,7 @@ customer_id,first_name,last_name,email,phone,city,registration_date,loyalty_tier
 3462,Väino,Lepik,vaino.lepik@mail.ee,+372 5832 3850,Tallinn,2023-07-15,,1963
 3463,Katrin,Teder,katrin.teder@outlook.com,+372 8306 3900,Tallinn,2023-01-08,,2003
 3464,Enn,Sepp,enn.sepp@telia.ee,+372 5418 8936,Tallinn,2020-09-19,,1973
-3465,Liina,Tamm,liina.tamm@telia.ee,+372 5611 5317,Tallinn,2022-02-14,gold,1969
+3465,Liina,Tamm,liina.tamm@telia.ee,+372 5611 5317,TALLINN,2022-02-14,gold,1969
 3466,Jaak,Kask,jaak.kask@mail.ee,+372 5906 5040,Tartu,2022-04-30,,1980
 3467,Jüri,Laas,juri.laas@outlook.com,+372 5602 7014,Tallinn,2023-03-23,,1996
 3468,Heino,Aas,heino.aas@yahoo.com,+372 5213 1435,Narva,2023-11-07,bronze,1997
@@ -1474,9 +1474,9 @@ customer_id,first_name,last_name,email,phone,city,registration_date,loyalty_tier
 3473,Kersti,Rosin,kersti.rosin@hot.ee,+372 5987 0251,Pärnu,2023-02-04,bronze,1999
 3474,Laura,Kull,laura.kull@yahoo.com,+372 5983 4771,Narva,2022-05-09,bronze,1991
 3475,Margus,Ilves,margus.ilves@yahoo.com,+372 8637 3610,Tallinn,2020-06-03,silver,1962
-3476,Kristi,Teder,kristi.teder@hot.ee,+372 8696 5601,Tallinn,2021-12-18,,1996
+3476,Kristi,Teder,kristi.teder@hot.ee,+372 8696 5601,tallinn,2021-12-18,,1996
 3477,Priit,Männik,priit.mannik@mail.ee,+372 5182 6438,Rakvere,2020-07-20,,1987
-3478,Tarmo,Kõiv,tarmo.koiv@outlook.com,+372 8266 9835,Pärnu,2025-01-22,,1970
+3478,Tarmo,Kõiv,tarmo.koiv@outlook.com,+372 8266 9835, Pärnu,2025-01-22,,1970
 3479,Kevin,Lõhmus,kevin.lohmus2@mail.ee,+372 5852 4371,Tallinn,2023-03-17,silver,1993
 3480,Taavi,Põld,,+372 5699 8626,Narva,2021-06-07,gold,1964
 3481,Jaak,Raud,jaak.raud@mail.ee,+372 5648 5582,Tallinn,2022-09-27,,1962
@@ -1486,7 +1486,7 @@ customer_id,first_name,last_name,email,phone,city,registration_date,loyalty_tier
 3485,Lauri,Raid,lauri.raid@mail.ee,+372 5955 7623,Tallinn,2020-02-09,gold,1969
 3486,Lea,Hurt,lea.hurt@hot.ee,+372 5742 2728,Tallinn,2021-06-07,,2000
 3487,Ragnar,Põld,ragnar.pold@gmail.com,+372 5961 9273,Võru,2023-11-06,silver,1963
-3488,Sandra,Saar,sandra.saar@gmail.com,+372 5641 7105,Tallinn,2023-03-07,silver,1997
+3488,Sandra,Saar,sandra.saar@gmail.com,+372 5641 7105,Tallinn ,2023-03-07,silver,1997
 3489,Priit,Raid,priit.raid@outlook.com,+372 8515 1386,Tallinn,2021-04-04,,1973
 3490,Aivar,Toom,aivar.toom@telia.ee,+372 8800 3844,Rakvere,2024-11-02,bronze,1977
 3491,Eha,Lepik,eha.lepik@yahoo.com,+372 5582 3338,Tartu,2024-01-20,bronze,1973
@@ -1517,23 +1517,23 @@ customer_id,first_name,last_name,email,phone,city,registration_date,loyalty_tier
 3516,Piret,Must,piret.must@telia.ee,+372 8241 2622,Haapsalu,2021-09-13,silver,1966
 3517,Terje,Rebane,terje.rebane@outlook.com,+372 8554 9393,Tallinn,2023-08-19,,1987
 3518,Aivar,Rand,,+372 5341 3283,Pärnu,2022-08-04,bronze,2001
-3519,Liina,Sepp,liina.sepp@hot.ee,+372 8838 9166,Rakvere,2024-11-22,silver,1999
+3519,Liina,Sepp,liina.sepp@hot.ee,+372 8838 9166,rakvere,2024-11-22,silver,1999
 3520,Riina,Kask,riina.kask@gmail.com,+372 8684 4880,Tallinn,2020-10-26,bronze,2000
 3521,Lea,Lepp,lea.lepp@hot.ee,+372 8632 0126,Tallinn,2020-01-29,silver,1976
 3522,Sirje,Lepp,sirje.lepp@telia.ee,+372 5435 8484,Pärnu,2021-12-01,,1962
-3523,Meelis,Raud,meelis.raud@outlook.com,+372 8823 8055,Tallinn,2021-02-06,gold,1982
+3523,Meelis,Raud,meelis.raud@outlook.com,+372 8823 8055,tallinn,2021-02-06,gold,1982
 3524,Heino,Lõoke,heino.looke@telia.ee,+372 5238 7401,Võru,2022-06-11,gold,1972
 3525,Toomas,Luik,toomas.luik@gmail.com,+372 5529 3292,Võru,2022-04-10,silver,1992
-3526,Laura,Kangur,laura.kangur2@gmail.com,+372 5762 8672,Tallinn,2023-07-01,gold,1984
+3526,Laura,Kangur,laura.kangur2@gmail.com,+372 5762 8672, Tallinn,2023-07-01,gold,1984
 3527,Liis,Kuusk,liis.kuusk@gmail.com,+372 5583 2033,Valga,2023-05-20,,1986
 3528,Jaak,Värk,jaak.vark@yahoo.com,+372 8421 8606,Viljandi,2022-01-14,,1994
-3529,Kevin,Kõiv,,+372 5603 9182,Rakvere,2022-07-11,silver,1993
+3529,Kevin,Kõiv,,+372 5603 9182,RAKVERE,2022-07-11,silver,1993
 3530,Siim,Mitt,,+372 5433 0751,Tallinn,2021-01-06,,2001
 3531,Jaak,Nõmm,jaak.nomm@outlook.com,+372 5661 1153,Tartu,2024-05-06,bronze,1970
 3532,Kadri,Kõiv,kadri.koiv@hot.ee,+372 8637 0766,Tallinn,2022-08-17,gold,2003
 3533,Merle,Talvik,merle.talvik@hot.ee,+372 5712 4231,Võru,2023-07-14,,1987
 3534,Mihkel,Raud,mihkel.raud@gmail.com,+372 5749 7389,Tallinn,2022-05-23,,1979
-3535,Urmas,Kõiv,urmas.koiv@yahoo.com,+372 8424 7756,Tallinn,2022-09-18,,1982
+3535,Urmas,Kõiv,urmas.koiv@yahoo.com,+372 8424 7756,Tallinn ,2022-09-18,,1982
 3536,Peeter,Paju,,+372 8713 1543,Tallinn,2023-04-20,silver,1980
 3537,Annika,Raud,annika.raud@mail.ee,+372 5969 4444,Tallinn,2023-05-17,silver,1997
 3538,Mart,Nõmm,mart.nomm@telia.ee,+372 5961 6515,Tallinn,2023-05-05,,1992
@@ -1548,9 +1548,9 @@ customer_id,first_name,last_name,email,phone,city,registration_date,loyalty_tier
 3547,Anna,Põld,anna.pold2@yahoo.com,+372 8250 9129,Tallinn,2025-01-13,gold,1991
 3548,Tõnu,Toom,tonu.toom@mail.ee,+372 5526 1726,Tartu,2024-09-12,bronze,2005
 3549,Maris,Lõhmus,maris.lohmus@telia.ee,+372 5950 4073,Tartu,2020-10-29,,1975
-3550,Kristiina,Kuusk,kristiina.kuusk@mail.ee,+372 5583 7066,Tallinn,2023-11-19,,1990
+3550,Kristiina,Kuusk,kristiina.kuusk@mail.ee,+372 5583 7066,Tallinn ,2023-11-19,,1990
 3551,Peeter,Lill,peeter.lill@hot.ee,+372 5981 3599,Paide,2021-08-20,gold,1974
-3552,Toomas,Puusepp,,+372 5704 8639,Paide,2020-03-15,,1974
+3552,Toomas,Puusepp,,+372 5704 8639,Paide ,2020-03-15,,1974
 3553,Sander,Kull,sander.kull@hot.ee,+372 8935 9866,Pärnu,2023-09-03,silver,1962
 3554,Merike,Raud,merike.raud@outlook.com,+372 8239 4992,Tallinn,2023-05-18,,1974
 3555,Heino,Vaher,heino.vaher@yahoo.com,+372 5953 9133,Tartu,2020-04-17,silver,1968
@@ -1561,7 +1561,7 @@ customer_id,first_name,last_name,email,phone,city,registration_date,loyalty_tier
 3560,Aili,Lass,aili.lass@gmail.com,+372 8984 3847,Tartu,2022-11-30,silver,1974
 3561,Tarmo,Sild,tarmo.sild@mail.ee,+372 5111 5284,Narva,2022-04-20,,1974
 3562,Heli,Kull,heli.kull@outlook.com,+372 5199 9538,Viljandi,2023-02-09,gold,1992
-3563,Indrek,Oja,indrek.oja@telia.ee,+372 5706 5292,Tallinn,2022-05-21,,1984
+3563,Indrek,Oja,indrek.oja@telia.ee,+372 5706 5292,Tallinn ,2022-05-21,,1984
 3564,Hille,Kangur,hille.kangur@yahoo.com,+372 8995 7747,Tallinn,2023-07-28,silver,2003
 3565,Nele,Vaher,nele.vaher@gmail.com,+372 8248 5652,Rakvere,2024-09-17,,1977
 3566,Kersti,Rosin,kersti.rosin@telia.ee,+372 5955 3609,Viljandi,2024-10-28,,1992
@@ -1577,7 +1577,7 @@ customer_id,first_name,last_name,email,phone,city,registration_date,loyalty_tier
 3576,Sirje,Lepp,sirje.lepp@hot.ee,+372 5588 6504,Tartu,2023-01-16,bronze,1987
 3577,Henri,Kangur,henri.kangur@gmail.com,+372 5225 0145,Narva,2020-12-20,gold,1986
 3578,Erkki,Kull,erkki.kull@outlook.com,+372 5938 7490,Tallinn,2021-05-15,silver,1963
-3579,Sigrid,Luik,sigrid.luik@mail.ee,+372 5127 5614,Rakvere,2023-12-13,silver,1986
+3579,Sigrid,Luik,sigrid.luik@mail.ee,+372 5127 5614,RAKVERE,2023-12-13,silver,1986
 3580,Tiit,Puusepp,tiit.puusepp@gmail.com,+372 8200 5121,Tartu,2023-05-10,silver,1973
 3581,Kati,Mets,kati.mets@yahoo.com,+372 5765 8053,Tallinn,2025-01-25,gold,1963
 3582,Peeter,Valk,peeter.valk@hot.ee,+372 5664 4588,Tallinn,2020-09-08,,1997
@@ -1585,7 +1585,7 @@ customer_id,first_name,last_name,email,phone,city,registration_date,loyalty_tier
 3584,Annika,Talvik,annika.talvik@hot.ee,+372 5520 2270,Tallinn,2023-10-27,,2003
 3585,Sandra,Sepp,sandra.sepp@outlook.com,+372 5996 6968,Jõhvi,2020-04-23,,1962
 3586,Sander,Nurk,sander.nurk@mail.ee,+372 5409 5515,Viljandi,2023-10-29,bronze,1988
-3587,Ragnar,Pärn,ragnar.parn@outlook.com,+372 8419 0067,Võru,2020-09-18,,1960
+3587,Ragnar,Pärn,ragnar.parn@outlook.com,+372 8419 0067,Võru ,2020-09-18,,1960
 3588,Ülle,Kangur,ulle.kangur@mail.ee,+372 5457 6418,Pärnu,2024-01-01,silver,2003
 3589,Lauri,Hurt,,+372 5935 3685,Tartu,2020-10-06,,1964
 3590,Madis,Must,madis.must@outlook.com,+372 5918 3355,Tallinn,2023-11-11,,2002
@@ -1610,13 +1610,13 @@ customer_id,first_name,last_name,email,phone,city,registration_date,loyalty_tier
 3609,Indrek,Puusepp,indrek.puusepp2@hot.ee,+372 5524 7302,Tallinn,2022-05-08,silver,1971
 3610,Grete,Koppel,,+372 8118 3510,Kuressaare,2023-05-10,gold,1999
 3611,Sirje,Koppel,sirje.koppel@hot.ee,+372 5361 1018,Rakvere,2022-05-30,gold,1987
-3612,Mihkel,Mägi,mihkel.magi@hot.ee,+372 5204 2482,Tallinn,2024-02-18,silver,1999
+3612,Mihkel,Mägi,mihkel.magi@hot.ee,+372 5204 2482,Tallinn ,2024-02-18,silver,1999
 3613,Liis,Paju,liis.paju@outlook.com,+372 5401 1813,Tallinn,2020-09-22,,1985
 3614,Ülle,Kuusik,,+372 8951 1486,Haapsalu,2020-01-18,gold,1989
 3615,Andres,Männik,andres.mannik@gmail.com,+372 5740 9569,Tallinn,2023-07-10,silver,1986
 3616,Kersti,Lepik,kersti.lepik@telia.ee,+372 5451 4949,Tartu,2020-04-22,,1967
 3617,Jaak,Kull,jaak.kull@gmail.com,+372 5881 5373,Tallinn,2021-07-30,silver,1963
-3618,Tiina,Pärn,tiina.parn@gmail.com,+372 5632 2997,Tartu,2020-08-23,gold,1998
+3618,Tiina,Pärn,tiina.parn@gmail.com,+372 5632 2997,tartu,2020-08-23,gold,1998
 3619,Ants,Roots,ants.roots@telia.ee,+372 8755 1906,Tartu,2023-07-01,silver,1991
 3620,Andres,Toom,andres.toom@mail.ee,+372 5502 8280,Jõhvi,2020-07-27,gold,1971
 3621,Karin,Vaher,karin.vaher@telia.ee,+372 8682 6597,Pärnu,2020-03-20,silver,1982
@@ -1628,7 +1628,7 @@ customer_id,first_name,last_name,email,phone,city,registration_date,loyalty_tier
 3627,Mihkel,Roots,mihkel.roots@telia.ee,+372 5113 4847,Tartu,2021-11-11,bronze,2000
 3628,Kristjan,Järv,kristjan.jarv@hot.ee,+372 8999 1946,Pärnu,2022-02-24,,1986
 3629,Jaak,Värk,jaak.vark@telia.ee,+372 8964 8771,Tallinn,2020-07-22,bronze,1973
-3630,Heli,Puusepp,heli.puusepp@hot.ee,+372 8436 3565,Tartu,2023-12-28,bronze,1995
+3630,Heli,Puusepp,heli.puusepp@hot.ee,+372 8436 3565,TARTU,2023-12-28,bronze,1995
 3631,Hille,Aas,hille.aas@telia.ee,+372 5887 1642,Võru,2023-12-19,bronze,2000
 3632,Margus,Rosin,margus.rosin@outlook.com,+372 5346 1834,Tallinn,2020-04-14,,1993
 3633,Heli,Põld,heli.pold@mail.ee,+372 5210 2341,Tartu,2022-06-20,,1995
@@ -1670,9 +1670,9 @@ customer_id,first_name,last_name,email,phone,city,registration_date,loyalty_tier
 3669,Raivo,Koppel,raivo.koppel2@yahoo.com,+372 5797 7069,Tallinn,2023-04-29,,2005
 3670,Reet,Lepik,reet.lepik@hot.ee,+372 5458 1831,Haapsalu,2024-10-23,bronze,1963
 3671,Rein,Kivi,rein.kivi@gmail.com,+372 5555 9356,Tallinn,2024-04-28,,1998
-3672,Taavi,Liiv,taavi.liiv@gmail.com,+372 5827 6530,Haapsalu,2022-04-21,silver,1983
+3672,Taavi,Liiv,taavi.liiv@gmail.com,+372 5827 6530,HAAPSALU,2022-04-21,silver,1983
 3673,Kaido,Kukk,,+372 8691 6301,Haapsalu,2020-08-24,,2004
-3674,Grete,Salu,grete.salu2@telia.ee,+372 5933 7222,Tallinn,2022-07-06,gold,1978
+3674,Grete,Salu,grete.salu2@telia.ee,+372 5933 7222,tallinn,2022-07-06,gold,1978
 3675,Heli,Roots,heli.roots@outlook.com,+372 5645 1698,Tartu,2023-10-15,bronze,1984
 3676,Tiina,Pihl,tiina.pihl@gmail.com,+372 8914 8062,Jõhvi,2023-04-16,silver,1977
 3677,Ragnar,Paju,ragnar.paju@gmail.com,+372 5135 6559,Tartu,2024-06-09,bronze,1963
@@ -1690,7 +1690,7 @@ customer_id,first_name,last_name,email,phone,city,registration_date,loyalty_tier
 3689,Olev,Kangur,olev.kangur@telia.ee,+372 8519 3791,Valga,2021-04-23,,1980
 3690,Maie,Tamm,maie.tamm@gmail.com,+372 5441 6989,Tallinn,2024-04-14,,1972
 3691,Anna,Liiv,anna.liiv@gmail.com,+372 8242 9186,Jõhvi,2024-10-17,bronze,1984
-3692,Väino,Sild,vaino.sild@yahoo.com,+372 5714 4105,Tallinn,2022-06-23,bronze,1968
+3692,Väino,Sild,vaino.sild@yahoo.com,+372 5714 4105,Tallinn ,2022-06-23,bronze,1968
 3693,Külli,Must,kulli.must@hot.ee,+372 5782 7667,Tartu,2024-02-28,bronze,1998
 3694,Aivar,Salu,aivar.salu@mail.ee,+372 5873 8340,Tallinn,2023-07-01,gold,1971
 3695,Kati,Puusepp,kati.puusepp@hot.ee,+372 5374 7865,Tallinn,2020-11-05,,1981
@@ -1700,9 +1700,9 @@ customer_id,first_name,last_name,email,phone,city,registration_date,loyalty_tier
 3699,Marko,Pihl,marko.pihl@outlook.com,+372 5888 7611,Tartu,2023-04-09,,1973
 3700,Liina,Valk,liina.valk@outlook.com,+372 5417 4675,Pärnu,2021-11-09,,1964
 3701,Tarmo,Tammik,tarmo.tammik@outlook.com,+372 5464 8094,Tallinn,2020-02-22,gold,1997
-3702,Väino,Tammik,,+372 5310 0871,Tartu,2022-03-04,gold,2004
+3702,Väino,Tammik,,+372 5310 0871, Tartu,2022-03-04,gold,2004
 3703,Liina,Lõhmus,liina.lohmus@gmail.com,+372 8237 5559,Tallinn,2022-11-09,bronze,1978
-3704,Kaido,Kuusik,kaido.kuusik@yahoo.com,+372 5577 8064,Tallinn,2020-03-27,,1961
+3704,Kaido,Kuusik,kaido.kuusik@yahoo.com,+372 5577 8064,TALLINN,2020-03-27,,1961
 3705,Grete,Paju,grete.paju@telia.ee,+372 5672 1842,Tartu,2020-05-26,gold,2003
 3706,Anna,Pihl,anna.pihl@yahoo.com,+372 5397 0651,Tartu,2024-09-08,,2001
 3707,Anu,Toom,anu.toom@telia.ee,+372 5847 1472,Tartu,2021-03-23,silver,1989
@@ -1712,8 +1712,8 @@ customer_id,first_name,last_name,email,phone,city,registration_date,loyalty_tier
 3711,Väino,Paju,vaino.paju@yahoo.com,+372 8454 7973,Tartu,2023-07-28,,1966
 3712,Indrek,Mägi,indrek.magi@telia.ee,+372 5526 8560,Viljandi,2021-02-25,gold,1999
 3713,Marika,Kõiv,,+372 8644 2429,Tallinn,2022-07-13,bronze,2000
-3714,Meelis,Raid,meelis.raid@gmail.com,+372 8723 8878,Tallinn,2021-08-22,,1961
-3715,Maie,Kaalep,maie.kaalep@telia.ee,+372 8438 9195,Pärnu,2023-05-29,,1993
+3714,Meelis,Raid,meelis.raid@gmail.com,+372 8723 8878,TALLINN,2021-08-22,,1961
+3715,Maie,Kaalep,maie.kaalep@telia.ee,+372 8438 9195,Pärnu ,2023-05-29,,1993
 3716,Jüri,Salu,juri.salu2@yahoo.com,+372 5519 1608,Tartu,2023-01-02,,1996
 3717,Heino,Lepik,heino.lepik@yahoo.com,+372 5252 0774,Narva,2023-10-02,,1992
 3718,Kevin,Orav,kevin.orav@mail.ee,+372 5248 9396,Rakvere,2021-10-02,gold,1965
@@ -1721,10 +1721,10 @@ customer_id,first_name,last_name,email,phone,city,registration_date,loyalty_tier
 3720,Grete,Puusepp,grete.puusepp@hot.ee,+372 5543 9982,Tallinn,2023-06-10,,1986
 3721,Heino,Roots,heino.roots@telia.ee,+372 5270 5130,Tallinn,2023-07-31,silver,1988
 3722,Ago,Kull,ago.kull@yahoo.com,+372 5159 7764,Pärnu,2023-09-06,bronze,1993
-3723,Marika,Lass,marika.lass@outlook.com,+372 5813 5124,Pärnu,2022-04-13,silver,1983
-3724,Madis,Teder,,+372 8779 3540,Tartu,2024-04-17,,1989
+3723,Marika,Lass,marika.lass@outlook.com,+372 5813 5124,Pärnu ,2022-04-13,silver,1983
+3724,Madis,Teder,,+372 8779 3540,tartu,2024-04-17,,1989
 3725,Anu,Paas,anu.paas@outlook.com,+372 5856 4186,Tallinn,2024-09-23,bronze,1977
-3726,Sandra,Roots,,+372 5112 1099,Tallinn,2020-07-11,silver,1966
+3726,Sandra,Roots,,+372 5112 1099,tallinn,2020-07-11,silver,1966
 3727,Tiit,Kangur,tiit.kangur@hot.ee,+372 5768 0214,Viljandi,2024-11-15,,1974
 3728,Kristiina,Kull,,+372 8315 1503,Tallinn,2020-06-02,,1969
 3729,Annika,Must,annika.must@mail.ee,+372 5582 0424,Viljandi,2021-12-13,gold,1960
@@ -1732,7 +1732,7 @@ customer_id,first_name,last_name,email,phone,city,registration_date,loyalty_tier
 3731,Raivo,Org,raivo.org@telia.ee,+372 5555 6551,Tallinn,2023-10-31,,1969
 3732,Olev,Sild,,+372 8621 5866,Pärnu,2023-04-17,silver,1987
 3733,Priit,Aas,priit.aas@yahoo.com,+372 8417 1659,Narva,2023-12-22,silver,2002
-3734,Pille,Koppel,pille.koppel@mail.ee,+372 8379 8263,Tallinn,2022-12-25,gold,1987
+3734,Pille,Koppel,pille.koppel@mail.ee,+372 8379 8263,tallinn,2022-12-25,gold,1987
 3735,Tõnu,Luik,,+372 5519 9532,Pärnu,2022-10-11,bronze,1961
 3736,Sandra,Kallas,sandra.kallas@hot.ee,+372 8896 1437,Haapsalu,2025-01-17,bronze,1966
 3737,Sandra,Aas,sandra.aas@telia.ee,+372 5424 7514,Tallinn,2022-07-01,silver,1978
@@ -1744,7 +1744,7 @@ customer_id,first_name,last_name,email,phone,city,registration_date,loyalty_tier
 3743,Tiina,Kukk,tiina.kukk2@mail.ee,+372 8940 2532,Tartu,2022-08-26,silver,1983
 3744,Ülle,Kuusik,ulle.kuusik@hot.ee,+372 5594 3539,Jõhvi,2021-01-20,bronze,1964
 3745,Tõnu,Mägi,tonu.magi@telia.ee,+372 5282 1074,Tartu,2020-10-17,bronze,1987
-3746,Ants,Kull,ants.kull@mail.ee,+372 5791 3955,Tartu,2022-01-28,gold,1967
+3746,Ants,Kull,ants.kull@mail.ee,+372 5791 3955,TARTU,2022-01-28,gold,1967
 3747,Lauri,Rosin,lauri.rosin@hot.ee,+372 5443 5894,Tartu,2021-03-29,gold,1966
 3748,Taavi,Kuusk,taavi.kuusk@telia.ee,+372 5801 3555,Tallinn,2022-01-23,gold,1986
 3749,Ago,Hurt,ago.hurt@gmail.com,+372 5667 2936,Tallinn,2024-02-14,,1985
@@ -1761,20 +1761,20 @@ customer_id,first_name,last_name,email,phone,city,registration_date,loyalty_tier
 3760,Madis,Värk,madis.vark@telia.ee,+372 8777 0185,Tartu,2020-11-13,gold,1982
 3761,Rein,Paju,rein.paju@mail.ee,+372 8223 6691,Pärnu,2021-01-19,,1988
 3762,Kati,Mägi,kati.magi@telia.ee,+372 5750 3576,Viljandi,2020-04-10,bronze,1967
-3763,Eha,Kangur,eha.kangur@telia.ee,+372 5153 9085,Haapsalu,2022-02-15,,1989
+3763,Eha,Kangur,eha.kangur@telia.ee,+372 5153 9085,HAAPSALU,2022-02-15,,1989
 3764,Katrin,Kivi,,+372 8305 4164,Pärnu,2020-02-19,,1970
-3765,Aili,Teder,aili.teder@mail.ee,+372 5382 6427,Tallinn,2022-08-24,bronze,1997
+3765,Aili,Teder,aili.teder@mail.ee,+372 5382 6427,Tallinn ,2022-08-24,bronze,1997
 3766,Andres,Oja,andres.oja@hot.ee,+372 5998 3360,Tallinn,2021-03-27,gold,1983
 3767,Tarmo,Kaalep,tarmo.kaalep2@mail.ee,+372 5133 8735,Tartu,2022-03-14,,1962
 3768,Karin,Sepp,karin.sepp@telia.ee,+372 8119 5682,Tallinn,2023-02-19,silver,1988
 3769,Anna,Luik,anna.luik@hot.ee,+372 5310 9100,Tartu,2023-05-19,silver,1972
 3770,Lauri,Männik,lauri.mannik@gmail.com,+372 5520 7101,Tartu,2020-11-16,gold,1989
-3771,Ago,Kukk,ago.kukk@mail.ee,+372 5955 5949,Tartu,2023-10-30,bronze,1996
+3771,Ago,Kukk,ago.kukk@mail.ee,+372 5955 5949,tartu,2023-10-30,bronze,1996
 3772,Piret,Aas,piret.aas@hot.ee,+372 5370 8060,Narva,2023-09-13,bronze,1995
 3773,Toomas,Lepp,toomas.lepp@gmail.com,+372 5795 5320,Tallinn,2022-08-06,,1970
 3774,Annika,Sepp,annika.sepp@yahoo.com,+372 5812 2847,Tartu,2023-02-19,bronze,2003
 3775,Väino,Kuusik,vaino.kuusik@gmail.com,+372 5453 1555,Narva,2020-04-18,gold,1976
-3776,Siim,Kangur,siim.kangur@hot.ee,+372 5174 1430,Tallinn,2021-08-20,,1995
+3776,Siim,Kangur,siim.kangur@hot.ee,+372 5174 1430, Tallinn,2021-08-20,,1995
 3777,Marika,Aas,marika.aas@outlook.com,+372 8285 1143,Viljandi,2022-05-23,silver,1997
 3778,Kalev,Kask,kalev.kask@outlook.com,+372 5513 7125,Tallinn,2021-03-15,,1989
 3779,Madis,Kivi,madis.kivi@telia.ee,+372 5254 3134,Viljandi,2024-07-08,,1964
@@ -1791,12 +1791,12 @@ customer_id,first_name,last_name,email,phone,city,registration_date,loyalty_tier
 3790,Kadri,Liiv,kadri.liiv@telia.ee,+372 5604 0655,Tallinn,2022-01-11,gold,1994
 3791,Ülle,Puusepp,ulle.puusepp@telia.ee,+372 8972 4153,Haapsalu,2021-07-28,gold,1970
 3792,Urmas,Järv,,+372 5565 3862,Võru,2020-07-14,gold,1999
-3793,Lea,Nõmm,lea.nomm@gmail.com,+372 5577 2152,Tallinn,2022-04-20,,1960
+3793,Lea,Nõmm,lea.nomm@gmail.com,+372 5577 2152,Tallinn ,2022-04-20,,1960
 3794,Nele,Koppel,nele.koppel@telia.ee,+372 5565 1489,Tallinn,2023-01-02,,1979
 3795,Taavi,Hurt,taavi.hurt@outlook.com,+372 5607 5815,Tallinn,2021-02-07,,1968
 3796,Maris,Oja,maris.oja@mail.ee,+372 5846 5059,Tartu,2021-02-01,,1980
 3797,Anna,Must,anna.must@outlook.com,+372 5287 3377,Pärnu,2024-05-22,,1968
-3798,Annika,Aas,,+372 8310 9111,Tallinn,2024-04-07,,1965
+3798,Annika,Aas,,+372 8310 9111,Tallinn ,2024-04-07,,1965
 3799,Merle,Raud,merle.raud@telia.ee,+372 5594 6899,Pärnu,2023-12-15,silver,1988
 3800,Ene,Järv,ene.jarv@hot.ee,+372 5554 2594,Tallinn,2022-02-26,silver,1972
 3801,Liis,Valk,liis.valk@hot.ee,+372 5491 6746,Tallinn,2025-01-31,bronze,1993
@@ -1825,13 +1825,13 @@ customer_id,first_name,last_name,email,phone,city,registration_date,loyalty_tier
 3824,Andres,Lepp,andres.lepp@gmail.com,+372 5252 0531,Tartu,2021-10-25,gold,1999
 3825,Kati,Paas,kati.paas@gmail.com,+372 5630 0051,Tallinn,2020-07-15,,2001
 3826,Marko,Kask,marko.kask@yahoo.com,+372 8585 4277,Tartu,2021-03-29,bronze,2002
-3827,Lea,Raid,lea.raid@outlook.com,+372 5138 7388,Paide,2023-10-15,silver,1994
+3827,Lea,Raid,lea.raid@outlook.com,+372 5138 7388,paide,2023-10-15,silver,1994
 3828,Pille,Põld,pille.pold@yahoo.com,+372 8974 2492,Tallinn,2022-07-21,,1961
 3829,Katrin,Nurk,katrin.nurk@mail.ee,+372 8823 0907,Tallinn,2023-04-10,silver,2004
 3830,Marko,Lõhmus,marko.lohmus@gmail.com,+372 5214 9105,Tartu,2021-03-09,,1985
 3831,Maris,Rosin,maris.rosin@gmail.com,+372 5907 0225,Tartu,2021-11-22,silver,1964
 3832,Kaido,Orav,kaido.orav@telia.ee,+372 5978 8346,Narva,2022-03-26,bronze,1965
-3833,Mihkel,Pihl,mihkel.pihl@gmail.com,+372 5860 1893,Pärnu,2022-12-31,silver,1992
+3833,Mihkel,Pihl,mihkel.pihl@gmail.com,+372 5860 1893, Pärnu,2022-12-31,silver,1992
 3834,Grete,Männik,grete.mannik@yahoo.com,+372 5225 7636,Tartu,2023-12-07,silver,1993
 3835,Aivar,Luik,aivar.luik@gmail.com,+372 8568 6714,Võru,2024-04-08,bronze,1970
 3836,Tiit,Arro,tiit.arro@outlook.com,+372 8744 7708,Tartu,2023-01-30,,1989
@@ -1849,7 +1849,7 @@ customer_id,first_name,last_name,email,phone,city,registration_date,loyalty_tier
 3848,Maie,Rosin,maie.rosin@yahoo.com,+372 8353 1588,Paide,2020-03-15,,1964
 3849,Rasmus,Männik,rasmus.mannik3@gmail.com,+372 8136 3332,Tallinn,2021-05-15,gold,1978
 3850,Piret,Puusepp,piret.puusepp@outlook.com,+372 5271 9509,Tallinn,2021-03-16,,1980
-3851,Raivo,Pihl,raivo.pihl@outlook.com,+372 5691 2020,Võru,2022-03-30,bronze,1962
+3851,Raivo,Pihl,raivo.pihl@outlook.com,+372 5691 2020,võru,2022-03-30,bronze,1962
 3852,Nele,Kivi,nele.kivi@telia.ee,+372 8189 2703,Võru,2021-06-25,,1961
 3853,Olev,Kuusk,olev.kuusk@yahoo.com,+372 8335 2946,Pärnu,2022-12-05,silver,1997
 3854,Toomas,Kivi,toomas.kivi@hot.ee,+372 5867 7046,Tallinn,2020-05-10,,1983
@@ -1860,11 +1860,11 @@ customer_id,first_name,last_name,email,phone,city,registration_date,loyalty_tier
 3859,Priit,Mitt,priit.mitt@yahoo.com,+372 8342 2667,Pärnu,2022-10-10,,1982
 3860,Sigrid,Arro,sigrid.arro@mail.ee,+372 5239 1317,Valga,2025-01-23,bronze,2002
 3861,Mihkel,Talvik,mihkel.talvik@hot.ee,+372 5308 5459,Pärnu,2020-03-24,,1965
-3862,Enn,Liiv,enn.liiv@yahoo.com,+372 5801 6397,Tallinn,2021-10-14,,2004
+3862,Enn,Liiv,enn.liiv@yahoo.com,+372 5801 6397, Tallinn,2021-10-14,,2004
 3863,Jüri,Raid,juri.raid@mail.ee,+372 5351 5679,Tartu,2024-02-06,,1992
 3864,Terje,Rosin,terje.rosin@telia.ee,+372 5688 3582,Tartu,2022-04-26,bronze,1969
 3865,Kersti,Nurk,kersti.nurk@telia.ee,+372 8507 1307,Tallinn,2023-03-28,gold,1988
-3866,Raivo,Laas,raivo.laas@telia.ee,+372 5390 0476,Pärnu,2024-02-09,,2005
+3866,Raivo,Laas,raivo.laas@telia.ee,+372 5390 0476, Pärnu,2024-02-09,,2005
 3867,Reet,Mitt,reet.mitt@gmail.com,+372 8892 0234,Tartu,2021-03-13,silver,1969
 3868,Anu,Paju,anu.paju@yahoo.com,+372 8407 9765,Tallinn,2020-09-30,,1978
 3869,Triin,Pihl,triin.pihl@telia.ee,+372 5842 2363,Pärnu,2021-01-22,,1997
@@ -1878,9 +1878,9 @@ customer_id,first_name,last_name,email,phone,city,registration_date,loyalty_tier
 3877,Pille,Laas,pille.laas@mail.ee,+372 5858 6317,Narva,2023-05-08,bronze,1966
 3878,Heino,Roots,,+372 8816 2529,Tallinn,2023-12-05,gold,1983
 3879,Anna,Roots,anna.roots@mail.ee,+372 8567 4209,Tallinn,2023-06-26,,1990
-3880,Hille,Kangur,hille.kangur@telia.ee,+372 5681 5903,Tartu,2022-04-05,bronze,1966
+3880,Hille,Kangur,hille.kangur@telia.ee,+372 5681 5903,tartu,2022-04-05,bronze,1966
 3881,Pille,Kallas,pille.kallas@yahoo.com,+372 8592 1490,Tartu,2024-06-09,silver,2005
-3882,Aivar,Kangur,aivar.kangur@hot.ee,+372 5665 0046,Tartu,2020-12-12,gold,2003
+3882,Aivar,Kangur,aivar.kangur@hot.ee,+372 5665 0046,tartu,2020-12-12,gold,2003
 3883,Laura,Männik,laura.mannik2@gmail.com,+372 5844 8112,Tallinn,2021-09-06,,1974
 3884,Ago,Talvik,,+372 5409 9653,Tartu,2020-09-17,silver,2002
 3885,Elis,Lepp,elis.lepp@outlook.com,+372 5989 5045,Paide,2022-04-08,gold,1970
@@ -1905,7 +1905,7 @@ customer_id,first_name,last_name,email,phone,city,registration_date,loyalty_tier
 3904,Siim,Toom,siim.toom2@gmail.com,+372 8727 1647,Pärnu,2020-04-07,bronze,1988
 3905,Sigrid,Mägi,sigrid.magi@outlook.com,+372 5228 6643,Võru,2023-12-22,,1999
 3906,Arvo,Lass,,+372 5306 7877,Tallinn,2020-06-25,,1961
-3907,Rein,Kõiv,rein.koiv@telia.ee,+372 5582 7980,Tallinn,2022-12-20,,1971
+3907,Rein,Kõiv,rein.koiv@telia.ee,+372 5582 7980, Tallinn,2022-12-20,,1971
 3908,Piret,Ilves,piret.ilves@outlook.com,+372 8325 2175,Pärnu,2023-08-31,bronze,1996
 3909,Kristi,Toom,kristi.toom@telia.ee,+372 5319 2571,Tallinn,2023-11-27,silver,1963
 3910,Lauri,Värk,lauri.vark@telia.ee,+372 8783 3860,Pärnu,2024-08-21,bronze,1966
@@ -1934,7 +1934,7 @@ customer_id,first_name,last_name,email,phone,city,registration_date,loyalty_tier
 3933,Olev,Lepp,olev.lepp@gmail.com,+372 8347 8718,Valga,2024-06-30,bronze,1986
 3934,Kadri,Kull,kadri.kull@telia.ee,+372 5384 9471,Kuressaare,2021-12-21,bronze,2002
 3935,Toomas,Valk,toomas.valk@telia.ee,+372 5957 3603,Tartu,2023-07-31,gold,1999
-3936,Margus,Kivi,margus.kivi@hot.ee,+372 5425 1554,Haapsalu,2024-05-01,bronze,1979
+3936,Margus,Kivi,margus.kivi@hot.ee,+372 5425 1554,HAAPSALU,2024-05-01,bronze,1979
 3937,Karin,Mägi,karin.magi@outlook.com,+372 5809 0740,Jõhvi,2023-01-17,bronze,2002
 3938,Külli,Lass,kulli.lass2@gmail.com,+372 5439 1261,Tallinn,2023-08-26,,1992
 3939,Enn,Oja,enn.oja@outlook.com,+372 5325 6444,Paide,2020-08-20,,1981
@@ -1945,22 +1945,22 @@ customer_id,first_name,last_name,email,phone,city,registration_date,loyalty_tier
 3944,Siim,Tamm,siim.tamm@mail.ee,+372 5662 9917,Pärnu,2020-07-23,,1991
 3945,Ene,Rebane,ene.rebane@yahoo.com,+372 8134 9580,Tartu,2020-09-28,gold,1962
 3946,Mihkel,Rosin,mihkel.rosin2@yahoo.com,+372 8716 7910,Viljandi,2022-09-20,,1979
-3947,Sander,Kuusik,sander.kuusik@yahoo.com,+372 5331 2512,Tallinn,2024-03-25,,2001
+3947,Sander,Kuusik,sander.kuusik@yahoo.com,+372 5331 2512, Tallinn,2024-03-25,,2001
 3948,Terje,Org,terje.org@mail.ee,+372 8516 6576,Tallinn,2022-03-25,gold,2001
 3949,Margus,Kuusik,,+372 5632 8298,Rakvere,2020-10-11,,1994
-3950,Aili,Toom,,+372 5645 9518,Pärnu,2022-09-24,gold,1976
+3950,Aili,Toom,,+372 5645 9518, Pärnu,2022-09-24,gold,1976
 3951,Rain,Kallas,,+372 5909 8770,Narva,2024-01-10,bronze,1981
 3952,Marko,Liiv,marko.liiv@outlook.com,+372 5540 7880,Jõhvi,2023-05-08,,1972
 3953,Karin,Järv,karin.jarv@hot.ee,+372 5247 0240,Paide,2020-05-06,bronze,2000
 3954,Priit,Teder,priit.teder@hot.ee,+372 5704 4720,Tallinn,2023-03-15,,1984
-3955,Kalev,Lepik,kalev.lepik@telia.ee,+372 8384 7425,Pärnu,2025-01-28,bronze,2000
+3955,Kalev,Lepik,kalev.lepik@telia.ee,+372 8384 7425, Pärnu,2025-01-28,bronze,2000
 3956,Marit,Aas,marit.aas@hot.ee,+372 5149 5868,Tallinn,2023-02-08,,2003
 3957,Margus,Lepp,margus.lepp@yahoo.com,+372 5831 4986,Tartu,2020-04-03,,1992
 3958,Meelis,Saar,,+372 5738 7925,Tartu,2023-08-09,silver,1966
 3959,Ene,Tammik,,+372 5285 1278,Pärnu,2021-11-16,,1969
 3960,Marko,Luik,marko.luik@mail.ee,+372 8186 9289,Pärnu,2024-09-29,bronze,1989
 3961,Kalev,Põld,kalev.pold@outlook.com,+372 5927 0985,Tallinn,2023-07-09,gold,1973
-3962,Ülle,Teder,,+372 5184 5910,Pärnu,2023-12-29,bronze,1969
+3962,Ülle,Teder,,+372 5184 5910,pärnu,2023-12-29,bronze,1969
 3963,Margus,Roots,margus.roots@outlook.com,+372 5689 0822,Pärnu,2024-01-18,bronze,2001
 3964,Kersti,Männik,kersti.mannik@yahoo.com,+372 5850 6802,Tartu,2022-04-10,bronze,1980
 3965,Heino,Lõoke,heino.looke@mail.ee,+372 5527 9529,Tallinn,2023-12-12,,1982
@@ -1976,8 +1976,8 @@ customer_id,first_name,last_name,email,phone,city,registration_date,loyalty_tier
 3975,Arvo,Lass,arvo.lass@outlook.com,+372 5813 6139,Pärnu,2022-05-14,silver,1972
 3976,Heino,Sepp,heino.sepp@outlook.com,+372 5342 4527,Tartu,2024-04-09,bronze,1975
 3977,Sirje,Lõhmus,sirje.lohmus@yahoo.com,+372 5531 1017,Tallinn,2021-10-21,,1987
-3978,Tiina,Oja,tiina.oja@telia.ee,+372 8167 2532,Pärnu,2024-04-17,gold,2002
-3979,Eha,Hurt,eha.hurt@yahoo.com,+372 5263 2704,Narva,2021-11-12,,2004
+3978,Tiina,Oja,tiina.oja@telia.ee,+372 8167 2532,pärnu,2024-04-17,gold,2002
+3979,Eha,Hurt,eha.hurt@yahoo.com,+372 5263 2704, Narva,2021-11-12,,2004
 3980,Anna,Mägi,,+372 8583 1622,Pärnu,2024-07-26,,1995
 3981,Rein,Pihl,rein.pihl@gmail.com,+372 8932 5943,Tallinn,2020-11-20,,1995
 3982,Siim,Toom,siim.toom@yahoo.com,+372 8356 5726,Tallinn,2024-01-14,bronze,1969
@@ -1986,7 +1986,7 @@ customer_id,first_name,last_name,email,phone,city,registration_date,loyalty_tier
 3985,Sirje,Valk,sirje.valk@mail.ee,+372 5107 2106,Tallinn,2020-10-24,bronze,1998
 3986,Jüri,Nõmm,juri.nomm@gmail.com,+372 5410 3792,Tartu,2023-09-22,,1970
 3987,Tiina,Talvik,tiina.talvik2@telia.ee,+372 5920 8864,Pärnu,2023-01-12,bronze,1986
-3988,Väino,Hurt,vaino.hurt@yahoo.com,+372 8293 0143,Tartu,2024-12-19,silver,1960
+3988,Väino,Hurt,vaino.hurt@yahoo.com,+372 8293 0143,Tartu ,2024-12-19,silver,1960
 3989,Mart,Sepp,mart.sepp@mail.ee,+372 5762 8482,Tartu,2024-11-03,silver,1998
 3990,Henri,Lepik,henri.lepik@gmail.com,+372 5775 7967,Tallinn,2021-09-01,silver,1964
 3991,Väino,Mägi,vaino.magi@hot.ee,+372 8990 1665,Tallinn,2020-09-06,,1974
@@ -2005,7 +2005,7 @@ customer_id,first_name,last_name,email,phone,city,registration_date,loyalty_tier
 4004,Peeter,Põld,peeter.pold@outlook.com,+372 5220 0149,Viljandi,2021-09-10,,1989
 4005,Toomas,Orav,toomas.orav@outlook.com,+372 8939 7204,Tallinn,2024-12-06,bronze,1967
 4006,Elis,Oja,elis.oja@yahoo.com,+372 8332 0438,Narva,2020-01-15,silver,1967
-4007,Sander,Org,sander.org@gmail.com,+372 5127 4745,Haapsalu,2021-05-17,,1975
+4007,Sander,Org,sander.org@gmail.com,+372 5127 4745,haapsalu,2021-05-17,,1975
 4008,Erkki,Arro,erkki.arro@gmail.com,+372 5161 0300,Tallinn,2022-09-10,,1989
 4009,Terje,Kukk,,+372 8738 1503,Tallinn,2021-02-23,silver,1963
 4010,Kaido,Kaalep,kaido.kaalep@telia.ee,+372 5413 1731,Tallinn,2020-07-08,,1974
@@ -2019,19 +2019,19 @@ customer_id,first_name,last_name,email,phone,city,registration_date,loyalty_tier
 4018,Terje,Kukk,terje.kukk@gmail.com,+372 5440 6230,Rakvere,2023-09-28,,1971
 4019,Kristi,Kask,kristi.kask@outlook.com,+372 8349 0243,Pärnu,2024-08-30,,1975
 4020,Liina,Mets,,+372 5443 6351,Tartu,2025-02-26,silver,1990
-4021,Triin,Liiv,triin.liiv@mail.ee,+372 5993 4814,Pärnu,2022-03-02,silver,1996
+4021,Triin,Liiv,triin.liiv@mail.ee,+372 5993 4814,pärnu,2022-03-02,silver,1996
 4022,Lea,Kivi,lea.kivi@yahoo.com,+372 5724 3965,Jõhvi,2025-02-05,bronze,1987
 4023,Kristi,Järv,kristi.jarv@yahoo.com,+372 8734 8051,Tallinn,2023-05-24,silver,2002
 4024,Reet,Kõiv,reet.koiv@mail.ee,+372 5557 5510,Tallinn,2020-10-24,gold,2000
 4025,Tiit,Tamm,tiit.tamm@mail.ee,+372 8603 9437,Tallinn,2023-01-05,,1991
-4026,Tiina,Tamm,tiina.tamm@hot.ee,+372 5793 4095,Narva,2024-02-15,,1964
-4027,Kati,Kaalep,kati.kaalep2@outlook.com,+372 5637 0222,Kuressaare,2021-01-19,gold,2005
+4026,Tiina,Tamm,tiina.tamm@hot.ee,+372 5793 4095, Narva,2024-02-15,,1964
+4027,Kati,Kaalep,kati.kaalep2@outlook.com,+372 5637 0222,KURESSAARE,2021-01-19,gold,2005
 4028,Tiina,Tamm,tiina.tamm@gmail.com,+372 8169 1202,Viljandi,2020-07-03,,1972
 4029,Sander,Lass,sander.lass@gmail.com,+372 5526 2613,Tallinn,2020-03-25,,1994
 4030,Arvo,Laas,arvo.laas@gmail.com,+372 5714 9966,Tartu,2020-11-26,,1960
 4031,Kristiina,Talvik,kristiina.talvik@hot.ee,+372 5394 2383,Paide,2022-06-09,,1983
-4032,Lea,Põld,lea.pold@hot.ee,+372 5735 3819,Tallinn,2021-07-09,,1978
-4033,Külli,Nõmm,kulli.nomm@telia.ee,+372 8661 3597,Tallinn,2023-11-26,silver,1998
+4032,Lea,Põld,lea.pold@hot.ee,+372 5735 3819,tallinn,2021-07-09,,1978
+4033,Külli,Nõmm,kulli.nomm@telia.ee,+372 8661 3597,tallinn,2023-11-26,silver,1998
 4034,Aivar,Hurt,aivar.hurt@outlook.com,+372 5879 0890,Tartu,2020-06-27,,1975
 4035,Ülle,Liiv,ulle.liiv@gmail.com,+372 5455 3276,Tallinn,2023-01-29,,1995
 4036,Terje,Arro,terje.arro@telia.ee,+372 5735 2557,Pärnu,2021-04-26,,2001
@@ -2045,7 +2045,7 @@ customer_id,first_name,last_name,email,phone,city,registration_date,loyalty_tier
 4044,Jüri,Talvik,juri.talvik2@outlook.com,+372 8211 9574,Tallinn,2021-05-20,,1997
 4045,Sigrid,Paas,sigrid.paas@outlook.com,+372 5590 6516,Tartu,2021-02-21,silver,1996
 4046,Hille,Mägi,hille.magi@hot.ee,+372 5340 2229,Tallinn,2022-02-26,,1975
-4047,Grete,Kukk,grete.kukk3@hot.ee,+372 5805 2236,Tallinn,2023-07-18,gold,1977
+4047,Grete,Kukk,grete.kukk3@hot.ee,+372 5805 2236, Tallinn,2023-07-18,gold,1977
 4048,Maris,Sild,maris.sild@hot.ee,+372 8152 8740,Tallinn,2022-11-10,gold,2002
 4049,Maie,Kõiv,maie.koiv@hot.ee,+372 8153 8535,Tartu,2024-05-25,silver,1961
 4050,Pille,Roots,pille.roots@outlook.com,+372 8114 6503,Pärnu,2021-02-10,,1964
@@ -2054,10 +2054,10 @@ customer_id,first_name,last_name,email,phone,city,registration_date,loyalty_tier
 4053,Kati,Teder,kati.teder@yahoo.com,+372 8807 4584,Tallinn,2024-04-26,,1960
 4054,Enn,Veski,enn.veski@outlook.com,+372 5714 3221,Tallinn,2022-01-14,,1986
 4055,Nele,Koppel,nele.koppel@mail.ee,+372 5139 9691,Tallinn,2021-05-05,,1978
-4056,Hille,Männik,,+372 5518 8355,Tallinn,2023-11-06,bronze,1975
+4056,Hille,Männik,,+372 5518 8355,TALLINN,2023-11-06,bronze,1975
 4057,Ragnar,Kull,,+372 8430 7077,Pärnu,2023-06-06,gold,1977
 4058,Ants,Liiv,ants.liiv@telia.ee,+372 5979 3201,Tallinn,2020-11-14,,1986
-4059,Siim,Liiv,siim.liiv@yahoo.com,+372 8630 2904,Tallinn,2020-04-25,,1973
+4059,Siim,Liiv,siim.liiv@yahoo.com,+372 8630 2904,TALLINN,2020-04-25,,1973
 4060,Marika,Saar,marika.saar@mail.ee,+372 8751 7696,Tartu,2021-08-12,,1978
 4061,Indrek,Oja,indrek.oja@mail.ee,+372 5876 1029,Pärnu,2025-02-09,bronze,1974
 4062,Anu,Luik,anu.luik@gmail.com,+372 8155 3707,Tartu,2025-02-07,bronze,1990
@@ -2068,13 +2068,13 @@ customer_id,first_name,last_name,email,phone,city,registration_date,loyalty_tier
 4067,Terje,Rebane,terje.rebane2@outlook.com,+372 8211 0393,Tallinn,2021-12-07,,1980
 4068,Eha,Aas,eha.aas@gmail.com,+372 5124 7831,Tallinn,2024-06-13,,1973
 4069,Indrek,Arro,indrek.arro@outlook.com,+372 5855 7989,Tallinn,2024-07-26,bronze,1991
-4070,Kristiina,Mitt,kristiina.mitt@outlook.com,+372 5452 7270,Jõhvi,2021-03-30,silver,1971
+4070,Kristiina,Mitt,kristiina.mitt@outlook.com,+372 5452 7270,jõhvi,2021-03-30,silver,1971
 4071,Meelis,Mitt,,+372 5216 8019,Viljandi,2023-04-15,silver,1979
 4072,Jüri,Org,juri.org@outlook.com,+372 8643 6649,Rakvere,2021-03-08,,1980
 4073,Henri,Vaher,,+372 8170 5811,Narva,2021-07-09,,1977
 4074,Priit,Valk,priit.valk@gmail.com,+372 8600 7571,Võru,2022-04-27,silver,2003
 4075,Väino,Orav,vaino.orav@gmail.com,+372 5364 6133,Haapsalu,2020-08-19,,1978
-4076,Merike,Kangur,merike.kangur@gmail.com,+372 5146 7479,Tartu,2022-01-20,gold,1993
+4076,Merike,Kangur,merike.kangur@gmail.com,+372 5146 7479,tartu,2022-01-20,gold,1993
 4077,Kristi,Mets,kristi.mets@hot.ee,+372 5983 3487,Võru,2020-04-22,,1995
 4078,Elis,Kallas,elis.kallas@gmail.com,+372 5810 8088,Pärnu,2022-04-28,,1997
 4079,Liina,Kuusk,liina.kuusk@hot.ee,+372 5886 0844,Rakvere,2023-06-30,bronze,1972
@@ -2085,17 +2085,17 @@ customer_id,first_name,last_name,email,phone,city,registration_date,loyalty_tier
 4084,Kati,Lepik,kati.lepik@mail.ee,+372 8649 8635,Pärnu,2025-01-18,,2001
 4085,Sandra,Lill,sandra.lill@hot.ee,+372 5770 9218,Tallinn,2021-05-10,gold,1987
 4086,Terje,Männik,terje.mannik@hot.ee,+372 5116 8786,Tallinn,2023-04-12,silver,1987
-4087,Pille,Pärn,pille.parn@yahoo.com,+372 8703 3630,Valga,2023-09-14,bronze,1982
+4087,Pille,Pärn,pille.parn@yahoo.com,+372 8703 3630,valga,2023-09-14,bronze,1982
 4088,Kristiina,Valk,,+372 5778 7796,Tartu,2023-01-29,silver,1987
-4089,Taavi,Lill,taavi.lill@mail.ee,+372 5191 5789,Kuressaare,2021-06-25,silver,1974
+4089,Taavi,Lill,taavi.lill@mail.ee,+372 5191 5789,KURESSAARE,2021-06-25,silver,1974
 4090,Terje,Rosin,terje.rosin2@telia.ee,+372 8454 7042,Tallinn,2022-02-14,bronze,1976
 4091,Arvo,Lepik,arvo.lepik2@telia.ee,+372 8211 6818,Tallinn,2024-12-26,,1995
 4092,Eha,Arro,eha.arro@gmail.com,+372 8528 4932,Tallinn,2025-01-19,silver,1960
 4093,Marko,Kallas,marko.kallas@yahoo.com,+372 8291 2884,Pärnu,2024-06-25,bronze,1963
-4094,Andres,Lõoke,andres.looke@outlook.com,+372 5282 2869,Tallinn,2024-05-15,silver,1992
-4095,Ants,Järv,ants.jarv@mail.ee,+372 8909 3068,Tartu,2024-07-03,,1969
+4094,Andres,Lõoke,andres.looke@outlook.com,+372 5282 2869,Tallinn ,2024-05-15,silver,1992
+4095,Ants,Järv,ants.jarv@mail.ee,+372 8909 3068, Tartu,2024-07-03,,1969
 4096,Sandra,Lõoke,sandra.looke@telia.ee,+372 8682 8794,Narva,2020-09-07,gold,2003
-4097,Tarmo,Kull,tarmo.kull@gmail.com,+372 8542 8767,Võru,2021-06-13,gold,1989
+4097,Tarmo,Kull,tarmo.kull@gmail.com,+372 8542 8767,võru,2021-06-13,gold,1989
 4098,Karin,Kask,karin.kask@outlook.com,+372 5694 7268,Tallinn,2020-05-29,,1962
 4099,Kati,Rosin,kati.rosin@telia.ee,+372 5963 9392,Pärnu,2020-01-17,gold,1977
 4100,Pille,Saar,pille.saar@hot.ee,+372 5402 6700,Tartu,2022-01-16,gold,2004
@@ -2114,7 +2114,7 @@ customer_id,first_name,last_name,email,phone,city,registration_date,loyalty_tier
 4113,Ülle,Teder,ulle.teder@yahoo.com,+372 8935 2365,Tallinn,2020-10-02,silver,1984
 4114,Heino,Nõmm,heino.nomm@telia.ee,+372 5884 0141,Jõhvi,2020-09-17,,2002
 4115,Siim,Aas,siim.aas@mail.ee,+372 5650 4363,Tartu,2022-06-06,,1999
-4116,Hille,Lass,hille.lass@gmail.com,+372 5610 0211,Tartu,2023-09-13,,1973
+4116,Hille,Lass,hille.lass@gmail.com,+372 5610 0211,TARTU,2023-09-13,,1973
 4117,Jüri,Kallas,juri.kallas@outlook.com,+372 5234 8467,Võru,2023-12-06,bronze,1968
 4118,Priit,Rand,priit.rand@gmail.com,+372 5169 3352,Tartu,2021-09-03,silver,1983
 4119,Ago,Toom,ago.toom@hot.ee,+372 5542 1353,Võru,2020-01-06,,1988
@@ -2128,14 +2128,14 @@ customer_id,first_name,last_name,email,phone,city,registration_date,loyalty_tier
 4127,Tõnu,Rosin,tonu.rosin@yahoo.com,+372 5946 0027,Tallinn,2022-03-18,,1966
 4128,Grete,Kõiv,grete.koiv@telia.ee,+372 5139 7368,Tallinn,2024-06-21,bronze,1989
 4129,Marko,Mägi,marko.magi@telia.ee,+372 8533 3464,Pärnu,2021-09-15,bronze,1972
-4130,Sandra,Tammik,sandra.tammik@gmail.com,+372 8682 3857,Tartu,2024-11-12,,1989
-4131,Väino,Aas,vaino.aas2@yahoo.com,+372 5239 8949,Tallinn,2022-06-10,gold,1999
+4130,Sandra,Tammik,sandra.tammik@gmail.com,+372 8682 3857, Tartu,2024-11-12,,1989
+4131,Väino,Aas,vaino.aas2@yahoo.com,+372 5239 8949,Tallinn ,2022-06-10,gold,1999
 4132,Ragnar,Kukk,ragnar.kukk@outlook.com,+372 8287 6054,Paide,2022-02-08,silver,1991
 4133,Kevin,Raid,kevin.raid@gmail.com,+372 5415 6101,Tallinn,2022-04-14,silver,1965
 4134,Ene,Aas,ene.aas@gmail.com,+372 5903 7176,Jõhvi,2020-10-04,,1984
 4135,Mart,Kull,mart.kull@telia.ee,+372 8283 9710,Tartu,2023-06-22,,1969
 4136,Indrek,Kuusk,indrek.kuusk@yahoo.com,+372 8376 0823,Paide,2023-06-27,silver,1997
-4137,Rain,Sild,rain.sild@yahoo.com,+372 5654 6495,Tallinn,2020-03-23,,1965
+4137,Rain,Sild,rain.sild@yahoo.com,+372 5654 6495,Tallinn ,2020-03-23,,1965
 4138,Rasmus,Must,rasmus.must@hot.ee,+372 5871 3214,Tartu,2020-09-14,gold,1964
 4139,Kristiina,Männik,kristiina.mannik@hot.ee,+372 8541 8322,Võru,2024-07-29,bronze,1978
 4140,Urmas,Mägi,urmas.magi@yahoo.com,+372 5118 8997,Pärnu,2023-10-19,bronze,1962
@@ -2149,13 +2149,13 @@ customer_id,first_name,last_name,email,phone,city,registration_date,loyalty_tier
 4148,Laura,Pihl,laura.pihl@outlook.com,+372 8236 6640,Pärnu,2020-05-08,,1981
 4149,Triin,Lõhmus,,+372 5236 3814,Tartu,2020-03-24,gold,1990
 4150,Kaido,Roots,kaido.roots@gmail.com,+372 5815 6260,Pärnu,2020-03-25,,1990
-4151,Sigrid,Oja,sigrid.oja@telia.ee,+372 5633 3169,Tartu,2020-08-22,gold,1973
+4151,Sigrid,Oja,sigrid.oja@telia.ee,+372 5633 3169,tartu,2020-08-22,gold,1973
 4152,Peeter,Mets,,+372 5928 6658,Tallinn,2024-06-19,,1996
 4153,Raivo,Raid,,+372 5160 3360,Jõhvi,2022-10-12,gold,1993
 4154,Ene,Lõoke,ene.looke@hot.ee,+372 5393 7495,Tallinn,2024-11-21,,1976
 4155,Kristjan,Ilves,,+372 8995 4366,Tallinn,2021-08-22,silver,1960
 4156,Enn,Org,enn.org@telia.ee,+372 8339 2376,Tallinn,2023-07-01,bronze,1977
-4157,Margus,Liiv,margus.liiv@hot.ee,+372 5464 5789,Tartu,2022-02-06,,1985
+4157,Margus,Liiv,margus.liiv@hot.ee,+372 5464 5789,TARTU,2022-02-06,,1985
 4158,Lauri,Roots,lauri.roots@telia.ee,+372 5762 4762,Tallinn,2024-04-02,,1989
 4159,Urmas,Lepp,urmas.lepp@telia.ee,+372 8232 8798,Viljandi,2022-12-29,,1985
 4160,Ülle,Vaher,ulle.vaher@mail.ee,+372 5484 2074,Tallinn,2020-06-14,silver,1968
@@ -2163,7 +2163,7 @@ customer_id,first_name,last_name,email,phone,city,registration_date,loyalty_tier
 4162,Sigrid,Nõmm,sigrid.nomm@hot.ee,+372 5805 5670,Tartu,2021-07-18,,1992
 4163,Elis,Rand,elis.rand@hot.ee,+372 5105 8787,Tallinn,2024-05-29,gold,1967
 4164,Hille,Lepik,hille.lepik@hot.ee,+372 8684 5408,Tartu,2021-09-15,gold,1999
-4165,Urmas,Hurt,,+372 8194 6212,Tartu,2024-04-08,bronze,1968
+4165,Urmas,Hurt,,+372 8194 6212,TARTU,2024-04-08,bronze,1968
 4166,Siim,Kask,siim.kask@outlook.com,+372 5702 9901,Valga,2020-02-21,,1988
 4167,Meelis,Kuusik,meelis.kuusik2@yahoo.com,+372 8772 7995,Tartu,2021-01-14,gold,1987
 4168,Priit,Lass,priit.lass@gmail.com,+372 5857 1253,Tartu,2020-03-17,bronze,2002
@@ -2180,8 +2180,8 @@ customer_id,first_name,last_name,email,phone,city,registration_date,loyalty_tier
 4179,Katrin,Kaalep,katrin.kaalep@telia.ee,+372 8307 4958,Pärnu,2023-05-16,silver,1967
 4180,Grete,Rand,grete.rand@telia.ee,+372 5880 2556,Narva,2020-02-29,gold,1966
 4181,Katrin,Kivi,katrin.kivi@telia.ee,+372 5115 7065,Tallinn,2020-06-01,gold,1968
-4182,Indrek,Tamm,indrek.tamm@telia.ee,+372 8335 7929,Tallinn,2023-02-14,silver,1965
-4183,Priit,Orav,priit.orav@hot.ee,+372 5816 6455,Pärnu,2024-11-18,bronze,2004
+4182,Indrek,Tamm,indrek.tamm@telia.ee,+372 8335 7929,Tallinn ,2023-02-14,silver,1965
+4183,Priit,Orav,priit.orav@hot.ee,+372 5816 6455,PÄRNU,2024-11-18,bronze,2004
 4184,Erkki,Valk,erkki.valk@hot.ee,+372 5266 7960,Tallinn,2020-04-05,gold,2000
 4185,Madis,Pihl,madis.pihl@telia.ee,+372 8741 5486,Kuressaare,2024-05-10,bronze,1969
 4186,Rasmus,Mägi,rasmus.magi2@gmail.com,+372 8247 6076,Tartu,2023-05-25,gold,1982
@@ -2203,7 +2203,7 @@ customer_id,first_name,last_name,email,phone,city,registration_date,loyalty_tier
 4202,Ene,Rand,ene.rand2@telia.ee,+372 5185 0228,Narva,2024-01-22,bronze,1982
 4203,Siim,Koppel,siim.koppel@telia.ee,+372 5619 4845,Tartu,2020-12-28,silver,1980
 4204,Kristi,Kaalep,kristi.kaalep@hot.ee,+372 5902 9925,Rakvere,2023-12-18,bronze,1969
-4205,Kristi,Aas,kristi.aas@gmail.com,+372 5496 7168,Võru,2022-03-09,,2001
+4205,Kristi,Aas,kristi.aas@gmail.com,+372 5496 7168,VÕRU,2022-03-09,,2001
 4206,Kersti,Lill,kersti.lill@telia.ee,+372 5531 1346,Tallinn,2021-02-03,,1967
 4207,Kadri,Must,kadri.must@yahoo.com,+372 5724 4414,Tallinn,2021-12-02,gold,1993
 4208,Mihkel,Lõhmus,mihkel.lohmus@yahoo.com,+372 5240 0312,Tallinn,2023-06-14,silver,1977
@@ -2214,7 +2214,7 @@ customer_id,first_name,last_name,email,phone,city,registration_date,loyalty_tier
 4213,Ants,Hurt,ants.hurt@gmail.com,+372 5149 6622,Tallinn,2021-12-14,gold,1964
 4214,Marko,Paju,marko.paju2@gmail.com,+372 8881 0579,Tartu,2022-04-24,bronze,1969
 4215,Henri,Valk,henri.valk@telia.ee,+372 5329 5641,Tartu,2023-01-14,,1981
-4216,Anna,Talvik,anna.talvik@yahoo.com,+372 5648 1820,Viljandi,2024-05-04,silver,1975
+4216,Anna,Talvik,anna.talvik@yahoo.com,+372 5648 1820,Viljandi ,2024-05-04,silver,1975
 4217,Mart,Kuusik,mart.kuusik@outlook.com,+372 8838 2416,Tartu,2021-06-02,gold,1995
 4218,Taavi,Liiv,taavi.liiv@mail.ee,+372 8883 7314,Valga,2024-02-01,bronze,1975
 4219,Merle,Kuusk,merle.kuusk@yahoo.com,+372 5112 9847,Tallinn,2022-07-11,silver,1967
@@ -2223,7 +2223,7 @@ customer_id,first_name,last_name,email,phone,city,registration_date,loyalty_tier
 4222,Peeter,Rebane,peeter.rebane@outlook.com,+372 8743 9409,Tartu,2024-08-04,bronze,1994
 4223,Maris,Oja,maris.oja@yahoo.com,+372 8944 5517,Tallinn,2024-12-19,,1974
 4224,Riina,Valk,riina.valk@yahoo.com,+372 5694 7344,Tartu,2022-01-27,silver,1982
-4225,Madis,Nurk,madis.nurk@gmail.com,+372 8623 3885,Tallinn,2025-01-19,bronze,1973
+4225,Madis,Nurk,madis.nurk@gmail.com,+372 8623 3885,Tallinn ,2025-01-19,bronze,1973
 4226,Ago,Kallas,ago.kallas@hot.ee,+372 5213 7690,Tartu,2021-12-11,,1986
 4227,Lea,Nurk,lea.nurk@outlook.com,+372 5698 8669,Tallinn,2021-12-01,silver,1984
 4228,Taavi,Luik,taavi.luik@outlook.com,+372 8966 8502,Tartu,2024-09-29,silver,1984
@@ -2236,11 +2236,11 @@ customer_id,first_name,last_name,email,phone,city,registration_date,loyalty_tier
 4235,Erkki,Tammik,,+372 8665 9395,Tallinn,2020-02-28,,1994
 4236,Kaido,Tamm,kaido.tamm@mail.ee,+372 5320 1729,Tallinn,2023-09-27,silver,1988
 4237,Anna,Kallas,anna.kallas@telia.ee,+372 5957 6491,Tallinn,2024-09-19,,1992
-4238,Elis,Laas,elis.laas2@gmail.com,+372 8470 2489,Tallinn,2021-08-17,gold,1988
+4238,Elis,Laas,elis.laas2@gmail.com,+372 8470 2489,tallinn,2021-08-17,gold,1988
 4239,Tarmo,Laas,tarmo.laas@hot.ee,+372 5474 1904,Tallinn,2021-06-29,,2003
 4240,Taavi,Vaher,taavi.vaher@yahoo.com,+372 8476 0611,Pärnu,2022-06-17,,1969
 4241,Arvo,Mägi,arvo.magi@gmail.com,+372 5897 0537,Võru,2020-01-09,gold,1982
-4242,Kevin,Paju,kevin.paju@gmail.com,+372 5613 3779,Tallinn,2023-04-07,gold,1994
+4242,Kevin,Paju,kevin.paju@gmail.com,+372 5613 3779,Tallinn ,2023-04-07,gold,1994
 4243,Piret,Rebane,piret.rebane@yahoo.com,+372 5464 1950,Tallinn,2023-03-21,,1969
 4244,Ene,Lass,ene.lass@outlook.com,+372 5193 7214,Tartu,2020-07-11,,1968
 4245,Indrek,Aas,,+372 8640 6571,Kuressaare,2021-02-10,silver,1975
@@ -2252,16 +2252,16 @@ customer_id,first_name,last_name,email,phone,city,registration_date,loyalty_tier
 4251,Heli,Puusepp,heli.puusepp@mail.ee,+372 8918 8530,Tallinn,2021-03-23,,2005
 4252,Katrin,Kaalep,katrin.kaalep@gmail.com,+372 8528 9501,Tallinn,2022-07-28,,1992
 4253,Henri,Puusepp,henri.puusepp@hot.ee,+372 8730 8184,Tartu,2024-09-23,,1960
-4254,Heli,Org,heli.org@outlook.com,+372 8249 4691,Viljandi,2021-06-25,gold,1996
+4254,Heli,Org,heli.org@outlook.com,+372 8249 4691,VILJANDI,2021-06-25,gold,1996
 4255,Liis,Mägi,liis.magi@hot.ee,+372 5697 1673,Rakvere,2020-05-11,silver,1966
 4256,Kristiina,Lill,kristiina.lill2@mail.ee,+372 5958 2244,Tallinn,2021-04-30,,1963
 4257,Väino,Tamm,vaino.tamm@yahoo.com,+372 5626 9482,Paide,2024-04-06,,1976
-4258,Toomas,Kangur,toomas.kangur@outlook.com,+372 5545 9031,Pärnu,2022-05-24,gold,1984
+4258,Toomas,Kangur,toomas.kangur@outlook.com,+372 5545 9031, Pärnu,2022-05-24,gold,1984
 4259,Annika,Paas,annika.paas@gmail.com,+372 5664 6090,Pärnu,2021-02-04,,2003
 4260,Riina,Koppel,,+372 8825 6013,Tartu,2020-08-01,gold,1999
 4261,Mart,Kallas,mart.kallas@yahoo.com,+372 5411 7587,Narva,2023-02-02,silver,2004
 4262,Erkki,Rand,erkki.rand@outlook.com,+372 8200 9648,Tallinn,2023-12-12,gold,1965
-4263,Külli,Tamm,kulli.tamm@outlook.com,+372 8884 1859,Tallinn,2020-05-11,gold,1967
+4263,Külli,Tamm,kulli.tamm@outlook.com,+372 8884 1859, Tallinn,2020-05-11,gold,1967
 4264,Kalev,Kukk,kalev.kukk@gmail.com,+372 8968 9260,Tallinn,2020-03-04,,1960
 4265,Aili,Sepp,aili.sepp@outlook.com,+372 5839 6283,Pärnu,2022-06-03,gold,1981
 4266,Kadri,Kuusk,kadri.kuusk2@hot.ee,+372 5117 2109,Viljandi,2022-08-29,bronze,1962
@@ -2274,7 +2274,7 @@ customer_id,first_name,last_name,email,phone,city,registration_date,loyalty_tier
 4273,Kadri,Lill,kadri.lill@yahoo.com,+372 5739 1055,Tallinn,2021-10-26,,2002
 4274,Andres,Männik,andres.mannik2@gmail.com,+372 5431 5996,Tartu,2020-02-13,silver,1980
 4275,Meelis,Tammik,meelis.tammik2@telia.ee,+372 8796 5067,Tartu,2025-02-04,,1990
-4276,Marit,Kuusik,marit.kuusik@mail.ee,+372 5599 8811,Tallinn,2022-06-25,bronze,1991
+4276,Marit,Kuusik,marit.kuusik@mail.ee,+372 5599 8811,TALLINN,2022-06-25,bronze,1991
 4277,Ragnar,Raud,ragnar.raud@hot.ee,+372 8746 9670,Tallinn,2020-09-09,silver,1992
 4278,Nele,Orav,,+372 8700 9137,Tallinn,2024-05-10,,1992
 4279,Ülle,Raid,ulle.raid@mail.ee,+372 5510 1365,Tallinn,2021-12-19,bronze,1989
@@ -2285,7 +2285,7 @@ customer_id,first_name,last_name,email,phone,city,registration_date,loyalty_tier
 4284,Henri,Toom,henri.toom@gmail.com,+372 5144 6325,Tartu,2021-01-02,gold,1988
 4285,Merike,Roots,merike.roots@gmail.com,+372 5466 3373,Tallinn,2023-05-03,,2005
 4286,Anna,Org,anna.org@gmail.com,+372 8693 9364,Tartu,2022-08-03,,1960
-4287,Pille,Pärn,pille.parn@outlook.com,+372 8313 6630,Rakvere,2020-05-07,gold,1975
+4287,Pille,Pärn,pille.parn@outlook.com,+372 8313 6630,Rakvere ,2020-05-07,gold,1975
 4288,Kevin,Rand,kevin.rand@telia.ee,+372 8267 0473,Tartu,2020-08-17,silver,1998
 4289,Henri,Lepik,henri.lepik2@telia.ee,+372 5185 1436,Tallinn,2024-06-14,silver,1993
 4290,Liis,Koppel,liis.koppel@mail.ee,+372 8845 8663,Pärnu,2021-03-15,silver,1972
@@ -2300,14 +2300,14 @@ customer_id,first_name,last_name,email,phone,city,registration_date,loyalty_tier
 4299,Hille,Sild,,+372 5949 8274,Tallinn,2021-05-02,silver,2002
 4300,Väino,Põld,vaino.pold@telia.ee,+372 8444 0997,Tallinn,2024-05-31,silver,1977
 4301,Liis,Arro,liis.arro@gmail.com,+372 8214 8448,Tallinn,2022-02-03,gold,1969
-4302,Kristi,Raud,kristi.raud@gmail.com,+372 5212 8092,Kuressaare,2024-12-08,,1978
+4302,Kristi,Raud,kristi.raud@gmail.com,+372 5212 8092,Kuressaare ,2024-12-08,,1978
 4303,Elis,Nurk,elis.nurk@telia.ee,+372 5905 6292,Pärnu,2023-11-04,,1960
 4304,Jaak,Liiv,jaak.liiv@mail.ee,+372 8820 9757,Kuressaare,2024-08-04,,1980
 4305,Urmas,Tamm,urmas.tamm@hot.ee,+372 5174 5688,Pärnu,2025-02-22,silver,2004
 4306,Kristiina,Lepp,kristiina.lepp@hot.ee,+372 8912 4372,Tartu,2020-08-24,silver,1987
 4307,Merike,Rebane,merike.rebane@outlook.com,+372 5126 9930,Kuressaare,2022-07-01,,1998
 4308,Terje,Teder,terje.teder@outlook.com,+372 5435 9145,Tallinn,2022-08-08,,1985
-4309,Reet,Saar,reet.saar@outlook.com,+372 5706 3226,Tallinn,2021-02-13,bronze,1963
+4309,Reet,Saar,reet.saar@outlook.com,+372 5706 3226,TALLINN,2021-02-13,bronze,1963
 4310,Priit,Lill,priit.lill@gmail.com,+372 5677 1315,Tallinn,2021-07-12,,1994
 4311,Ene,Männik,,+372 5932 5680,Tallinn,2021-02-15,gold,1998
 4312,Erkki,Hurt,erkki.hurt@mail.ee,+372 5791 5133,Tallinn,2020-01-25,,1980
@@ -2316,7 +2316,7 @@ customer_id,first_name,last_name,email,phone,city,registration_date,loyalty_tier
 4315,Tarmo,Hurt,tarmo.hurt@mail.ee,+372 8988 7290,Tallinn,2022-02-09,gold,2001
 4316,Reet,Talvik,reet.talvik@mail.ee,+372 5272 0302,Tallinn,2021-06-08,,1978
 4317,Annika,Pihl,,+372 8116 9746,Tallinn,2020-09-22,bronze,1991
-4318,Sander,Nõmm,sander.nomm@telia.ee,+372 5402 5202,Tallinn,2022-05-25,,1998
+4318,Sander,Nõmm,sander.nomm@telia.ee,+372 5402 5202,TALLINN,2022-05-25,,1998
 4319,Sigrid,Kivi,sigrid.kivi@mail.ee,+372 5861 0489,Narva,2022-12-23,gold,1975
 4320,Tiina,Kangur,tiina.kangur@mail.ee,+372 8257 0188,Haapsalu,2025-01-22,,1964
 4321,Karin,Mets,,+372 8449 2897,Tallinn,2022-07-21,bronze,1985
@@ -2349,8 +2349,8 @@ customer_id,first_name,last_name,email,phone,city,registration_date,loyalty_tier
 4348,Riina,Aas,riina.aas@yahoo.com,+372 5518 1753,Tallinn,2020-10-19,gold,1999
 4349,Sandra,Värk,sandra.vark@yahoo.com,+372 5238 4873,Tallinn,2020-04-28,gold,1988
 4350,Aili,Kull,aili.kull@gmail.com,+372 8730 2812,Tallinn,2023-11-03,bronze,2002
-4351,Liis,Kukk,liis.kukk@outlook.com,+372 5465 1322,Pärnu,2025-02-26,bronze,1968
-4352,Tiit,Oja,tiit.oja@mail.ee,+372 5494 9500,Narva,2021-06-24,bronze,1991
+4351,Liis,Kukk,liis.kukk@outlook.com,+372 5465 1322,Pärnu ,2025-02-26,bronze,1968
+4352,Tiit,Oja,tiit.oja@mail.ee,+372 5494 9500,Narva ,2021-06-24,bronze,1991
 4353,Triin,Kuusik,triin.kuusik@telia.ee,+372 5858 2637,Tallinn,2024-02-06,,2005
 4354,Kristiina,Kask,kristiina.kask@outlook.com,+372 5369 2520,Tallinn,2021-05-14,bronze,1995
 4355,Arvo,Talvik,,+372 5972 5729,Pärnu,2021-04-22,gold,1971
@@ -2364,10 +2364,10 @@ customer_id,first_name,last_name,email,phone,city,registration_date,loyalty_tier
 4363,Eha,Ilves,eha.ilves@mail.ee,+372 5396 1342,Tallinn,2021-05-15,bronze,1979
 4364,Piret,Kallas,piret.kallas@yahoo.com,+372 5628 9843,Tallinn,2022-08-05,bronze,1997
 4365,Jüri,Sild,juri.sild@gmail.com,+372 5643 8682,Narva,2022-06-11,bronze,1993
-4366,Kristiina,Lill,kristiina.lill2@outlook.com,+372 5595 7694,Pärnu,2021-03-22,bronze,1988
-4367,Grete,Koppel,grete.koppel2@gmail.com,+372 5517 0003,Narva,2020-04-27,silver,1962
-4368,Elis,Veski,elis.veski2@outlook.com,+372 8176 6875,Tallinn,2021-06-24,gold,1965
-4369,Sigrid,Rand,sigrid.rand@gmail.com,+372 8753 9925,Pärnu,2024-12-20,bronze,1963
+4366,Kristiina,Lill,kristiina.lill2@outlook.com,+372 5595 7694,Pärnu ,2021-03-22,bronze,1988
+4367,Grete,Koppel,grete.koppel2@gmail.com,+372 5517 0003, Narva,2020-04-27,silver,1962
+4368,Elis,Veski,elis.veski2@outlook.com,+372 8176 6875,tallinn,2021-06-24,gold,1965
+4369,Sigrid,Rand,sigrid.rand@gmail.com,+372 8753 9925,PÄRNU,2024-12-20,bronze,1963
 4370,Henri,Pärn,henri.parn2@mail.ee,+372 5708 0538,Tallinn,2021-02-28,,1983
 4371,Sandra,Kuusk,sandra.kuusk2@hot.ee,+372 5545 7103,Tartu,2024-10-27,,1969
 4372,Triin,Ilves,triin.ilves@hot.ee,+372 5326 8924,Haapsalu,2020-04-24,silver,1970
@@ -2409,22 +2409,22 @@ customer_id,first_name,last_name,email,phone,city,registration_date,loyalty_tier
 4408,Kristi,Koppel,kristi.koppel@outlook.com,+372 5368 7720,Tartu,2023-01-10,,1994
 4409,Indrek,Pihl,indrek.pihl@telia.ee,+372 8568 6028,Valga,2020-07-17,,1983
 4410,Jaak,Nõmm,jaak.nomm@gmail.com,+372 5426 2386,Rakvere,2020-09-25,gold,1988
-4411,Reet,Puusepp,,+372 8489 0970,Tallinn,2024-10-21,bronze,1967
+4411,Reet,Puusepp,,+372 8489 0970,TALLINN,2024-10-21,bronze,1967
 4412,Nele,Talvik,nele.talvik@yahoo.com,+372 5734 6444,Tallinn,2022-10-22,,2005
 4413,Ago,Tammik,ago.tammik@telia.ee,+372 5619 4332,Tallinn,2022-11-19,silver,2001
 4414,Pille,Oja,,+372 8332 5710,Tallinn,2021-05-15,silver,1960
 4415,Merike,Kuusk,merike.kuusk@outlook.com,+372 8274 0289,Tallinn,2025-01-31,,1962
-4416,Peeter,Raid,peeter.raid@telia.ee,+372 8526 6607,Pärnu,2024-08-24,,1999
+4416,Peeter,Raid,peeter.raid@telia.ee,+372 8526 6607,Pärnu ,2024-08-24,,1999
 4417,Ants,Ilves,ants.ilves@hot.ee,+372 5145 1378,Tallinn,2021-06-28,gold,1977
 4418,Margus,Nõmm,margus.nomm@telia.ee,+372 5831 4865,Kuressaare,2021-10-16,gold,1972
 4419,Kati,Kuusik,,+372 8975 2157,Kuressaare,2022-10-17,,1992
 4420,Lauri,Kõiv,lauri.koiv2@outlook.com,+372 5557 4237,Tartu,2024-11-15,,1989
-4421,Hille,Tammik,hille.tammik@telia.ee,+372 5778 1872,Narva,2024-06-30,bronze,1998
+4421,Hille,Tammik,hille.tammik@telia.ee,+372 5778 1872,Narva ,2024-06-30,bronze,1998
 4422,Rain,Kull,rain.kull@yahoo.com,+372 5613 3531,Tartu,2022-10-21,silver,1960
 4423,Marika,Tamm,marika.tamm@hot.ee,+372 5320 9975,Tallinn,2020-11-28,silver,1966
 4424,Meelis,Arro,meelis.arro@yahoo.com,+372 5541 5885,Jõhvi,2023-03-08,,1984
 4425,Heli,Ilves,,+372 5554 5265,Pärnu,2025-01-15,,2005
-4426,Peeter,Koppel,peeter.koppel@yahoo.com,+372 5828 6180,Tallinn,2021-01-09,gold,1981
+4426,Peeter,Koppel,peeter.koppel@yahoo.com,+372 5828 6180,Tallinn ,2021-01-09,gold,1981
 4427,Laura,Lõhmus,,+372 8146 1845,Rakvere,2020-07-02,,1993
 4428,Tiit,Koppel,tiit.koppel@mail.ee,+372 8426 0670,Tallinn,2021-01-07,gold,2005
 4429,Sirje,Liiv,sirje.liiv@outlook.com,+372 5276 7353,Tallinn,2023-05-25,,1989
@@ -2462,7 +2462,7 @@ customer_id,first_name,last_name,email,phone,city,registration_date,loyalty_tier
 4461,Tiina,Kukk,tiina.kukk@telia.ee,+372 5759 8054,Tallinn,2023-10-14,,1980
 4462,Siim,Rosin,siim.rosin@hot.ee,+372 5556 9069,Tallinn,2025-02-12,bronze,1999
 4463,Kristiina,Põld,kristiina.pold@yahoo.com,+372 5486 2341,Pärnu,2023-02-17,silver,1968
-4464,Ragnar,Tamm,ragnar.tamm@outlook.com,+372 5239 6641,Pärnu,2023-07-26,,1993
+4464,Ragnar,Tamm,ragnar.tamm@outlook.com,+372 5239 6641,PÄRNU,2023-07-26,,1993
 4465,Heli,Orav,heli.orav@yahoo.com,+372 8893 6791,Haapsalu,2024-06-02,,1967
 4466,Ants,Kaalep,ants.kaalep@mail.ee,+372 5169 3554,Tallinn,2022-11-12,bronze,1965
 4467,Sigrid,Teder,sigrid.teder@outlook.com,+372 5399 3181,Tallinn,2022-10-19,silver,1994
@@ -2493,7 +2493,7 @@ customer_id,first_name,last_name,email,phone,city,registration_date,loyalty_tier
 4492,Anu,Pihl,anu.pihl@telia.ee,+372 5170 9167,Tallinn,2024-01-05,silver,1961
 4493,Väino,Lõoke,vaino.looke2@hot.ee,+372 5504 8413,Tallinn,2023-08-26,,1996
 4494,Meelis,Sepp,meelis.sepp@mail.ee,+372 5310 7891,Pärnu,2021-02-23,gold,1961
-4495,Kaido,Sild,kaido.sild@hot.ee,+372 8236 0126,Tallinn,2021-07-12,,1991
+4495,Kaido,Sild,kaido.sild@hot.ee,+372 8236 0126,Tallinn ,2021-07-12,,1991
 4496,Ülle,Männik,ulle.mannik@telia.ee,+372 5483 7960,Kuressaare,2024-10-14,bronze,1969
 4497,Rain,Kivi,rain.kivi2@telia.ee,+372 5773 4920,Tartu,2020-11-07,bronze,1975
 4498,Jüri,Must,juri.must@hot.ee,+372 8492 4017,Pärnu,2020-05-11,gold,1980
@@ -2502,15 +2502,15 @@ customer_id,first_name,last_name,email,phone,city,registration_date,loyalty_tier
 4501,Marika,Toom,,+372 5108 3268,Tartu,2021-01-31,bronze,2001
 4502,Marit,Kõiv,marit.koiv@mail.ee,+372 8749 4063,Pärnu,2024-08-25,,1989
 4503,Siim,Värk,siim.vark@outlook.com,+372 8904 1857,Tallinn,2021-02-12,,1976
-4504,Sander,Liiv,sander.liiv@outlook.com,+372 5374 8738,Võru,2021-04-25,silver,1990
+4504,Sander,Liiv,sander.liiv@outlook.com,+372 5374 8738, Võru,2021-04-25,silver,1990
 4505,Enn,Kaalep,enn.kaalep@mail.ee,+372 5590 4040,Tallinn,2023-01-18,silver,1961
 4506,Rein,Kaalep,rein.kaalep@hot.ee,+372 5780 6260,Kuressaare,2021-12-19,,1989
 4507,Kadri,Salu,kadri.salu@telia.ee,+372 5418 6613,Rakvere,2022-07-17,bronze,1983
 4508,Jüri,Liiv,juri.liiv@mail.ee,+372 5131 2415,Tartu,2020-07-08,silver,1993
 4509,Siim,Lill,siim.lill@gmail.com,+372 5408 6035,Tallinn,2022-04-06,silver,1981
 4510,Erkki,Oja,erkki.oja@outlook.com,+372 8101 0425,Viljandi,2024-02-07,bronze,1997
-4511,Merike,Raid,merike.raid@mail.ee,+372 5118 4062,Viljandi,2020-02-26,gold,1967
-4512,Kadri,Tammik,kadri.tammik@mail.ee,+372 5478 5318,Pärnu,2023-06-30,silver,1972
+4511,Merike,Raid,merike.raid@mail.ee,+372 5118 4062, Viljandi,2020-02-26,gold,1967
+4512,Kadri,Tammik,kadri.tammik@mail.ee,+372 5478 5318, Pärnu,2023-06-30,silver,1972
 4513,Andres,Kukk,andres.kukk@yahoo.com,+372 5739 3431,Jõhvi,2023-10-30,,1965
 4514,Annika,Raid,annika.raid2@outlook.com,+372 5784 3588,Tallinn,2021-09-03,gold,1965
 4515,Marko,Kuusk,marko.kuusk@yahoo.com,+372 5794 7157,Tallinn,2021-01-06,gold,1983
@@ -2524,14 +2524,14 @@ customer_id,first_name,last_name,email,phone,city,registration_date,loyalty_tier
 4523,Sandra,Tamm,sandra.tamm@outlook.com,+372 5672 5924,Pärnu,2020-04-27,,1963
 4524,Tiina,Mägi,tiina.magi@outlook.com,+372 8538 0719,Pärnu,2021-05-15,silver,1975
 4525,Tiit,Roots,tiit.roots@outlook.com,+372 8500 1052,Võru,2021-08-24,gold,2001
-4526,Jaak,Paas,jaak.paas@telia.ee,+372 8684 9768,Tallinn,2020-08-25,,1960
+4526,Jaak,Paas,jaak.paas@telia.ee,+372 8684 9768,tallinn,2020-08-25,,1960
 4527,Jaak,Lõoke,,+372 8819 0685,Tallinn,2024-06-16,silver,1967
 4528,Aivar,Mets,aivar.mets@telia.ee,+372 8447 0269,Tartu,2021-08-16,silver,1981
 4529,Maris,Kangur,maris.kangur@gmail.com,+372 5930 1545,Tartu,2021-11-20,,1997
 4530,Ragnar,Luik,ragnar.luik2@gmail.com,+372 5217 4214,Tartu,2020-02-23,,1995
 4531,Reet,Arro,reet.arro@mail.ee,+372 8668 3586,Valga,2021-12-25,silver,1992
 4532,Raivo,Toom,raivo.toom@outlook.com,+372 5570 8210,Paide,2024-10-23,,1986
-4533,Hille,Roots,hille.roots@outlook.com,+372 5370 9552,Tallinn,2022-01-27,gold,1996
+4533,Hille,Roots,hille.roots@outlook.com,+372 5370 9552,tallinn,2022-01-27,gold,1996
 4534,Kersti,Must,,+372 5257 0842,Tallinn,2021-03-06,gold,1976
 4535,Nele,Paju,nele.paju@gmail.com,+372 5960 1688,Tallinn,2020-07-26,silver,1965
 4536,Peeter,Pärn,peeter.parn@gmail.com,+372 8243 0615,Tallinn,2021-10-12,,1974
@@ -2554,14 +2554,14 @@ customer_id,first_name,last_name,email,phone,city,registration_date,loyalty_tier
 4553,Marit,Teder,,+372 5236 9776,Viljandi,2024-03-20,silver,1988
 4554,Hille,Kuusik,,+372 5929 0426,Jõhvi,2023-09-23,bronze,1985
 4555,Maie,Paju,maie.paju@gmail.com,+372 5865 2050,Tallinn,2022-12-11,silver,1967
-4556,Meelis,Rand,meelis.rand@yahoo.com,+372 8475 3467,Pärnu,2020-11-21,gold,1972
+4556,Meelis,Rand,meelis.rand@yahoo.com,+372 8475 3467,Pärnu ,2020-11-21,gold,1972
 4557,Tõnu,Kõiv,,+372 8686 7254,Viljandi,2022-05-08,,1986
 4558,Kadri,Nurk,kadri.nurk@mail.ee,+372 5907 5818,Tartu,2021-09-15,,1987
 4559,Mart,Sild,,+372 8650 2420,Pärnu,2022-05-03,silver,1970
 4560,Aivar,Järv,aivar.jarv2@outlook.com,+372 5676 0379,Tallinn,2023-08-02,bronze,1971
-4561,Ants,Koppel,ants.koppel@outlook.com,+372 5725 1722,Kuressaare,2022-03-24,gold,1987
-4562,Heino,Sild,heino.sild@telia.ee,+372 5359 6104,Tallinn,2023-06-12,,2000
-4563,Priit,Kivi,priit.kivi@outlook.com,+372 5272 2263,Tallinn,2023-01-12,bronze,1986
+4561,Ants,Koppel,ants.koppel@outlook.com,+372 5725 1722, Kuressaare,2022-03-24,gold,1987
+4562,Heino,Sild,heino.sild@telia.ee,+372 5359 6104, Tallinn,2023-06-12,,2000
+4563,Priit,Kivi,priit.kivi@outlook.com,+372 5272 2263,TALLINN,2023-01-12,bronze,1986
 4564,Jaak,Lill,jaak.lill@yahoo.com,+372 8258 0203,Tallinn,2025-02-14,bronze,1994
 4565,Jüri,Paju,juri.paju@telia.ee,+372 5195 2592,Tallinn,2022-05-17,,2002
 4566,Tiit,Lõoke,tiit.looke2@yahoo.com,+372 5885 6011,Tartu,2023-04-03,,1979
@@ -2589,7 +2589,7 @@ customer_id,first_name,last_name,email,phone,city,registration_date,loyalty_tier
 4588,Henri,Aas,henri.aas2@mail.ee,+372 5621 0280,Pärnu,2023-09-15,silver,1987
 4589,Lauri,Kangur,lauri.kangur@telia.ee,+372 5820 2783,Viljandi,2022-08-28,gold,1963
 4590,Jüri,Rosin,juri.rosin@yahoo.com,+372 8591 9600,Tartu,2021-08-26,bronze,2004
-4591,Nele,Lõoke,nele.looke@mail.ee,+372 8329 4198,Tartu,2020-07-10,silver,1991
+4591,Nele,Lõoke,nele.looke@mail.ee,+372 8329 4198, Tartu,2020-07-10,silver,1991
 4592,Peeter,Tammik,peeter.tammik@gmail.com,+372 5415 4305,Pärnu,2020-08-30,gold,1993
 4593,Kristiina,Oja,kristiina.oja2@outlook.com,+372 5301 2252,Viljandi,2020-01-13,gold,1961
 4594,Annika,Mägi,annika.magi@yahoo.com,+372 5593 5085,Pärnu,2024-12-14,bronze,1966
@@ -2604,7 +2604,7 @@ customer_id,first_name,last_name,email,phone,city,registration_date,loyalty_tier
 4603,Piret,Lepik,piret.lepik@hot.ee,+372 5735 4362,Rakvere,2023-12-18,bronze,1976
 4604,Liis,Veski,liis.veski@telia.ee,+372 8525 1627,Tallinn,2022-01-24,,1968
 4605,Aivar,Koppel,,+372 5167 1191,Rakvere,2022-02-18,gold,1977
-4606,Kristi,Kivi,kristi.kivi@mail.ee,+372 5626 0532,Viljandi,2024-12-12,bronze,2002
+4606,Kristi,Kivi,kristi.kivi@mail.ee,+372 5626 0532,Viljandi ,2024-12-12,bronze,2002
 4607,Piret,Toom,piret.toom@yahoo.com,+372 8602 0026,Pärnu,2023-10-11,bronze,1996
 4608,Terje,Männik,,+372 5662 8471,Tallinn,2021-05-28,,1963
 4609,Marko,Lõhmus,marko.lohmus@outlook.com,+372 8911 2238,Valga,2024-09-16,,1960
@@ -2716,7 +2716,7 @@ customer_id,first_name,last_name,email,phone,city,registration_date,loyalty_tier
 4715,Maris,Tamm,maris.tamm@hot.ee,+372 5862 2205,Jõhvi,2023-09-26,bronze,1994
 4716,Katrin,Rosin,katrin.rosin@gmail.com,+372 5847 6918,Tallinn,2020-12-13,gold,2000
 4717,Kevin,Raud,kevin.raud@gmail.com,+372 5270 3015,Võru,2020-09-24,silver,1995
-4718,Rain,Lepp,rain.lepp@gmail.com,+372 5183 1468,Tallinn,2022-04-03,gold,1974
+4718,Rain,Lepp,rain.lepp@gmail.com,+372 5183 1468,tallinn,2022-04-03,gold,1974
 4719,Heli,Lass,heli.lass@gmail.com,+372 8994 1769,Tartu,2023-09-28,,1996
 4720,Maris,Paas,maris.paas@mail.ee,+372 5151 9898,Tartu,2021-12-28,,1999
 4721,Anna,Mets,,+372 5346 6805,Narva,2023-10-30,,1991
@@ -2726,7 +2726,7 @@ customer_id,first_name,last_name,email,phone,city,registration_date,loyalty_tier
 4725,Mihkel,Liiv,,+372 8744 5735,Viljandi,2024-12-16,silver,1974
 4726,Kadri,Männik,kadri.mannik2@outlook.com,+372 5287 5608,Pärnu,2024-07-03,bronze,1989
 4727,Kaido,Lõoke,kaido.looke@mail.ee,+372 8573 6048,Viljandi,2022-05-30,,1960
-4728,Tõnu,Kõiv,tonu.koiv@yahoo.com,+372 5978 9632,Tartu,2024-05-14,bronze,1969
+4728,Tõnu,Kõiv,tonu.koiv@yahoo.com,+372 5978 9632,tartu,2024-05-14,bronze,1969
 4729,Katrin,Saar,katrin.saar@gmail.com,+372 5667 3592,Tallinn,2022-12-03,,1976
 4730,Merike,Lõhmus,merike.lohmus@telia.ee,+372 8783 6021,Rakvere,2022-12-26,,1964
 4731,Sirje,Tammik,sirje.tammik@mail.ee,+372 5446 6799,Rakvere,2022-09-09,bronze,1969
@@ -2742,12 +2742,12 @@ customer_id,first_name,last_name,email,phone,city,registration_date,loyalty_tier
 4741,Rasmus,Värk,,+372 8299 6880,Tartu,2021-11-07,,1960
 4742,Taavi,Aas,taavi.aas@gmail.com,+372 5105 8523,Tartu,2020-08-01,,1980
 4743,Sigrid,Nurk,sigrid.nurk@mail.ee,+372 5568 6142,Võru,2022-07-14,,1999
-4744,Sandra,Oja,,+372 5833 0590,Pärnu,2023-03-08,,1995
+4744,Sandra,Oja,,+372 5833 0590,PÄRNU,2023-03-08,,1995
 4745,Meelis,Must,meelis.must@mail.ee,+372 5700 8845,Haapsalu,2020-07-10,silver,2001
 4746,Ants,Nurk,ants.nurk@outlook.com,+372 5628 0754,Tallinn,2022-09-07,bronze,1990
 4747,Anna,Liiv,anna.liiv@hot.ee,+372 5936 8359,Rakvere,2020-09-04,,1969
 4748,Külli,Paas,kulli.paas@telia.ee,+372 5953 4198,Tallinn,2023-05-08,,1969
-4749,Väino,Kull,vaino.kull@yahoo.com,+372 5774 5089,Jõhvi,2022-07-17,silver,1981
+4749,Väino,Kull,vaino.kull@yahoo.com,+372 5774 5089,JÕHVI,2022-07-17,silver,1981
 4750,Raivo,Kask,raivo.kask@telia.ee,+372 5823 3897,Tallinn,2020-02-20,,1965
 4751,Mart,Teder,mart.teder2@hot.ee,+372 5719 7723,Tartu,2024-09-20,bronze,1969
 4752,Eha,Paju,eha.paju@outlook.com,+372 5690 1964,Tallinn,2023-04-25,,1981
@@ -2755,7 +2755,7 @@ customer_id,first_name,last_name,email,phone,city,registration_date,loyalty_tier
 4754,Sigrid,Mets,sigrid.mets@gmail.com,+372 5887 2725,Võru,2021-03-22,silver,1993
 4755,Liina,Kask,liina.kask2@hot.ee,+372 8579 8791,Tallinn,2022-07-30,bronze,1973
 4756,Priit,Lõoke,priit.looke@hot.ee,+372 8404 1657,Tartu,2021-05-26,silver,1995
-4757,Mihkel,Talvik,mihkel.talvik@gmail.com,+372 8447 0573,Tartu,2020-12-05,,1992
+4757,Mihkel,Talvik,mihkel.talvik@gmail.com,+372 8447 0573,tartu,2020-12-05,,1992
 4758,Rain,Raud,rain.raud@mail.ee,+372 5637 6444,Tallinn,2022-05-30,gold,1998
 4759,Kadri,Koppel,kadri.koppel@outlook.com,+372 5569 0473,Tartu,2021-07-29,,1963
 4760,Indrek,Raud,indrek.raud@yahoo.com,+372 8506 9230,Pärnu,2021-04-14,gold,1997
@@ -2767,7 +2767,7 @@ customer_id,first_name,last_name,email,phone,city,registration_date,loyalty_tier
 4766,Kristi,Hurt,kristi.hurt@outlook.com,+372 5466 2198,Rakvere,2020-11-17,silver,1964
 4767,Kersti,Lõoke,kersti.looke@telia.ee,+372 8925 1619,Tartu,2021-08-12,,1972
 4768,Sandra,Koppel,,+372 5942 9835,Pärnu,2022-10-18,,1968
-4769,Maie,Orav,maie.orav@telia.ee,+372 5630 1605,Rakvere,2022-09-21,,1967
+4769,Maie,Orav,maie.orav@telia.ee,+372 5630 1605,RAKVERE,2022-09-21,,1967
 4770,Väino,Tamm,vaino.tamm@hot.ee,+372 8553 4620,Pärnu,2024-10-22,bronze,1996
 4771,Arvo,Ilves,arvo.ilves@hot.ee,+372 8706 0722,Tallinn,2023-06-30,silver,1968
 4772,Tiina,Toom,tiina.toom@telia.ee,+372 8897 7488,Võru,2020-09-11,bronze,1994
@@ -2786,7 +2786,7 @@ customer_id,first_name,last_name,email,phone,city,registration_date,loyalty_tier
 4785,Anu,Mägi,anu.magi@telia.ee,+372 5925 4166,Pärnu,2022-01-01,silver,1996
 4786,Enn,Järv,enn.jarv@telia.ee,+372 5501 1335,Tallinn,2021-09-27,,1968
 4787,Anu,Salu,anu.salu@outlook.com,+372 5858 1918,Tallinn,2020-07-31,,1975
-4788,Ragnar,Org,ragnar.org@hot.ee,+372 5137 6042,Tartu,2020-10-02,gold,1989
+4788,Ragnar,Org,ragnar.org@hot.ee,+372 5137 6042, Tartu,2020-10-02,gold,1989
 4789,Enn,Teder,,+372 5853 3298,Paide,2023-03-06,,1970
 4790,Tõnu,Sild,,+372 8818 0531,Tallinn,2020-12-06,,1961
 4791,Liis,Sepp,liis.sepp@yahoo.com,+372 5372 5981,Tallinn,2021-07-10,,2000
@@ -2802,14 +2802,14 @@ customer_id,first_name,last_name,email,phone,city,registration_date,loyalty_tier
 4801,Ants,Lõhmus,ants.lohmus@mail.ee,+372 5935 7416,Tallinn,2023-04-01,bronze,1980
 4802,Jüri,Mets,juri.mets@telia.ee,+372 5809 6367,Tartu,2024-05-29,bronze,1972
 4803,Kristi,Koppel,,+372 5830 1851,Tartu,2022-04-20,gold,1987
-4804,Tiina,Nõmm,tiina.nomm@telia.ee,+372 5795 5407,Tallinn,2022-07-16,bronze,1991
+4804,Tiina,Nõmm,tiina.nomm@telia.ee,+372 5795 5407,TALLINN,2022-07-16,bronze,1991
 4805,Erkki,Kallas,,+372 5620 4155,Tallinn,2023-07-15,,2004
 4806,Lea,Koppel,lea.koppel@outlook.com,+372 5406 0090,Pärnu,2024-01-11,bronze,1979
 4807,Rasmus,Värk,rasmus.vark@gmail.com,+372 5495 8715,Narva,2021-07-29,,1971
 4808,Grete,Ilves,grete.ilves@mail.ee,+372 5212 0414,Narva,2020-05-08,silver,1969
-4809,Heli,Tammik,heli.tammik@gmail.com,+372 5834 5990,Tartu,2023-09-03,silver,1989
+4809,Heli,Tammik,heli.tammik@gmail.com,+372 5834 5990,tartu,2023-09-03,silver,1989
 4810,Henri,Kull,henri.kull@gmail.com,+372 5242 6811,Tallinn,2021-11-01,silver,1976
-4811,Kevin,Toom,,+372 5520 2830,Tallinn,2024-05-16,,1994
+4811,Kevin,Toom,,+372 5520 2830,TALLINN,2024-05-16,,1994
 4812,Ago,Kuusk,ago.kuusk@hot.ee,+372 5540 2832,Tallinn,2022-10-15,bronze,1982
 4813,Kristiina,Hurt,kristiina.hurt@mail.ee,+372 8238 3887,Viljandi,2024-10-15,,2000
 4814,Urmas,Mägi,urmas.magi@mail.ee,+372 5168 2089,Tallinn,2024-11-17,bronze,1961
@@ -2829,7 +2829,7 @@ customer_id,first_name,last_name,email,phone,city,registration_date,loyalty_tier
 4828,Meelis,Kuusk,meelis.kuusk@yahoo.com,+372 5362 3525,Tallinn,2023-03-19,bronze,1985
 4829,Merike,Ilves,merike.ilves@telia.ee,+372 5839 1880,Tallinn,2022-01-05,gold,1985
 4830,Sander,Sepp,sander.sepp@yahoo.com,+372 5385 8020,Rakvere,2020-03-20,bronze,1986
-4831,Enn,Kangur,enn.kangur@gmail.com,+372 8876 8901,Tartu,2022-03-30,gold,1980
+4831,Enn,Kangur,enn.kangur@gmail.com,+372 8876 8901,tartu,2022-03-30,gold,1980
 4832,Terje,Laas,terje.laas@mail.ee,+372 5299 3316,Rakvere,2024-10-09,,1980
 4833,Jüri,Valk,juri.valk@yahoo.com,+372 8604 8190,Rakvere,2022-05-27,gold,1986
 4834,Eha,Luik,eha.luik@gmail.com,+372 5369 3032,Viljandi,2021-05-28,silver,1990
@@ -2860,7 +2860,7 @@ customer_id,first_name,last_name,email,phone,city,registration_date,loyalty_tier
 4859,Heli,Rebane,heli.rebane@gmail.com,+372 5817 3647,Tallinn,2022-11-12,bronze,1976
 4860,Marit,Arro,marit.arro@telia.ee,+372 8208 3790,Tallinn,2022-08-05,silver,2001
 4861,Laura,Mets,laura.mets@yahoo.com,+372 5755 8807,Tallinn,2020-05-16,gold,1970
-4862,Erkki,Liiv,erkki.liiv@yahoo.com,+372 5277 4426,Tallinn,2021-07-10,,1967
+4862,Erkki,Liiv,erkki.liiv@yahoo.com,+372 5277 4426,tallinn,2021-07-10,,1967
 4863,Meelis,Nurk,meelis.nurk@yahoo.com,+372 5633 9004,Tallinn,2021-03-20,silver,1987
 4864,Kersti,Kuusik,kersti.kuusik@mail.ee,+372 5741 8759,Valga,2022-09-10,bronze,1989
 4865,Ene,Saar,ene.saar@gmail.com,+372 5862 6092,Tallinn,2023-05-28,gold,1981
@@ -2870,7 +2870,7 @@ customer_id,first_name,last_name,email,phone,city,registration_date,loyalty_tier
 4869,Olev,Orav,olev.orav@hot.ee,+372 8687 2862,Rakvere,2024-02-07,silver,1965
 4870,Rein,Männik,rein.mannik@yahoo.com,+372 8589 0034,Tallinn,2023-06-18,bronze,1985
 4871,Eha,Tamm,eha.tamm@yahoo.com,+372 5626 6803,Tartu,2023-10-10,,1994
-4872,Indrek,Tammik,indrek.tammik@mail.ee,+372 8208 6700,Narva,2021-11-13,silver,1985
+4872,Indrek,Tammik,indrek.tammik@mail.ee,+372 8208 6700,Narva ,2021-11-13,silver,1985
 4873,Pille,Rosin,,+372 5570 1073,Narva,2021-01-08,gold,1990
 4874,Piret,Värk,piret.vark@telia.ee,+372 5370 4068,Tartu,2024-01-16,,1992
 4875,Sandra,Mägi,sandra.magi@mail.ee,+372 5336 1911,Tallinn,2024-08-20,,1976
@@ -2895,18 +2895,18 @@ customer_id,first_name,last_name,email,phone,city,registration_date,loyalty_tier
 4894,Kadri,Ilves,kadri.ilves@outlook.com,+372 5615 0936,Tallinn,2020-05-31,,1960
 4895,Jaak,Sild,jaak.sild@gmail.com,+372 5752 2704,Tallinn,2024-05-29,bronze,1990
 4896,Meelis,Toom,meelis.toom@yahoo.com,+372 8603 9977,Tallinn,2021-06-04,,1996
-4897,Rain,Mägi,rain.magi@yahoo.com,+372 8125 6501,Tallinn,2024-11-14,,2002
+4897,Rain,Mägi,rain.magi@yahoo.com,+372 8125 6501,TALLINN,2024-11-14,,2002
 4898,Erkki,Hurt,erkki.hurt@yahoo.com,+372 5581 3021,Pärnu,2021-07-31,,1972
 4899,Kati,Lass,kati.lass@outlook.com,+372 5700 8385,Tartu,2022-11-08,bronze,1999
 4900,Sandra,Puusepp,,+372 5764 1800,Kuressaare,2023-07-19,bronze,1989
-4901,Kristi,Lõoke,kristi.looke@outlook.com,+372 5996 7127,Võru,2024-01-16,bronze,1974
+4901,Kristi,Lõoke,kristi.looke@outlook.com,+372 5996 7127,võru,2024-01-16,bronze,1974
 4902,Rasmus,Roots,rasmus.roots@outlook.com,+372 5452 6571,Tartu,2024-07-29,bronze,1972
 4903,Jüri,Kallas,juri.kallas@mail.ee,+372 5415 1831,Tartu,2020-01-20,bronze,1963
 4904,Aivar,Lõoke,aivar.looke@hot.ee,+372 8319 9038,Tartu,2025-02-06,,1992
-4905,Lea,Roots,lea.roots@hot.ee,+372 5733 4860,Tartu,2022-02-04,gold,2000
+4905,Lea,Roots,lea.roots@hot.ee,+372 5733 4860,tartu,2022-02-04,gold,2000
 4906,Raivo,Roots,raivo.roots@mail.ee,+372 5403 3495,Tallinn,2023-12-30,silver,1999
 4907,Kaido,Laas,kaido.laas@yahoo.com,+372 5100 8818,Tartu,2023-07-16,,1961
-4908,Elis,Kaalep,elis.kaalep@hot.ee,+372 8736 8021,Tallinn,2024-02-19,bronze,1961
+4908,Elis,Kaalep,elis.kaalep@hot.ee,+372 8736 8021,tallinn,2024-02-19,bronze,1961
 4909,Mihkel,Talvik,mihkel.talvik2@hot.ee,+372 5128 9327,Tartu,2021-05-12,silver,1996
 4910,Heino,Hurt,heino.hurt@telia.ee,+372 5896 9155,Tartu,2021-04-30,gold,1991
 4911,Peeter,Kukk,peeter.kukk@gmail.com,+372 8127 6005,Tartu,2023-07-24,,2000
@@ -2936,8 +2936,8 @@ customer_id,first_name,last_name,email,phone,city,registration_date,loyalty_tier
 4935,Priit,Paas,priit.paas@yahoo.com,+372 5441 9145,Tartu,2023-11-19,bronze,2003
 4936,Ants,Põld,ants.pold@telia.ee,+372 5645 1925,Pärnu,2021-09-07,gold,1978
 4937,Heino,Tammik,heino.tammik2@mail.ee,+372 5573 8883,Tallinn,2022-03-25,silver,1985
-4938,Enn,Liiv,enn.liiv@telia.ee,+372 8602 2508,Tallinn,2020-12-28,bronze,1995
-4939,Madis,Tammik,madis.tammik@yahoo.com,+372 8310 0355,Tallinn,2024-05-12,bronze,1985
+4938,Enn,Liiv,enn.liiv@telia.ee,+372 8602 2508,tallinn,2020-12-28,bronze,1995
+4939,Madis,Tammik,madis.tammik@yahoo.com,+372 8310 0355,TALLINN,2024-05-12,bronze,1985
 4940,Liina,Liiv,liina.liiv@hot.ee,+372 8263 6653,Tallinn,2022-10-01,bronze,1980
 4941,Triin,Kuusik,triin.kuusik2@yahoo.com,+372 8332 9451,Tallinn,2024-05-25,bronze,1975
 4942,Kati,Valk,,+372 8229 1391,Tartu,2023-01-15,silver,1989
@@ -2991,7 +2991,7 @@ customer_id,first_name,last_name,email,phone,city,registration_date,loyalty_tier
 4990,Sigrid,Veski,sigrid.veski@mail.ee,+372 5967 0132,Tallinn,2023-06-29,,1965
 4991,Külli,Raid,,+372 5109 9233,Tartu,2020-04-16,bronze,1999
 4992,Priit,Org,,+372 8427 7745,Tallinn,2024-08-17,bronze,2000
-4993,Sandra,Liiv,sandra.liiv@hot.ee,+372 5620 8576,Tartu,2020-11-20,silver,1967
+4993,Sandra,Liiv,sandra.liiv@hot.ee,+372 5620 8576,TARTU,2020-11-20,silver,1967
 4994,Olev,Tamm,,+372 8150 3277,Tallinn,2024-12-12,gold,1974
 4995,Riina,Luik,riina.luik@telia.ee,+372 5397 2388,Võru,2022-01-04,gold,1988
 4996,Tiit,Kaalep,,+372 5379 2343,Tartu,2024-07-02,,1991
@@ -3001,28 +3001,28 @@ customer_id,first_name,last_name,email,phone,city,registration_date,loyalty_tier
 5000,Annika,Toom,annika.toom@telia.ee,+372 5190 1891,Tartu,2024-08-26,,1984
 5001,Elis,pärn,elis.parn@hot.ee,+372 8920 1192,Jõhvi,2023-12-24,silver,1987
 5002,MARKO,Oja,marko.oja@gmail.com,+372 5564 7593,Tartu,2022-07-13,silver,2002
-5003,marika,Lepp,marika.lepp@yahoo.com,+372 8920 1749,Tartu,2023-06-22,gold,1974
+5003,marika,Lepp,marika.lepp@yahoo.com,+372 8920 1749,TARTU,2023-06-22,gold,1974
 5004,maie,Aas,maie.aas@outlook.com,+372 5965 6566,Tallinn,2024-03-21,bronze,1984
 5005,Priit,mitt,priit.mitt@yahoo.com,+372 8342 2667,Pärnu,2022-10-10,silver,1982
 5006,KEVIN,Arro,kevin.arro@outlook.com,+372 8852 9751,Tartu,2025-02-05,bronze,1981
-5007,"Margus ",Rosin,margus.rosin@outlook.com,+372 5346 1834,Tallinn,2020-04-14,gold,1993
-5008,"Taavi ",Puusepp,taavi.puusepp@hot.ee,+372 5523 3153,Tallinn,2021-07-27,silver,1989
-5009,"Ülle ",Laas,ulle.laas@mail.ee,+372 5642 3107,Jõhvi,2023-02-15,silver,1960
+5007,Margus ,Rosin,margus.rosin@outlook.com,+372 5346 1834,Tallinn,2020-04-14,gold,1993
+5008,Taavi ,Puusepp,taavi.puusepp@hot.ee,+372 5523 3153,Tallinn,2021-07-27,silver,1989
+5009,Ülle ,Laas,ulle.laas@mail.ee,+372 5642 3107,Jõhvi,2023-02-15,silver,1960
 5010,tarmo,Põld,tarmo.pold@outlook.com,+372 5329 9544,Tartu,2023-06-12,silver,1983
 5011,merle,Tamm,merle.tamm@gmail.com,+372 5816 2413,Valga,2020-11-06,silver,1976
-5012,MADIS,Rand,madis.rand@outlook.com,+372 8640 6936,Tartu,2023-04-02,silver,2004
+5012,MADIS,Rand,madis.rand@outlook.com,+372 8640 6936,Tartu ,2023-04-02,silver,2004
 5013,ÜLLE,Lõhmus,ulle.lohmus@hot.ee,+372 5360 1007,Tartu,2023-02-08,silver,1999
 5014,TÕNU,Valk,tonu.valk@yahoo.com,+372 5807 7231,Tallinn,2023-01-02,,1968
 5015,AIVAR,Liiv,aivar.liiv@gmail.com,+372 5998 8756,Tallinn,2024-12-31,silver,1979
-5016,"Erkki ",Saar,erkki.saar@gmail.com,+372 5645 6647,Pärnu,2022-05-30,silver,1981
+5016,Erkki ,Saar,erkki.saar@gmail.com,+372 5645 6647,Pärnu,2022-05-30,silver,1981
 5017,Väino,pihl,vaino.pihl@yahoo.com,+372 5738 0925,Tallinn,2023-01-14,gold,1974
 5018,Kristjan,paas,kristjan.paas@mail.ee,+372 5302 1648,Tartu,2020-08-17,gold,1964
 5019,Ene,paju,ene.paju@hot.ee,+372 5224 3882,Valga,2021-10-25,bronze,1975
-5020,"Kaido ",Toom,kaido.toom@hot.ee,+372 5344 5284,Tallinn,2024-06-13,bronze,1961
+5020,Kaido ,Toom,kaido.toom@hot.ee,+372 5344 5284,Tallinn,2024-06-13,bronze,1961
 5021,kristi,Kuusik,kristi.kuusik@gmail.com,+372 5397 8117,Tallinn,2020-09-14,bronze,1999
 5022,ene,Lass,ene.lass@outlook.com,+372 5193 7214,Tartu,2020-07-11,bronze,1968
 5023,henri,Lepik,henri.lepik@telia.ee,+372 8558 9381,Tartu,2020-02-15,silver,1970
-5024,"Madis ",Kangur,madis.kangur@mail.ee,+372 5895 1338,Narva,2024-02-01,bronze,2003
+5024,Madis ,Kangur,madis.kangur@mail.ee,+372 5895 1338,Narva,2024-02-01,bronze,2003
 5025,anu,Sild,anu.sild2@yahoo.com,+372 5561 3176,Rakvere,2021-03-02,,1960
 5026,marko,Nõmm,marko.nomm@telia.ee,+372 5675 4687,Tallinn,2021-03-02,,1977
 5027,annika,Lõoke,annika.looke@yahoo.com,+372 5867 2956,Tartu,2023-11-13,,1978
@@ -3030,16 +3030,16 @@ customer_id,first_name,last_name,email,phone,city,registration_date,loyalty_tier
 5029,Kersti,must,,+372 5257 0842,Tallinn,2021-03-06,,1976
 5030,Liina,mägi,liina.magi@gmail.com,+372 5169 7565,Tallinn,2021-02-16,gold,1997
 5031,ANNA,Org,anna.org@gmail.com,+372 8693 9364,Tartu,2022-08-03,,1960
-5032,"Pille ",Kivi,pille.kivi@yahoo.com,+372 5748 8026,Valga,2020-10-04,silver,1984
+5032,Pille ,Kivi,pille.kivi@yahoo.com,+372 5748 8026,Valga,2020-10-04,silver,1984
 5033,henri,Nõmm,henri.nomm@telia.ee,+372 5641 5959,Tallinn,2023-08-08,bronze,1983
-5034,"Jaak ",Veski,,+372 5366 8126,Valga,2023-06-09,,1993
+5034,Jaak ,Veski,,+372 5366 8126,Valga,2023-06-09,,1993
 5035,LIIS,Männik,liis.mannik@gmail.com,+372 8539 8999,Tallinn,2022-04-14,,1981
 5036,eha,Raid,eha.raid@telia.ee,+372 5728 7046,Valga,2020-12-17,gold,1987
 5037,marit,Puusepp,marit.puusepp@hot.ee,+372 5687 2372,Tartu,2023-05-30,,1979
 5038,KATI,Lill,kati.lill@mail.ee,+372 8373 3461,Tartu,2020-06-22,silver,1994
-5039,"Piret ",Lepp,piret.lepp@mail.ee,+372 5152 2807,Tallinn,2020-07-18,,2000
-5040,"Mihkel ",Rosin,mihkel.rosin@yahoo.com,+372 5230 7791,Narva,2022-05-14,silver,1963
-5041,"Maie ",Kuusk,maie.kuusk@yahoo.com,+372 5980 9571,Tallinn,2021-11-08,bronze,1976
+5039,Piret ,Lepp,piret.lepp@mail.ee,+372 5152 2807,Tallinn,2020-07-18,,2000
+5040,Mihkel ,Rosin,mihkel.rosin@yahoo.com,+372 5230 7791,Narva,2022-05-14,silver,1963
+5041,Maie ,Kuusk,maie.kuusk@yahoo.com,+372 5980 9571,Tallinn,2021-11-08,bronze,1976
 5042,tiit,Toom,tiit.toom@gmail.com,+372 5130 0048,Tallinn,2024-10-29,,1961
 5043,lea,Mets,,+372 5887 5911,Tartu,2023-04-11,,1985
 5044,LAURA,Kull,laura.kull2@yahoo.com,+372 5995 7551,Tallinn,2024-11-15,,1991
@@ -3051,19 +3051,19 @@ customer_id,first_name,last_name,email,phone,city,registration_date,loyalty_tier
 5050,Heino,lõoke,heino.looke@mail.ee,+372 5527 9529,Tallinn,2023-12-12,,1982
 5051,TAAVI,Lepik,taavi.lepik@mail.ee,+372 8273 2015,Pärnu,2024-11-09,,1965
 5052,REET,Oja,reet.oja@mail.ee,+372 5594 0672,Rakvere,2024-01-23,bronze,2002
-5053,"Jüri ",Salu,juri.salu@telia.ee,+372 5801 5477,Tallinn,2020-08-01,silver,1961
+5053,Jüri ,Salu,juri.salu@telia.ee,+372 5801 5477,TALLINN,2020-08-01,silver,1961
 5054,merle,Mets,merle.mets@outlook.com,+372 5997 6055,Jõhvi,2022-08-11,gold,1963
 5055,GRETE,Tamm,,+372 5777 7914,Haapsalu,2022-07-23,gold,1979
-5056,"Pille ",Aas,pille.aas@yahoo.com,+372 5678 8416,Haapsalu,2022-02-17,silver,1976
+5056,Pille ,Aas,pille.aas@yahoo.com,+372 5678 8416,Haapsalu,2022-02-17,silver,1976
 5057,Kadri,kukk,kadri.kukk@telia.ee,+372 5726 3309,Narva,2022-05-09,,2002
 5058,lea,Mets,lea.mets@telia.ee,+372 8540 8965,Pärnu,2020-02-08,silver,1974
 5059,MARIS,Kuusk,maris.kuusk@outlook.com,+372 8358 4963,Tartu,2021-04-12,bronze,1991
 5060,LIINA,Veski,liina.veski@mail.ee,+372 5316 6636,Paide,2021-02-27,,1994
 5061,NELE,Aas,,+372 8634 9212,Võru,2024-12-10,bronze,1987
-5062,Henri,kivi,henri.kivi@outlook.com,+372 5732 8914,Tallinn,2021-02-22,,2004
-5063,"Rain ",Salu,rain.salu@gmail.com,+372 5410 5150,Jõhvi,2024-02-26,bronze,1971
+5062,Henri,kivi,henri.kivi@outlook.com,+372 5732 8914,TALLINN,2021-02-22,,2004
+5063,Rain ,Salu,rain.salu@gmail.com,+372 5410 5150,Jõhvi,2024-02-26,bronze,1971
 5064,jüri,Liiv,juri.liiv@yahoo.com,+372 8545 8451,Kuressaare,2022-01-01,gold,1981
-5065,katrin,Kuusk,katrin.kuusk@gmail.com,+372 5681 0019,Tartu,2023-09-06,bronze,1975
+5065,katrin,Kuusk,katrin.kuusk@gmail.com,+372 5681 0019,tartu,2023-09-06,bronze,1975
 5066,piret,Kivi,piret.kivi@gmail.com,+372 8624 6077,Tartu,2020-08-05,,1987
 5067,karin,Järv,karin.jarv@hot.ee,+372 5247 0240,Paide,2020-05-06,,2000
 5068,merike,Mets,,+372 5897 6770,Haapsalu,2020-02-13,gold,1985
@@ -3074,50 +3074,50 @@ customer_id,first_name,last_name,email,phone,city,registration_date,loyalty_tier
 5073,MADIS,Hurt,madis.hurt@hot.ee,+372 5874 0738,Tartu,2021-12-02,gold,1991
 5074,kristiina,Ilves,kristiina.ilves@mail.ee,+372 5424 3879,Tallinn,2023-01-10,,1994
 5075,lea,Kukk,,+372 8287 8124,Tartu,2024-04-23,,1987
-5076,"Ragnar ",Talvik,ragnar.talvik@gmail.com,+372 5622 9699,Tallinn,2021-01-02,silver,1992
-5077,"Andres ",Ilves,andres.ilves@telia.ee,+372 8845 8263,Viljandi,2024-12-20,bronze,1973
-5078,"Kati ",Lõoke,kati.looke@outlook.com,+372 8216 8563,Kuressaare,2021-02-22,silver,1996
+5076,Ragnar ,Talvik,ragnar.talvik@gmail.com,+372 5622 9699,Tallinn,2021-01-02,silver,1992
+5077,Andres ,Ilves,andres.ilves@telia.ee,+372 8845 8263,Viljandi,2024-12-20,bronze,1973
+5078,Kati ,Lõoke,kati.looke@outlook.com,+372 8216 8563,Kuressaare,2021-02-22,silver,1996
 5079,tõnu,Must,tonu.must2@gmail.com,+372 5708 4001,Tartu,2024-02-03,,1979
 5080,Sandra,veski,sandra.veski@mail.ee,+372 8186 1726,Tallinn,2021-10-23,gold,1992
-5081,erkki,Liiv,erkki.liiv@yahoo.com,+372 5277 4426,Tallinn,2021-07-10,,1967
+5081,erkki,Liiv,erkki.liiv@yahoo.com,+372 5277 4426,Tallinn ,2021-07-10,,1967
 5082,anna,Rosin,anna.rosin@mail.ee,+372 5961 7699,Kuressaare,2020-09-25,silver,1975
-5083,Maris,paas,maris.paas@mail.ee,+372 5151 9898,Tartu,2021-12-28,gold,1999
+5083,Maris,paas,maris.paas@mail.ee,+372 5151 9898,tartu,2021-12-28,gold,1999
 5084,mihkel,Rosin,mihkel.rosin@yahoo.com,+372 5230 7791,Narva,2022-05-14,silver,1963
 5085,Sigrid,kivi,sigrid.kivi@mail.ee,+372 5861 0489,Narva,2022-12-23,,1975
-5086,"Maris ",Lepp,maris.lepp2@yahoo.com,+372 8512 6834,Tartu,2024-02-17,bronze,1970
+5086,Maris ,Lepp,maris.lepp2@yahoo.com,+372 8512 6834,Tartu,2024-02-17,bronze,1970
 5087,grete,Põld,grete.pold@yahoo.com,+372 5971 2201,Viljandi,2024-02-01,silver,1969
 5088,MAIE,Paju,maie.paju@gmail.com,+372 5865 2050,Tallinn,2022-12-11,silver,1967
-5089,ants,Salu,ants.salu@gmail.com,+372 5642 0438,Paide,2021-03-09,gold,1970
+5089,ants,Salu,ants.salu@gmail.com,+372 5642 0438,paide,2021-03-09,gold,1970
 5090,AGO,Rand,ago.rand@yahoo.com,+372 5680 4493,Pärnu,2021-07-30,gold,1985
-5091,"Andres ",Nõmm,andres.nomm@hot.ee,+372 5485 8907,Jõhvi,2023-11-20,bronze,1976
+5091,Andres ,Nõmm,andres.nomm@hot.ee,+372 5485 8907,Jõhvi,2023-11-20,bronze,1976
 5092,Kersti,mets,kersti.mets@hot.ee,+372 5665 7363,Tallinn,2020-09-08,,1962
 5093,Kadri,nurk,kadri.nurk@gmail.com,+372 5307 3375,Paide,2023-04-05,silver,2004
 5094,kristiina,Kask,kristiina.kask@outlook.com,+372 5369 2520,Tallinn,2021-05-14,bronze,1995
 5095,riina,Lõhmus,,+372 5531 5049,Tallinn,2021-03-21,silver,1975
-5096,"Triin ",Nõmm,triin.nomm@outlook.com,+372 5716 3023,Rakvere,2023-10-11,bronze,1990
-5097,"Kristi ",Teder,kristi.teder@hot.ee,+372 8696 5601,Tallinn,2021-12-18,,1996
-5098,"Heino ",Mitt,heino.mitt@hot.ee,+372 5681 0937,Tallinn,2022-03-07,silver,2002
+5096,Triin ,Nõmm,triin.nomm@outlook.com,+372 5716 3023,Rakvere,2023-10-11,bronze,1990
+5097,Kristi ,Teder,kristi.teder@hot.ee,+372 8696 5601,tallinn,2021-12-18,,1996
+5098,Heino ,Mitt,heino.mitt@hot.ee,+372 5681 0937,Tallinn,2022-03-07,silver,2002
 5099,raivo,Nõmm,raivo.nomm@yahoo.com,+372 8510 7426,Kuressaare,2025-01-25,bronze,1985
 5100,jüri,Rosin,juri.rosin@yahoo.com,+372 8591 9600,Tartu,2021-08-26,bronze,2004
 5101,ÜLLE,Teder,,+372 5184 5910,Pärnu,2023-12-29,bronze,1969
 5102,peeter,Veski,peeter.veski@mail.ee,+372 5413 5737,Tartu,2023-12-22,bronze,2002
-5103,"Marko ",Roots,marko.roots@gmail.com,+372 8579 6501,Narva,2022-01-01,gold,1986
+5103,Marko ,Roots,marko.roots@gmail.com,+372 8579 6501,Narva,2022-01-01,gold,1986
 5104,Sirje,kuusk,,+372 5520 3781,Valga,2025-01-29,silver,1974
 5105,olev,Paju,olev.paju@mail.ee,+372 5325 2099,Narva,2020-01-20,silver,2001
 5106,rein,Orav,rein.orav@gmail.com,+372 5968 9149,Tallinn,2022-05-14,,2004
 5107,henri,Saar,henri.saar@mail.ee,+372 5640 7293,Tartu,2024-05-19,bronze,1982
 5108,GRETE,Kukk,grete.kukk@hot.ee,+372 8598 3456,Valga,2022-07-05,gold,1961
 5109,hille,Lõoke,,+372 8640 4407,Tartu,2020-04-26,gold,1963
-5110,"Erkki ",Ilves,erkki.ilves2@outlook.com,+372 5213 3250,Rakvere,2024-12-15,bronze,1989
+5110,Erkki ,Ilves,erkki.ilves2@outlook.com,+372 5213 3250,Rakvere,2024-12-15,bronze,1989
 5111,Meelis,nurk,meelis.nurk@mail.ee,+372 8578 8432,Tartu,2023-10-03,,1974
 5112,tiina,Talvik,tiina.talvik2@telia.ee,+372 5920 8864,Pärnu,2023-01-12,,1986
-5113,"Lea ",Kukk,lea.kukk@mail.ee,+372 5673 4129,Tallinn,2024-03-05,silver,1977
+5113,Lea ,Kukk,lea.kukk@mail.ee,+372 5673 4129,Tallinn,2024-03-05,silver,1977
 5114,ene,Rebane,ene.rebane@yahoo.com,+372 8134 9580,Tartu,2020-09-28,,1962
 5115,AIVAR,Kivi,aivar.kivi2@hot.ee,+372 5908 3568,Tallinn,2023-10-08,,1971
-5116,"Merle ",Järv,merle.jarv@hot.ee,+372 5139 6924,Tartu,2024-11-07,,2003
+5116,Merle ,Järv,merle.jarv@hot.ee,+372 5139 6924,Tartu,2024-11-07,,2003
 5117,hille,Kuusk,,+372 5389 0670,Narva,2023-08-23,,1992
 5118,Elis,sild,elis.sild@telia.ee,+372 5996 0002,Tallinn,2020-02-23,bronze,1999
-5119,"Kadri ",Kull,kadri.kull@telia.ee,+372 5384 9471,Kuressaare,2021-12-21,,2002
+5119,Kadri ,Kull,kadri.kull@telia.ee,+372 5384 9471,Kuressaare ,2021-12-21,,2002
 5120,aili,Rosin,aili.rosin@telia.ee,+372 8521 3952,Tartu,2023-08-24,,1995
 5121,Kevin,lõhmus,kevin.lohmus2@mail.ee,+372 5852 4371,Tallinn,2023-03-17,silver,1993
 5122,rain,Mägi,rain.magi@yahoo.com,+372 8125 6501,Tallinn,2024-11-14,,2002
@@ -3130,22 +3130,22 @@ customer_id,first_name,last_name,email,phone,city,registration_date,loyalty_tier
 5129,margus,Kukk,,+372 5509 4182,Tallinn,2022-06-14,bronze,1983
 5130,sander,Mägi,sander.magi@hot.ee,+372 5781 1599,Pärnu,2020-04-02,,1969
 5131,Arvo,arro,arvo.arro@yahoo.com,+372 5243 0225,Tallinn,2023-10-03,bronze,1975
-5132,"Aivar ",Toom,aivar.toom@telia.ee,+372 8800 3844,Rakvere,2024-11-02,bronze,1977
-5133,AIVAR,Järv,aivar.jarv@gmail.com,+372 5546 3850,Tallinn,2021-10-21,gold,1966
+5132,Aivar ,Toom,aivar.toom@telia.ee,+372 8800 3844,Rakvere,2024-11-02,bronze,1977
+5133,AIVAR,Järv,aivar.jarv@gmail.com,+372 5546 3850,TALLINN,2021-10-21,gold,1966
 5134,sander,Lill,sander.lill@outlook.com,+372 5696 3760,Tartu,2021-02-22,,1977
 5135,sander,Liiv,sander.liiv@outlook.com,+372 5374 8738,Võru,2021-04-25,silver,1990
 5136,ANTS,Nurk,ants.nurk@outlook.com,+372 5628 0754,Tallinn,2022-09-07,bronze,1990
 5137,ANTS,Mets,,+372 5994 7187,Tartu,2022-12-23,silver,1982
-5138,"Lea ",Aas,,+372 5495 0765,Pärnu,2020-05-05,,1962
+5138,Lea ,Aas,,+372 5495 0765,Pärnu,2020-05-05,,1962
 5139,KARIN,Paas,karin.paas@outlook.com,+372 5901 6171,Pärnu,2023-11-09,silver,1966
 5140,rein,Kallas,rein.kallas@telia.ee,+372 8276 0180,Jõhvi,2024-05-22,,1983
 5141,Külli,mitt,,+372 5953 4402,Jõhvi,2022-02-07,gold,1961
-5142,"Kati ",Kask,kati.kask@telia.ee,+372 5869 6202,Pärnu,2024-03-26,silver,2000
+5142,Kati ,Kask,kati.kask@telia.ee,+372 5869 6202,Pärnu,2024-03-26,silver,2000
 5143,SIIM,Kask,siim.kask@gmail.com,+372 8160 1623,Tartu,2021-05-08,gold,2005
 5144,Pille,rosin,pille.rosin@hot.ee,+372 5525 7327,Tallinn,2023-08-22,,1973
 5145,MARIS,Paas,maris.paas@mail.ee,+372 5151 9898,Tartu,2021-12-28,gold,1999
 5146,tõnu,Roots,tonu.roots@telia.ee,+372 5875 9834,Tartu,2021-06-28,silver,2003
 5147,katrin,Paas,katrin.paas@mail.ee,+372 5634 3599,Tallinn,2022-11-23,silver,2003
-5148,"Nele ",Rebane,nele.rebane@yahoo.com,+372 5149 6896,Tallinn,2021-10-27,,1983
+5148,Nele ,Rebane,nele.rebane@yahoo.com,+372 5149 6896,Tallinn,2021-10-27,,1983
 5149,KÜLLI,Sild,kulli.sild@mail.ee,+372 5439 3553,Tartu,2023-08-10,bronze,1994
 5150,mart,Lepp,mart.lepp@mail.ee,+372 8445 3124,Tallinn,2024-01-24,silver,1985
