@@ -48,7 +48,7 @@ Week 1 eesmärk oli uurida UrbanStyle kliendiandmeid SQL päringute abil ning an
 
 ## Failid
 
-- [`week1_sales_exploration.sql`](individual/päringud/week1_sales_exploration.sql) — minu SQL päringud
+- [`week1_sales_exploration.sql`](individual/paringud/week1_sales_exploration.sql) — minu SQL päringud
 - [`screenshots/`](individual/screenshots/) — SQL päringute tulemuste pildid
 - [`week1_data_landscape.md`](team/week1_data_landscape.md) — meeskonna kokkuvõte andmete analüüsist
 
