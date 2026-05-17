@@ -1,25 +1,40 @@
-# Nädal 2: SQL Basics -- UrbanStyle'i andmete puhastamine
+# Nädal 2: SQL puhastamine — UrbanStyle andmete kvaliteedikontroll
 
 ## Mida ma tegin
-Uurisin müügiandmete tabelit SQL päringutega
-- Leidsin:
-   - duplikaate oli 5116 rida, mis moodustavad 33,58% kogu tabeli andmemahust ja on põhjustatud 4013 korduvast sale_id-st ja need on vaja kustutada.
-   -  NULL customer_id oli 1487, pärast duplikaatide eemaldamist jäi 988 unikaalset NULL-i, mis sai asendatud ID-ga 0
-   - Tuleviku kuupäevi oli 9, need vigased ja vales formaadis kuupäevad on parandatud 08.04.2026 seisuga.
+Uurisin ja puhastasin UrbanStyle müügiandmete tabelit SQL päringute abil.
 
-- Peamine leid: oli see, et 33,58% müügiandmetest olid duplikaadid.
+Leidsin:
+- 5116 duplikaatset rida, mis moodustasid 33,58% kogu tabeli andmemahust ning olid põhjustatud 4013 korduvast `sale_id` väärtusest.
+- 1487 `NULL customer_id` väärtust, millest pärast duplikaatide eemaldamist jäi alles 988 unikaalset puuduvat väärtust.
+- 9 tuleviku kuupäeva, mis olid vigased või vales formaadis ning parandati seisuga 08.04.2026.
 
-- Esmajärjekorras tuleb eemaldada müügiandmete duplikaadid (5116 rida), kuna need moodustavad 33,58% andmetest ja moonutavad käivet märkimisväärselt.
+## Peamised leiud
+- Kõige suurem probleem oli müügiandmete duplikaatsus — 33,58% tabeli andmetest olid duplikaadid.
+- Duplikaadid moonutasid müügi- ja käibenumbreid märkimisväärselt.
+- Puuduvad kliendi ID-d ja vigased kuupäevad vähendasid andmete usaldusväärsust.
 
-- Osalesin meeskonnatöö SQL päringute tegemisel "sales" tabeli kohta.
+## Soovitused
+- Esmajärjekorras tuleb eemaldada müügiandmete duplikaadid, kuna need mõjutavad otseselt äriraporteid ja käibenumbreid.
+- Tuleks luua automaatsed kontrollid, mis takistavad korduvate `sale_id` väärtuste tekkimist tulevikus.
+- Puuduvate kliendi ID-de käsitlemiseks tuleks määratleda ühtne äriloogika.
+
+## Meeskonnatöö
+- Osalesin meeskonna SQL päringute ja andmekvaliteedi analüüsi koostamisel `sales` tabeli kohta.
+- Panustasin Week 2 koondraporti loomisesse.
 
 ## Peamised õpid
-- Jälgida tähelepanelikult päringuid, mida teed
-- Jälgida, et päringu tegemisel on kõik õigesti, nt kas * on olemas ja termin õige nt sale-sales
+- Õppisin kasutama SQL päringuid andmekvaliteedi probleemide tuvastamiseks.
+- Mõistsin, kui oluline on kontrollida duplikaate, NULL väärtusi ja vigaseid kuupäevi enne analüüsi tegemist.
+- Harjutasin SQL puhastusfunktsioonide ja andmete valideerimise kasutamist.
+
+## AI kasutamine
+- Kasutasin AI-d SQL päringute kontrollimiseks ja vigade leidmiseks.
+- AI aitas mõista, kuidas kasutada `GROUP BY`, `HAVING`, `COALESCE` ja kuupäevade puhastamist.
 
 ## Failid
-- [`week1_\[tabel\]_exploration.sql`](individual/week2_sales_cleaning.sql) -- minu SQL päringud
-- ['week2_sales_cleaning report.md' ](<individual/week2_sales_cleaning report.md>) -- võrdlev raport enne ja pärast puhastust
+- [`week2_sales_cleaning.sql`](individual/week2_sales_cleaning.sql) — minu SQL puhastamise päringud
+- [`week2_sales_cleaning_report.md`](individual/week2_sales_cleaning_report.md) — raport enne ja pärast puhastust
 
-## Meeskonna töö koondraportile
-- [https://github.com/rattaseppkevin-tech/urbanstyle-TOOTE-grupp/blob/main/week2_team_cleaning_report.pdf]
+## Meeskonna töö koondraport
+- [Week 2 Team Cleaning Report](https://github.com/rattaseppkevin-tech/urbanstyle-TOOTE-grupp/blob/main/week2_team_cleaning_report.pdf)
+
