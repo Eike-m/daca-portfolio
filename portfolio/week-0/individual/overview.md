@@ -1,7 +1,26 @@
-Week 0 kirjeldus: Lisaks grupitööle lõime enda isiklikud tööriistad ja seadistasime need:
+# Week 0 — Tööriistade seadistamine ja keskkonna ettevalmistus
 
-Supabase - lõime konto ja projekti
-Github - lõime konto ja repository daca-portfolio
-NotebookLM - lõime konto, lisasime failid ja genereerisime neist audio ülevaate, esitasime seal küsimusi failide sisu kohta.
-VS Code + Python - instralleerisime ja lõime konto
-Power BI - installeerisime ja lõime konto
+Week 0 jooksul seadistasime lisak grupitööle ka endale vajalikud tööriistad ja keskkonnad, mida kasutame andmeanalüüsi projektide ja portfoolio loomisel.
+
+## Seadistatud tööriistad
+
+- **Supabase**
+  - Lõime kasutajakonto ja projekti.
+  - Tutvusime andmebaasi loomise ja tabelite haldamisega.
+
+- **GitHub**
+  - Lõime GitHubi konto ja repository `daca-portfolio`.
+  - Seadistasime versioonihalduse ning õppisime projektide üleslaadimist.
+
+- **NotebookLM**
+  - Lõime konto ja laadisime üles õppematerjalid.
+  - Genereerisime failidest audioülevaateid.
+  - Kasutasime NotebookLM-i failide sisu analüüsimiseks ja küsimustele vastamiseks.
+
+- **VS Code + Python**
+  - Installeerisime Visual Studio Code’i ja Python keskkonna.
+  - Seadistasime vajalikud laiendused Python arenduseks ja Jupyter Notebookide kasutamiseks.
+
+- **Power BI**
+  - Installeerisime Power BI Desktopi.
+  - Lõime kasutajakonto ja tutvusime visualiseerimiste loomisega.
