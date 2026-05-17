@@ -44,6 +44,7 @@ Grupitöö käigus seadistasime:
 Kasutasin AI abi seadistusvigade lahendamisel, SQL süntaksi mõistmisel ning GitHubi ja VS Code’i töövoogude seadistamisel. NotebookLM aitas õppematerjalidest kiiremini aru saada ning selgitas UrbanStyle’i ärikonteksti ja DACA programmi ülesehitust.
 
 ## Meeskonna link
-https://github.com/rattaseppkevin-tech/urbanstyle-TOOTE-grupp/blob/main/README.md
+
+- [UrbanStyle TOOTE grupp GitHub](https://github.com/rattaseppkevin-tech/urbanstyle-TOOTE-grupp/blob/main/README.md)
 
 

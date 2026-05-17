@@ -41,5 +41,4 @@ Käivitada 513 passiivsele kliendile -15% „win-back“ kampaania ja suunata tu
 Umbes 1000 kliendil puudub lojaalsusaste (`loyalty_tier`), mis takistab täpset segmentpõhist turundust ja VIP-klientide premeerimist
 
 
-## ESITLUS
-https://github.com/rattaseppkevin-tech/urbanstyle-TOOTE-grupp/blob/main/week3_team_join_anal%C3%BC%C3%BCs.pdf
+- [Week 3 Team JOIN analüüs (PDF)](https://github.com/rattaseppkevin-tech/urbanstyle-TOOTE-grupp/blob/main/week3_team_join_anal%C3%BC%C3%BCs.pdf)

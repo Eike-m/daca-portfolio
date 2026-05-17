@@ -56,6 +56,6 @@ Kasutasin AI abi SQL JOIN päringute kontrollimiseks, tulemuste tõlgendamiseks 
 
 ## Failid
 
-- `week3_müügikanalid_klientid_joins.sql` — SQL JOIN analüüs
-- `screenshots/` — tulemuste visualiseerimised
-- `team/week3_team_joins_summary.md` — meeskonna kokkuvõte
+- [`week3_müügikanalid_klientid_joins.sql`](individual/week3_müügikanalid_klientid_joins.sql) — SQL JOIN analüüs
+- [`screenshots/`](individual/screenshots/) — tulemuste visualiseerimised
+- [`week3_team_joins_summary.md`](team/week3_team_joins_summary.md) — meeskonna kokkuvõte
