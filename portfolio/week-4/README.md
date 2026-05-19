@@ -1,6 +1,6 @@
-# Nädal 4: SQL Aggregation
+# Nädal 4: SQL Agregatsioon
 
-# ALAÜLESANDE KAART — ROLL D: Turunduskampaaniate ROI 
+# Minu ROLL D: Turunduskampaaniate ROI analüüs
 
 ## 1. Turunduskanalite efektiivsus (ROI)
 - **Suurim tulutooja:** Google Organic – 9 559 558 € ehk 27% kogukäibest, tellimusi 5484  
@@ -45,7 +45,7 @@
 ## Peamised järeldused ja soovitused
 
 1. **Fookuse muutus**  
-   UrbanStyle'i klient on Google Organicus 5 korda väärtuslikum kui Instagramis (6001 € vs 1144 €).  
+   Google Organic kanalist tulnud klient on keskmiselt 5 korda väärtuslikum kui Instagram Ads kanalist tulnud klient (6001 € vs 1144 €).  
    👉 Soovitus: suunata Instagrami eelarvet rohkem Email (5353 €/klient) ja Facebook kampaaniatesse (5234 €/klient)
 
 2. **SEO prioriteetsus**  
@@ -59,3 +59,8 @@
 ## AI kasutamine sel nädalal
 
 Kasutasin AI-d, et luua ja paremini mõista keerukamaid CTE päringuid. AI aitas mul jagada analüüsi loogilisteks sammudeks ja kirjutada puhtamaid ning loetavamaid SQL-lahendusi.
+
+## Failid
+
+- [`week4_turunduskampaaniate_roi_aggregation.sql`](individual/week4_turunduskampaaniate_roi_aggregation.sql) — SQL agregatsioonipäringud
+- [`week4_team_aggregation_summary.md`](team/week4_team_aggregation_summary.md) — meeskonna koondraport
