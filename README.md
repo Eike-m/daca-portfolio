@@ -8,19 +8,6 @@ Arendada teadmisi andmeanalüüsis — SQL, Python, andmete visualiseerimine ja 
 
 # Nädala kaupa
 
-| Nädal | Teema | Staatus |
-|-------|-------|---------|
-| 0 | Onboarding + AI tööriistad | Lõpetatud |
-| 1 | SQL Basics | Lõpetatud |
-| 2 | SQL Cleaning | Lõpetatud |
-| 3 | SQL JOINs | Lõpetatud |
-| 4 | SQL Aggregation | Lõpetatud |
-| 5-6 | Visualiseerimine ja Dashboardid | Lõpetatud |
-| 7-8 | Python + Pandas + API-d | Lõpetatud |
-| 9-10 | Portfoolio + Karjäär | Käimas |
-
----
-
 ## Nädal 0 — Onboarding ja AI tööriistad
 Tutvusin programmi töökorralduse, AI tööriistade ning tehnilise keskkonnaga. Seadistasin VS Code’i, Pythoni ja Supabase’i ning õppisin kasutama NotebookLM-i ja ChatGPT-d õppimise ning probleemilahenduse toetamiseks.
 
