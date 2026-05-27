@@ -805,3 +805,4 @@ def total_revenue(df):
     except Exception as e:
         print(f"Viga: {e}")
         return None
+

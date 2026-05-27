@@ -1,0 +1,31 @@
+2026-05-22 13:59:06 - INFO     - Genereerin raporti seisuga: 2026-05-22
+2026-05-22 13:59:08 - INFO     - Starting pipeline execution
+2026-05-22 13:59:08 - INFO     - Extract: get data from source
+2026-05-22 13:59:09 - INFO     - HTTP Request: GET https://mtpcyuemcbtdldoftnmo.supabase.co/rest/v1/sales?select=%2A&sale_date=gte.2023-01-01&sale_date=lte.2026-05-22&offset=0&limit=1000 "HTTP/2 200 OK"
+2026-05-22 13:59:09 - INFO     - HTTP Request: GET https://mtpcyuemcbtdldoftnmo.supabase.co/rest/v1/sales?select=%2A&sale_date=gte.2023-01-01&sale_date=lte.2026-05-22&offset=1000&limit=1000 "HTTP/2 200 OK"
+2026-05-22 13:59:10 - INFO     - HTTP Request: GET https://mtpcyuemcbtdldoftnmo.supabase.co/rest/v1/sales?select=%2A&sale_date=gte.2023-01-01&sale_date=lte.2026-05-22&offset=2000&limit=1000 "HTTP/2 200 OK"
+2026-05-22 13:59:10 - INFO     - HTTP Request: GET https://mtpcyuemcbtdldoftnmo.supabase.co/rest/v1/sales?select=%2A&sale_date=gte.2023-01-01&sale_date=lte.2026-05-22&offset=3000&limit=1000 "HTTP/2 200 OK"
+2026-05-22 13:59:10 - INFO     - HTTP Request: GET https://mtpcyuemcbtdldoftnmo.supabase.co/rest/v1/sales?select=%2A&sale_date=gte.2023-01-01&sale_date=lte.2026-05-22&offset=4000&limit=1000 "HTTP/2 200 OK"
+2026-05-22 13:59:10 - INFO     - HTTP Request: GET https://mtpcyuemcbtdldoftnmo.supabase.co/rest/v1/sales?select=%2A&sale_date=gte.2023-01-01&sale_date=lte.2026-05-22&offset=5000&limit=1000 "HTTP/2 200 OK"
+2026-05-22 13:59:10 - INFO     - HTTP Request: GET https://mtpcyuemcbtdldoftnmo.supabase.co/rest/v1/sales?select=%2A&sale_date=gte.2023-01-01&sale_date=lte.2026-05-22&offset=6000&limit=1000 "HTTP/2 200 OK"
+2026-05-22 13:59:11 - INFO     - HTTP Request: GET https://mtpcyuemcbtdldoftnmo.supabase.co/rest/v1/sales?select=%2A&sale_date=gte.2023-01-01&sale_date=lte.2026-05-22&offset=7000&limit=1000 "HTTP/2 200 OK"
+2026-05-22 13:59:11 - INFO     - HTTP Request: GET https://mtpcyuemcbtdldoftnmo.supabase.co/rest/v1/sales?select=%2A&sale_date=gte.2023-01-01&sale_date=lte.2026-05-22&offset=8000&limit=1000 "HTTP/2 200 OK"
+2026-05-22 13:59:11 - INFO     - HTTP Request: GET https://mtpcyuemcbtdldoftnmo.supabase.co/rest/v1/sales?select=%2A&sale_date=gte.2023-01-01&sale_date=lte.2026-05-22&offset=9000&limit=1000 "HTTP/2 200 OK"
+2026-05-22 13:59:11 - INFO     - HTTP Request: GET https://mtpcyuemcbtdldoftnmo.supabase.co/rest/v1/sales?select=%2A&sale_date=gte.2023-01-01&sale_date=lte.2026-05-22&offset=10000&limit=1000 "HTTP/2 200 OK"
+2026-05-22 13:59:11 - INFO     - HTTP Request: GET https://mtpcyuemcbtdldoftnmo.supabase.co/rest/v1/customers?select=%2A&offset=0&limit=1000 "HTTP/2 200 OK"
+2026-05-22 13:59:11 - INFO     - HTTP Request: GET https://mtpcyuemcbtdldoftnmo.supabase.co/rest/v1/customers?select=%2A&offset=1000&limit=1000 "HTTP/2 200 OK"
+2026-05-22 13:59:11 - INFO     - HTTP Request: GET https://mtpcyuemcbtdldoftnmo.supabase.co/rest/v1/customers?select=%2A&offset=2000&limit=1000 "HTTP/2 200 OK"
+2026-05-22 13:59:12 - INFO     - HTTP Request: GET https://mtpcyuemcbtdldoftnmo.supabase.co/rest/v1/customers?select=%2A&offset=3000&limit=1000 "HTTP/2 200 OK"
+2026-05-22 13:59:12 - INFO     - HTTP Request: GET https://mtpcyuemcbtdldoftnmo.supabase.co/rest/v1/products?select=%2A&offset=0&limit=1000 "HTTP/2 200 OK"
+2026-05-22 13:59:12 - INFO     - Data extraction completed
+2026-05-22 13:59:12 - INFO     - Validate Extract: checking dataframes
+2026-05-22 13:59:12 - INFO     - Transform: Start cleaning and processing data
+2026-05-22 13:59:12 - INFO     - Tables cleaned successfully
+2026-05-22 13:59:12 - INFO     - Tables merged successfully
+2026-05-22 13:59:12 - INFO     - Calculations executed successfully
+2026-05-22 13:59:12 - INFO     - Data transformation completed
+2026-05-22 13:59:12 - INFO     - Validate: check data quality
+2026-05-22 13:59:12 - INFO     - Load: create visualizations and export results to output directory
+2026-05-22 13:59:12 - INFO     - Visualizations created successfully
+2026-05-22 13:59:12 - INFO     - Results exported successfully to: c:\DACA\daca-portfolio\portfolio\week-8\team\output
+2026-05-22 13:59:12 - INFO     - Pipeline execution completed in (4.59s)
