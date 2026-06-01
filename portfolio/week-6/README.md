@@ -77,13 +77,12 @@ See viitab suurele potentsiaalile kasvatada püsiklientide arvu ja suurendada kl
 
 ![Tallinna Dashboard](individual/screenshots/week_6_dashboard_hero_screenshot.png)
 
-Dashboard annab ülevaate:
-
-- peamistest KPI-dest;
-- müügikasvust 2023 vs 2024;
-- klientide segmentidest;
-- Top 5 tootest;
-- juhtkonna jaoks olulistest ärisoovitustest.
+Dashboard visualiseerib:
+- peamised KPI-d;
+- 2023 vs 2024 müügikasvu;
+- kliendisegmente;
+- Top 5 toodet;
+- juhtkonnale suunatud ärisoovitusi.
 
 ---
 
