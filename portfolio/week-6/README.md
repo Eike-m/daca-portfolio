@@ -75,7 +75,7 @@ See viitab suurele potentsiaalile kasvatada püsiklientide arvu ja suurendada kl
 
 ## Tallinna kaupluse dashboard
 
-![Tallinna Dashboard](images/tallinna_dashboard.png)
+![Tallinna Dashboard](individual/screenshots/week_6_dashboard_hero_screenshot.png)
 
 Dashboard annab ülevaate:
 
