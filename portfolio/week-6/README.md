@@ -8,26 +8,19 @@ Minu ülesanne oli luua Tallinna UrbanStyle'i kaupluse juhtimisdashboard, mis vi
 
 ---
 
-# Äriprobleem
+## Äriprobleem
 
-UrbanStyle'i juhtkond vajas selget ülevaadet Tallinna kaupluse tulemuslikkusest, et vastata järgmistele küsimustele:
-
-* Kas Tallinna kaupluse müük kasvab?
-* Millised tooted toovad suurima käibe?
-* Millised kliendisegmendid loovad kõige rohkem väärtust?
-* Kus peitub järgmine kasvuvõimalus?
-
-Eesmärk oli muuta suur hulk müügiandmeid juhtkonnale kiiresti mõistetavaks ja tegevusele suunatud ülevaateks.
+UrbanStyle'i juhtkond vajas kiiret ja selget ülevaadet Tallinna kaupluse tulemuslikkusest, et mõista müügikasvu allikaid, hinnata klientide väärtust ning tuvastada järgmised kasvuvõimalused. Eesmärk oli koondada peamised müügi- ja kliendiandmed ühte juhtimisdashboardi, mis toetab andmepõhiseid otsuseid.
 
 ---
 
-# Lähenemine
+## Lähenemine
 
 Dashboard loodi kasutades müügi-, kliendi- ja tooteandmeid.
 
 Analüüsi käigus:
 
-* võrreldi 2023 ja 2024 müügitulemusi;
+* võrreldi 2023. ja 2024. aasta müügitulemusi;
 * arvutati peamised KPI-d;
 * analüüsiti klientide segmentide osakaalu;
 * tuvastati enim müüdud tooted;
@@ -37,31 +30,17 @@ Visualiseerimine koostati storytelling-põhimõttel, et juhtkond saaks peamised 
 
 ---
 
-# Key Insights
+## Peamised leiud
 
-### €1M müügipiiri ületamine
-
-Tallinna kauplus saavutas rekordilise üle 1 miljoni euro suuruse käibe.
-
-### 11% aastane müügikasv
-
-2024. aasta müük kasvas võrreldes 2023. aastaga 11%.
-
-### Detsember oli tugevaim müügikuu
-
-Jõulukampaaniad tõid aasta suurima müügimahu ning tõstsid müügi rekordtasemele.
-
-### Bestseller: Praktiline džersi seelik
-
-Kõige suurema käibega toode oli **"Praktiline džersi seelik"**, mis vedas Tallinna kaupluse müügitulemusi.
-
-### 40% tulust tuleb lojaalsusprogrammist väljaspool olevatelt klientidelt
-
-See viitab suurele potentsiaalile kasvatada püsiklientide arvu ja suurendada kliendi eluaegset väärtust.
+* Tallinna kauplus saavutas rekordilise üle **€1M käibe**.
+* Müük kasvas aastaga **11%** võrreldes 2023. aastaga.
+* **Detsember** oli tugevaim müügikuu tänu jõulukampaaniatele.
+* Kõige suurema käibega toode oli **"Praktiline džersi seelik"**.
+* Ligikaudu **40% tulust** pärineb lojaalsusprogrammist väljaspool olevatelt klientidelt, mis viitab olulisele kasvupotentsiaalile.
 
 ---
 
-# Tehniline pinurida
+## Tehniline pinurida
 
 * Power BI
 * Excel
@@ -71,58 +50,39 @@ See viitab suurele potentsiaalile kasvatada püsiklientide arvu ja suurendada kl
 
 ---
 
-# Ekraanipildid
+## Ekraanipildid
 
-## Tallinna kaupluse dashboard
+### Tallinna kaupluse dashboard
 
 ![Tallinna Dashboard](individual/screenshots/week_6_dashboard_hero_screenshot.png)
 
 Dashboard visualiseerib:
-- peamised KPI-d;
-- 2023 vs 2024 müügikasvu;
-- kliendisegmente;
-- Top 5 toodet;
-- juhtkonnale suunatud ärisoovitusi.
+
+* peamised KPI-d;
+* 2023 vs 2024 müügikasvu;
+* klientide segmente;
+* Top 5 toodet;
+* juhtkonnale suunatud ärisoovitusi.
 
 ---
 
-# Äritõlgendus
+## Kuidas käivitada
 
-Dashboard näitas, et Tallinna kauplus on UrbanStyle'i tugevaim müügikanal.
-
-Peamised järeldused:
-
-* hooajalistel kampaaniatel on märkimisväärne mõju müügitulemustele;
-* bestseller-tooted loovad suure osa käibest;
-* suurim kasvupotentsiaal peitub mitte-lojaalsete klientide konverteerimises püsiklientideks.
-
----
-
-# Soovitused juhtkonnale
-
-1. Suurendada lojaalsusprogrammi liikmete arvu.
-2. Planeerida jõulukampaaniaid varasemalt.
-3. Suurendada Q4 bestseller-toodete laoseisu.
-
----
-
-# How to Run
-
-## Power BI versioon
+### Power BI versioon
 
 1. Ava projekt Power BI Desktopis.
 2. Ava `.pbix` fail.
 3. Vajuta **Refresh**.
 4. Ava dashboardi vaade.
 
-## Staatiline versioon
+### Staatiline versioon
 
 1. Ava PNG või PDF fail projekti kaustast.
 2. Vaata dashboardi ilma Power BI-ta.
 
 ---
 
-# Õpitu ja väljakutsed
+## Õpitu ja väljakutsed
 
 Suurim väljakutse oli leida tasakaal detailse analüüsi ja juhtkonnale sobiva lihtsa visualiseerimise vahel.
 
@@ -130,12 +90,12 @@ Projekti käigus õppisin:
 
 * kasutama storytelling-põhimõtteid dashboardide loomisel;
 * rõhutama äriliselt olulisi mõõdikuid;
-* lisama visuaalidesse konteksti ja soovitusi, mitte ainult numbreid;
+* lisama visualiseeringutesse konteksti ja soovitusi, mitte ainult numbreid;
 * esitama andmeid viisil, mis toetab juhtimisotsuseid.
 
 ---
 
-# AI kasutamine
+## AI kasutamine
 
 Kasutasin AI abi:
 
